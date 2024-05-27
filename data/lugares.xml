@@ -1,0 +1,3493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lugares>
+  <lugar>
+    <nome>rua Nova</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de S. Francisco</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>porta de S. Francisco</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>edificio da Camara Municipal</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Prado</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Ponte de Lima</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Valença</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Conega</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>primeiro 
+            quartel</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>campo da Vinha</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Campo</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Frei Caetano Brandao</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Diogo de Sousa</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>largo Conselheiro Torres e Almeida</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Nova de Sousa</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>São Pedro de Merelim.</nome>
+    <rua>1</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo das Hortas</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta Nova</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja da Misericórdia</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>casa brasonada de familiares de D. Jorge da Costa</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Pracinha</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>praça da Hortalice</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Pescado</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Pão</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>centro 
+                comercial da cidade</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Arcada</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Nova</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de D. Diogo de Sousa</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>praça Velha</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Capela da senhora da Glória</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>capela da Senhora da Piedade de Jesus da Misericórdia.</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>antigos açouges</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Açougues Velhos</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Real</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Mitra</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Sapateiros</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Campo</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Nova de Sousa</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Pedro de Merelim</nome>
+    <rua>2</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Nova</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Poço</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Cabido</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>Travessa dos Açougues Velhos</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Pão</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Nova de Sousa</nome>
+    <rua>3</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Açougues</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Gonçalo Pereira</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>D. Gualdim Pais</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Pão</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>D. Diogo de Sousa</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Maximinos</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>D. Gualdim</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>Palácio dos Arcebispos</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Pão</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Paio Mendes</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Açougues Velhos</nome>
+    <rua>4</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto </nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>fonte de S. Geraldo</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Capela da Glória</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>casa do Conselho Municipal</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>capela mor da Sé</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. João </nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de S. João</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>lado Sul da Sé, entre o braço do transepto e a fachada</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rocio 
+            da Sé</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>edifício do Tribunal do Trabalho/Delegação Escolar</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Residência Académica</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Nossa Senhora do Leite</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rocio da Sé</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>escola coimbrã</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S.João</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. João</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>casa de herdade dízima a Deus</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro das Oussias</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Pequena.</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Pequena</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Sta. Maria ou do Poço</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>sacristia da Sé</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>sacristia da Sé"</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Oussias</nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço </nome>
+    <rua>5</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>muralhas de Braga</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Nova</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Paço dos Arcebispos</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Castelo</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>porta da muralha</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>largo do Paço</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Justino Cruz </nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo da Vinha</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Francisco Sanches</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>largo de S. João do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Casa do Passadiço</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Largo Barão de S. Martinho</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Janes</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>arco da Porta do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Paços Arcebispais</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>casas novas da Relação</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Aljube</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Relação Eclesiástica</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>casa foreira à Mitra</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>casa do morgado dos Leites</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de S. Pedro d'Este</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>casa dízima a  Deus</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>confraria de Santiago da Cividade</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>casa dízima a Deus</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>confraria de S. João do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>capela dos Cerveiras</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de Sta. Bárbara</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro do Castelo</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>porta do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Fraião</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>obra da Sé</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Janes</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Convento do Carmo</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>S. João do Souto</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Mosteiro de Adaúfe</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. João</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>cororaria</nome>
+    <rua>6</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja dos Terceiros</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>cidadela</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro do Castelo</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>Loura</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>Castelo</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja do Terceiros</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>casa do Definitório</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Castelo</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>confraria de S. João do Souto</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>Forno da Vila</nome>
+    <rua>7</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja de S. João do Souto</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de Souto</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Jano </nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Janoas</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>porta de S. João</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja de S. João de Souto</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. João</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Souto</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>cororaria</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Souto </nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>casa da cororaria </nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de S. João do Souto</nome>
+    <rua>8</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua ampla</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Marcos</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>Cappella maior da Sé</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>porta de 
+            S. João</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>capela mor da Sé</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo dos Remédios e Granginhos</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Ponte de Guimarães</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>casa dos Paivas</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>Florença</nome>
+    <rua>9</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja
+            de S. João de Souto</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de S. João</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>«Rexio de S. João»</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Bairro das Travessas</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>«Travessa para a rua de S. João»</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Carrapata</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Paio Manta</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Coelho</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de «Coelho»</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>«Travessa para o Rexio
+            de S. João»</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>largo de S. João de Souto</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. João</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Afonso Henriques</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Largo de
+                S. João de Souto</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. João</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>casal de Real</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de S. Jerónimo de Real</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Forno</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Forno</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>Hospital de S. Marcos</nome>
+    <rua>10</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja do Colégio da Companhia de Jesus</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. João</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das
+            Oucias</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Pay Manta</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Pay Manta</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Forno</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. João</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Oussias</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Capela de Nossa Senhora da Glória</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de S. Pedro d'Este</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Forno</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>11</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Travessas</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>velho bairro medieval</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>velha rua romana</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Afonso Henriques</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Forno</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Gonçalo Pereira</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Forno</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Forno ou dos Cegos</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Palhais</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Santa Maria ou do Poço</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Pequena</nome>
+    <rua>12</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Oucias</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>travessa da rua do Forno para a do Poço</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>bairro medieval</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>catedral</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>mercado da olaria</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Teive</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Pequena</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Painsalvos</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Oussias</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>travessa</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Santa Maria</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Forno</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Pequena</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro das Oussias</nome>
+    <rua>13</rua>
+  </lugar>
+  <lugar>
+    <nome>Catedral</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de S. Paulo ou de S. Tiago</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de S. Tiago</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Colégio</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto-Arcada</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>muralha</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de S. Tiago</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Erva</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Santiago</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Sinagoga</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Judiaria</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Santa Maria de Braga</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Santa Maria</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Judiaria Velha</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de
+            S. Tiago</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Poço</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Travessas</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Tiago</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Gonçalo Pereira</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Oussias</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Pequena</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Santa
+                    Maria</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>do Poço</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>do Forno</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>morgado de Real</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Riofrio</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Santiago da Cividade</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>de D. Gualdim</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de S. Bento</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Pão</nome>
+    <rua>14</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Afonso Henriques</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas D. Gonçalo Pereira e D. Gualdim Pais</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>açougue</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>travess</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>Santiago</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim.</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim</nome>
+    <rua>15</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Pão</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de Sto. António</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>bairro das Travessas</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de D. Gualdim</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Afonso Henriques</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Tiago</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Paulo</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Arquivo da Câmara Municipal de Braga</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Câmara</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de D. Gualdím</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>cidade medieval</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>a Igreja de Santiago</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja da Cividade</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>palácio </nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Burgueses</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Souto</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Santiago</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Gonçalo Pereira</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Pão</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>capela</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>travessa</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Poço</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Santiago da Cividade</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de Santo António</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Santo António</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Chagas</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Sto. António</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>confraria de Santiago</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>casa do Concelho</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>casa foreira à confraria de Santiago</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Maximinos</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Município</nome>
+    <rua>16</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Travessas</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Verde</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>Couto do Arvoredo</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>muralha</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>campo das Carvalheiras</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>S.Miguel o Anjo</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de 
+            D. Gualdim</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Afonso Henriques</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Santo António</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Chagas</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Verde</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim</nome>
+    <rua>17</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Travessas</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>rua 
+            de Maximinos</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>Triparia</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Chagas</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Maximinos</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>rua 
+            D. Frei Caetano Brandão</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Maximinos</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Santiado da Cividade</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>Mitra</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>Hospital de Real</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>Hospital de S. Marcos</nome>
+    <rua>18</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Travessas</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de Santo António</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>Judiaria Nova</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de Sto. António</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>«Casas Torres»</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>mosteiro de Bouro</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua
+                        de D. Gualdim</nome>
+    <rua>19</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de S. Tiago</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>Postigo de S.Sebastião</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Travessa</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Postigo</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Terreiro de Santo 
+            António</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>«postigo»
+            da muralha</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Paulo</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Pedro de Merelim</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>Penso</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>Melgaço</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>mosteiro de Bouro</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de D. Gualdim</nome>
+    <rua>20</rua>
+  </lugar>
+  <lugar>
+    <nome>postigo de S. Sebastião</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Maximinos</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de S. Francisco</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas dos Sapateiros e do Campo</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>Maximinos</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de S. Sebastião</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de S. Miguel o Anjo</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Travessas</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>Couto do Arvoredo</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Verde</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de St.º António</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>«lugar do Sabugal»</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Sto. António.</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Maximinos</nome>
+    <rua>21</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Pão</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de Maximinos</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Nossa Senhora da Ajuda</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Maximinos</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Pão</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Chagas</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Verde</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Sapateiros</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé de Braga</nome>
+    <rua>22</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Verde</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de
+                Maximinos</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Nova</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>Maximinos</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>Rossio da Praça</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Sapateiros</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>rua D. Frei Caetano Brandão</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Nova de Sousa</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Vielinha</nome>
+    <rua>23</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Maximinos</nome>
+    <rua>24</rua>
+  </lugar>
+  <lugar>
+    <nome>rexio da Praça</nome>
+    <rua>24</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Sapateiros</nome>
+    <rua>24</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Vielinha</nome>
+    <rua>24</rua>
+  </lugar>
+  <lugar>
+    <nome>campo das Hortas</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de S. Sebastião</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>Em Frente do Açougue</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S.Miguel o Anjo</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Maximinos</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de S. Miguel o Anjo</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Miguel o Anjo</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>cruzeiro</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>avenida de S. Miguel o Anjo</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de
+                S. Sebastião</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>campo das Carvalheiras</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Matadouro Velho</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Arrabalde da Cruz de Pedra</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Miguel o Anjo</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>Hospital de S. Marcos</nome>
+    <rua>25</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Em Frente dos Açogues</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>campo das Hortas</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Cruz de Pedra</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de S.Miguel o Anjo</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Maximinos</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Visconde Pindela</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>casa foreira à Mitra</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>rossio</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cruz da Pedra.</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>Câmara</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>Açogue</nome>
+    <rua>26</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Miguel o Anjo</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Beco e Direita</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Nossa Senhora da Ajuda</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de Maximinos</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Caires</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>largo do Beco</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de S. Sebastião</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Lisboa</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Companhia de Jesus</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Sé de Braga</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Cristóvão</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Pedro de Maximinos</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cruz da Pedra</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Sebastião</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>cangosta dos Corvos</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cruz de Pedra</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>Ruda da Cruz da Pedra</nome>
+    <rua>27</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Cruz de Pedra</nome>
+    <rua>28</rua>
+  </lugar>
+  <lugar>
+    <nome>Monte das Penas</nome>
+    <rua>28</rua>
+  </lugar>
+  <lugar>
+    <nome>largo de Maximinos</nome>
+    <rua>28</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Condestável</nome>
+    <rua>28</rua>
+  </lugar>
+  <lugar>
+    <nome>enfiamento da Cangosta de S.Sebastião</nome>
+    <rua>29</rua>
+  </lugar>
+  <lugar>
+    <nome>Maximinos</nome>
+    <rua>29</rua>
+  </lugar>
+  <lugar>
+    <nome>rua 
+            do Caires</nome>
+    <rua>29</rua>
+  </lugar>
+  <lugar>
+    <nome>Beco</nome>
+    <rua>29</rua>
+  </lugar>
+  <lugar>
+    <nome>Cividade</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de S. Sebastião</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de S.Sebastião das Carvalheiras)</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>Beco</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja paroquial de Maximinos</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Marchantes</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Arrabalde da Cruz da Pedra</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Arrabalde da Cruz de Pedra</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cruz da Pedra</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Arrabalde de Cruz da Pedra</nome>
+    <rua>30</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de S.Tiago</nome>
+    <rua>31</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de S.Sebastião.</nome>
+    <rua>31</rua>
+  </lugar>
+  <lugar>
+    <nome>Câmara</nome>
+    <rua>31</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Arrabalde da Cruz da Pedra</nome>
+    <rua>31</rua>
+  </lugar>
+  <lugar>
+    <nome>Arrabalde da Cruz da Pedra</nome>
+    <rua>31</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cruz da Pedra.</nome>
+    <rua>31</rua>
+  </lugar>
+  <lugar>
+    <nome>largo de S.Tiago</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>ponte dos Pelames</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>Porto</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Infante</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>de Pelames</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S.Geraldo</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>Convento da Conceição</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Santiago</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>Mitra</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de 
+                        Santiago</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>couto de Moure de 
+                            Olivais</nome>
+    <rua>32</rua>
+  </lugar>
+  <lugar>
+    <nome>Porto</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Pelames</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Colégio de S. Paulo</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Seminário de Santiago</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas dos Pelames</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>rua S. Paulo</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>largo de S. Paulo</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de S. Tiago</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Pellames</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>casa dos Falcões Cota</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Lugar do Pombal</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de Sta. Maria de Mujão</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Avelar, Figueira e Laranjeira</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Santigo</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Pelames</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Alcaide</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de Cervães</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>campo dos Remédios</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja de Santa Cruz</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>cangosta das Cruzes</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Santiago</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Baixo</nome>
+    <rua>33</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de S. Tiago</nome>
+    <rua>34</rua>
+  </lugar>
+  <lugar>
+    <nome>hospital de S. Marcos</nome>
+    <rua>34</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de S. Tiago</nome>
+    <rua>34</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Anjo</nome>
+    <rua>34</rua>
+  </lugar>
+  <lugar>
+    <nome>Hospital de S. Marcos</nome>
+    <rua>34</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Santiago</nome>
+    <rua>34</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta do Souto</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>campo dos Remédios</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de Sta. Luzia</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>morgado de Besteiros</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Convento dos Remédios</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>convento de Nossa Senhora dos Remédios</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>porta de S. João</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Ponte de Guimarães</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>hospital de S. Marcos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Granjinhos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Lázaro</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Granjinhos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Hospital de S. Marcos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Nossa Senhora a Branca</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>S. João do Souto</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>cangosta da Palmatória</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>hortas dos Granginhos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Fonte do Ídolo</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Hortas de S. Marcos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Fonte de S. Marcos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Lázaro</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de S. Lázaro</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Granginhos</nome>
+    <rua>35</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Lázaro</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Porta de Guimarães</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Arcada</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>ponte de Guimarães</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Souto</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>convento dos Remédios</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Águas</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>avenida da Liberdade</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Rechicho</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das águas</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Águas</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Casal do Ribeiro</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de S. Jerónimo de Real</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Quintos da Mitra</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Nossa Senhora a Branca</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>cangosta da rua das Águas</nome>
+    <rua>36</rua>
+  </lugar>
+  <lugar>
+    <nome>Arcada</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Guimarães</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Águas</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro de S. Lázaro</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Lázaro</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>avenida da Liberdade</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>largo do Rechicho</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>rua 25 de Abril</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Águas</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Nossa Senhora a Branca</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Ponte de Guimarães</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de S. Pedro de Maximinos</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>"Casal ou quinta de Portas"</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Casal de Portas (casa nº1)</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de S. Lázaro</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>"Casal dos Alamos"</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Trás de S. Marcos</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Granjinhos</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Marcos</nome>
+    <rua>37</rua>
+  </lugar>
+  <lugar>
+    <nome>Ágoas</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Arcada</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>ponte de Guimarães</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Ponte</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>troço da avenida da Liberdade</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>rua 25 
+                de Abril</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>largo das Latinhas ou do Senhor dos Aflitos</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Ponte de Guimarães</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Terreiro 
+                        de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de 
+                        S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. 
+                        Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua 
+                        de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de
+                        S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Paio Manta</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Lages</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Paio 
+                        Manta</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Casal dos Galos</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Casal 
+                        dos Galos</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Ponte de Guimarães</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia 
+                        de S. José de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Casal dos 
+                        Galos</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Pelames</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>capela 
+                        de S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de 
+                        Trás de S. Marcos (Granjinhos)</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de                         
+                        S. Lázaro</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Capela 
+                        de D. Gonçalo Pereira</nome>
+    <rua>38</rua>
+  </lugar>
+  <lugar>
+    <nome>Arcada</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>ponte sobre o rio Este</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>largo do Senhor dos Aflitos</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Latinhas</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>avenida da Liberdade</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Conselheiro Lobato</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Ponte de Guimarães</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Casal dos Galos</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Paio Manta e Lages</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>casal e moínhos do Salgueiro</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Paio Manta</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Lages</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Paio Manta</nome>
+    <rua>39</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Ponte de Guimarães</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>pontilhão das Lages</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>Pai Amante</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>Conselheiro Lobato</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Ponte de 
+                    Guimarães</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>quinta e 
+                        moinhos da Serra</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>quintã e
+                        moinhos da Serra e da Ribeira</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>Ponte de 
+                        Guimarães</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Ponte 
+                            de Guimarães</nome>
+    <rua>40</rua>
+  </lugar>
+  <lugar>
+    <nome>porta de Souto</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Corredoura</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Senhora a Branca</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>S.Victor</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Chaves</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Bom Jesus</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>porta do Souto</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Santa Maria a Branca</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Corredoura</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de Santa Ana</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Águas</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>avenida Central</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S.Gonçalo</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Águas</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>campo da Rua das Águas</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Caminho Novo</nome>
+    <rua>41</rua>
+  </lugar>
+  <lugar>
+    <nome>Santa Ana</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Santa Margarida</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Sardoal</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas de Restauração e 31 de Janeiro</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de N.Sra</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>«Casal e quinta de Sobrado»</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>cidade de Braga</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>Lisboa</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de D.Gonçalo Pereira</nome>
+    <rua>42</rua>
+  </lugar>
+  <lugar>
+    <nome>Chaves</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Corredoura</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Régua</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Nova da Seara</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Barroso</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Bom Jesus</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de 
+        Nossa Senhora a Branca</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Régua</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>rua 
+        Nova da Seara</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Nossa Senhora a Branca</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas da Régua e Nova da Seara</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Victor</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>N. Sra. a Branca</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Ranhas</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de S. Vitor</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de Barroso</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>freguesia de S. Mamede d'Este</nome>
+    <rua>43</rua>
+  </lugar>
+  <lugar>
+    <nome>Santa Ana</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Vinha</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Fonte da
+        Cárcova ou Cárcoda</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Mercadores</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Capelistas</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>largo dos Penedos</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Carvalhal</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Eirado</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Baixo</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Freguesia de Sta. Lucrécia</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>monte de Castro</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Lourenço</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Carvalhal</nome>
+    <rua>44</rua>
+  </lugar>
+  <lugar>
+    <nome>Arcada</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>largo dos Penedos</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>largo do Eyrado</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Chaos de Baixo</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Eyrado</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>largo de S. Francisco</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Fonte da Carcova</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Eirado</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Castelo Rodrigo</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Anjo</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua do Carvalhal</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Carvalhal</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Chagas</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Palmeira</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Pedro d'Este</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Sto. André</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de Sta. Ana</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>terreiro do Eirado</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Sta. Ana</nome>
+    <rua>45</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Gavião</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>largo dos Penedos</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Santo André</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Cima</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Barnabé</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>Sta. Maria de Palmeira</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Baixo</nome>
+    <rua>46</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Gavião</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>campo Novo</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Chãos de Cima</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Barnabé</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Sto. André</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Cima</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Vicente</nome>
+    <rua>47</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Gavião</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>praça Mouzinho de Albuquerque</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Gonçalo</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Paio de Pousada</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua Sto. André</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Sto. André</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Oliveiras</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de N. Sra. de Guadalupe</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>Nogueira</nome>
+    <rua>48</rua>
+  </lugar>
+  <lugar>
+    <nome>campo Novo</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de Santa Ana</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>Recolhimento das Convertidas</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>Mosteiro de Vilar de Frades</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Gavião</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Gonçalo.</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>campo de Sta. Ana</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>Adaufe</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Mamede d'Este</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Gavião</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>Recolhimento de Sta. Maria Madalena</nome>
+    <rua>49</rua>
+  </lugar>
+  <lugar>
+    <nome>campo Novo</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>Capela de Guadalupe</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Gavião</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Gonçalo</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>rua em Frente de Nossa Senhora de Guadalupe</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Guadalupe</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Gavião</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>rua em frente de N. Sra. de Guadalupe</nome>
+    <rua>50</rua>
+  </lugar>
+  <lugar>
+    <nome>campo Novo</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>largo das Teresinhas</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>Cangosta</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Santa Margarida</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja de S. Vicente</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de Guadalupe</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>praça do Gavião</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Oliveiras</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>Praça do Gavião</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Barnabé</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Vicente</nome>
+    <rua>51</rua>
+  </lugar>
+  <lugar>
+    <nome>Cangosta de Guadalupe</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Nossa Senhora de Guadalupe</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Guadalupe</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>igreja de S. Vicente</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>capela de Guadalupe</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de arrabalde</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>monte de Santa Margarida</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>convento e capela das Teresinhas</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Camões</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de N. Sra. de Guadalupe</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua N. Sra. de Guadalupe</nome>
+    <rua>52</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Chãos de Baixo</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Igreja de S. Vicente.</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Barnabé e Oliveiras</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de Espanha</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>casal das Oliveiras e leira da Agra da Escoura</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>casal dos Chãos ou do Quinteiro,</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>largo dos Penedos</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Chãos de Sima</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas de S. Barnabé e Oliveiras</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Carvalhal</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>rua de S. Vicente</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>casal das Oliveiras</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>lugar dos Penedos</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Lourenço de Sande</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Sta. Maria de Moure</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Requião</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Paio de Pousada</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Palme</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Cristóvão de Regalados</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>leira da Escoura</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Vítor</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Vicente</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Cima</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Palhotas</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Teresinhas</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Barnabé e do caminho dos Chãos 
+                            para as Teresinhas</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>ruas de S. Barnabé e das Oliveiras</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>casal dos Chãos ou Quinteiro</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. 
+                            Barnabé</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de S. Barnabé</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Santa Eulália de Revelhe</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>casal dos Chãos ou Quinteiro
+                    </nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Pedro de Dornelas</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Sto. André</nome>
+    <rua>53</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Chãos de Sima</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Alto Minho</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Nova do Bico</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Geira</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Gerês</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Astorga</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Palmeira</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Pico de Regalados</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Andrade Corvo</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Infias</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Nova do Bico</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Cima</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>S. João do Souto
+                        </nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>cangosta da Escoura</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>leira da Escoura</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>leira da 
+                        Escoura</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>leira 
+                        da Escoura</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Vila do Conde</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>casal do Lagarto</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>casal das 
+                        Oliveiras</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>S. João do Souto</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Convento do Carmo</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>fonte de Pão Trigo</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>Brasil</nome>
+    <rua>54</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Escoura</nome>
+    <rua>55</rua>
+  </lugar>
+  <lugar>
+    <nome>casal do Lagarto</nome>
+    <rua>55</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Conselheiro Januário</nome>
+    <rua>55</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua de Infias</nome>
+    <rua>55</rua>
+  </lugar>
+  <lugar>
+    <nome>S. Pedro d'Este</nome>
+    <rua>55</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Chãos de Cima</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Gabriel Pereira de Castro</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>rua da Escoura</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua das Palhotas</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua dos Chãos de Cima</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>casal de Infias</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>casal do Lagarto</nome>
+    <rua>56</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>rua Andrade Corvo</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>S.Jerónimo de Real</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Cabido</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Quinta da Cónega</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Quinta da Cónega(freguesia de S.Pedro de Maximinos)</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Quinta do Real</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Curutela</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Pópulo</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cónega</nome>
+    <rua>57</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>S.Jerónimo de Real</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Braga-Lugo</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Nova da Cónega</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Cónega</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Boavista</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>"Casal da Porta"</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo da Vinha</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Biscainhos</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Quinta da Cónega</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Casa Real</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>quinta da Cónega</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Bouça da Coturela</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Estrada de Real</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Quinta da Porta(casa nº1)</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Coturela</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>convento de S.Frutuoso</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>Pópulo.</nome>
+    <rua>58</rua>
+  </lugar>
+  <lugar>
+    <nome>campo da Vinha com o campo das Hortas</nome>
+    <rua>59</rua>
+  </lugar>
+  <lugar>
+    <nome>Cabido</nome>
+    <rua>59</rua>
+  </lugar>
+  <lugar>
+    <nome>rua dos Biscaínhos</nome>
+    <rua>59</rua>
+  </lugar>
+  <lugar>
+    <nome>Quinta da Cónega</nome>
+    <rua>59</rua>
+  </lugar>
+  <lugar>
+    <nome>Rua da Cónega</nome>
+    <rua>59</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo da Vinha</nome>
+    <rua>59</rua>
+  </lugar>
+  <lugar>
+    <nome>rua das Águas</nome>
+    <rua>60</rua>
+  </lugar>
+  <lugar>
+    <nome>Palha</nome>
+    <rua>60</rua>
+  </lugar>
+  <lugar>
+    <nome>Campo de Nossa Senhora a Branca</nome>
+    <rua>60</rua>
+  </lugar>
+  <lugar>
+    <nome>Cabido</nome>
+    <rua>60</rua>
+  </lugar>
+  <lugar>
+    <nome>(o Rechicho)</nome>
+    <rua>60</rua>
+  </lugar>
+  <lugar>
+    <nome>rua do Raio e largo João Penha (ou do Rechicho). </nome>
+    <rua>60</rua>
+  </lugar>
+</lugares>

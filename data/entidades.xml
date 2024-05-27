@@ -1,0 +1,6827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entidades>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>1</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Confraria da Trindade</nome>
+    <número>1</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Confraria da Companhia de Jesus</nome>
+    <número>1</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>2</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Soares</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>cardeal de Alpedrinha</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Frei Agostinho de Jesus</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Irmandade da Misericórdia</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento de Sá</nome>
+    <número>2</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Francisca da Silva</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca da Silva</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Carvalho</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luisa da Costa</nome>
+    <número>2</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>3</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>4</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Araújo</nome>
+    <número>4</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Araújo</nome>
+    <número>4</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Maria</nome>
+    <número>4</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de S. Marcos</nome>
+    <número>4</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Nossa Senhora do Leite</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa </nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos José de Melo.</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Xavier Rebelo</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Frutuoso Brandão Pereira</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Josefa da Costa,</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>empresa</tipo>
+    <nome>Fábrica da Sé</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Ferreira Petiz</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gonçalves Petiz</nome>
+    <número>5</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Rodrigo de Moura Teles</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>empresa</tipo>
+    <nome>Foto Pelicano</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido de Lamego</nome>
+    <número>6</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rei D. João II</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco João</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vicência Rebelo</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Soares Braga</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónima Vaz</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Câmara</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Carneiro</nome>
+    <número>6</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Alexandre Brandão</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ascenso Antunes</nome>
+    <número>6</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Ferreira</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gregório Ferreira</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Maria</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Pinheiro Leite </nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Vieira</nome>
+    <número>6</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Alberto Feio</nome>
+    <número>7</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Braunio</nome>
+    <número>7</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marques da Silva</nome>
+    <número>7</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>8</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Anes</nome>
+    <número>8</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>padres coreiros</nome>
+    <número>8</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>S. João do Souto</nome>
+    <número>8</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teotónio Soares de Brito</nome>
+    <número>8</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>9</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>S. Marcos</nome>
+    <número>9</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>família dos Coimbras</nome>
+    <número>9</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo</nome>
+    <número>9</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João de Castilho</nome>
+    <número>9</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paiva Marinho</nome>
+    <número>9</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>10</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paio Manta</nome>
+    <número>10</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>El-Rei</nome>
+    <número>10</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Afonso Henriques</nome>
+    <número>10</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Companhia de Jesus</nome>
+    <número>10</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Esmola</nome>
+    <número>10</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Infanta</nome>
+    <número>11</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Tombo do Cabido</nome>
+    <número>11</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>11</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Alexandre Pereira Marinho</nome>
+    <número>11</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Colégio de S. Paulo da Companhia de Jesus</nome>
+    <número>11</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Dr. Francisco Gomes do Couto</nome>
+    <número>11</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Constantino Barreto de Meneses</nome>
+    <número>11</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rev. Abade Jerónimo de Araújo</nome>
+    <número>11</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João de Barros</nome>
+    <número>12</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>12</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido 2 maravedis</nome>
+    <número>12</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido pelo arcediago de Vermoim</nome>
+    <número>12</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Fernandes</nome>
+    <número>12</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Real</nome>
+    <número>12</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Lopo de Barros de Almeida</nome>
+    <número>12</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo Teive</nome>
+    <número>13</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>13</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mateus Fernando Farto</nome>
+    <número>13</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>abade</nome>
+    <número>13</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> José Ferreira Petiz</nome>
+    <número>13</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Senado</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Colégio de S. Paulo</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>14</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de 
+                    Santiago</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>das Velhas</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Nogueira, sapateiro</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João Correia</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cónego Bento da Silva Teles</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cristóvão de Matos</nome>
+    <número>14</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>15</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Gualdim Pais</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>arcebispo D. Paio Mendes</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vasco Jorge</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>16</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>S. Tiago</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>arcebispo D. José de Bragança</nome>
+    <número>16</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>16</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gabriel Pereira Sampaio</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Rosa Soares de Novais</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Fernandes Bravo</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Arcebispo D. Diogo de Sousa</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo de Magalhães</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Senado da Câmara de Braga</nome>
+    <número>16</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>17</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>18</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Dr. Manuel Gomes da Costa</nome>
+    <número>18</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Pereira</nome>
+    <número>18</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Soares</nome>
+    <número>18</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João de Meira Carrilho</nome>
+    <número>19</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>19</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>20</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Henrique</nome>
+    <número>20</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Frei Bartolomeu dos Mártires</nome>
+    <número>20</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Araújo</nome>
+    <número>20</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula de Araújo</nome>
+    <número>20</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco
+                            Rodrigues</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa da Costa</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Pereira</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de
+                            Araújo Teixeira</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de S. Marcos</nome>
+    <número>21</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ribeiro</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel da
+                            Silva</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Julião
+                            Lopes</nome>
+    <número>21</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Barreto de
+                            Meneses</nome>
+    <número>22</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Maria
+                            Barreto</nome>
+    <número>22</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Maria Barreto
+                            de Meneses</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Gonçalves
+                            Álvares</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de
+                        Oliveira</nome>
+    <número>22</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro de
+                            Oliveira</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Lic. Francisco Gomes de
+                            Brito</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José
+                            de Oliveira</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Feliciano Barbosa</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de
+                            Almeida</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João
+                        Teixeira</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio da
+                            Silva</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paula Ribeiro</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José
+                            Machado</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Pereira</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marquesa
+                        Maria</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de S. Marcos</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Baltazar
+                            Fernandes</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre
+                            Manuel de Matos</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Lopes</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco
+                        Ferreira</nome>
+    <número>22</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luís de
+                        Abreu</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Vaz</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Freitas</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João de
+                            Barros</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca
+                        Pereira</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Gomes de
+                            Mascarenhas</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Cunha</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luís Moreira</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Miguel Soares</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Simão da Costa</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Rodrigues</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Rodrigues
+                        Zenha</nome>
+    <número>23</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de Araújo</nome>
+    <número>24</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Gonçalves</nome>
+    <número>24</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel
+                            Coelho de Araújo</nome>
+    <número>24</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Costa</nome>
+    <número>24</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>25</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cónegos Regrantes de Santa Cruz de Coimbra</nome>
+    <número>25</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Afonso Furtado de Medonça</nome>
+    <número>25</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>25</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Garcia de Noronha de Mesquita e Melo</nome>
+    <número>25</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> D. Brites Josefa de Abreu Soares.</nome>
+    <número>25</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. João de Castela</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bravos</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João Rodrigues</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gomes</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mestre Gonçalo</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mónica Veloso de Freitas</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Martins</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gaspar de Medeiros</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de S.Marcos</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre António Velho Maciel</nome>
+    <número>26</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Jõao de Castela</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de S. Marcos</nome>
+    <número>27</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Bento de Araújo</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Cunha</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel da Costa Braga</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos da Costa</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Correira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Peixoto</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paula de Araújo</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Teive</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Antónia</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Carvalho</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Carvalho</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gomes Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Carvalho</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos FRancisco</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa Francisca</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Barbosa</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Benta Francisca</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Gomes Góis</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónima Luísa</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Afonso Chanceler</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Calheiros</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Perreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Vaz</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana de Campos</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Álvares</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Valentim Pereira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre António Nogueira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>confraria do Nome de Deus</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Baltazar Carneiro</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>confrafia da Santíssima Sé</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>confraria da Santíssima Sé</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Francisco Belo</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Lourenço Francisco da Costa</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Rosa Ferreira</nome>
+    <número>27</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>29</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>30</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Diogo de Sousa</nome>
+    <número>31</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>arcebispo infante 
+            D.Henrique</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Colégio de S.Paulo</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Correias da Cunha</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jácomes</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>cónego Geraldo
+            Gomes</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>ordem da Conceição</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel de Oliveira</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Lourenço Correia</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João de Oliveira Bouro</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Faustina João</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de Oliveira</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Afonso Cerveira</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina de Magalhães</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Rodrigues</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luísa de 
+                        Oliveira</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Olaia Fernandes</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Pinto do Eirado</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Serafina Cerqueira</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Jorge Tinoco,abade de Trandeiras</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João da Costa</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Costa</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Francisco</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Arcebispo D. Veríssimo</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Rodrigues</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Anastácia da Silva</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cipriano Pedrosa</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Correia da Cunha</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Magalhães</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gonçalves, 
+                        o Louro,</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel de Magalhães</nome>
+    <número>32</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>33</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Frei Bartolomeu dos Mártires</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Câmara</nome>
+    <número>33</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Arcebispo D. José de Bragança</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Jesuítas</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>33</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cónego Meira Carrilho</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Governo Civil</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Teive</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Fernando Pertenceu</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Tristão Pereira de Abreu</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cónego Francisco de Meira Carilho</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Estevão Falcão Cotta</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rodrigo de Moura, Escudeiro de Lamego</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Sotem</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo Lopes de Lemos Leão, cidadão de Braga</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Antónia Pereira</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Pinheiro Lobo</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Sebastião Afonso, lavrados</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Branca Fernandes</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Miguel Dias</nome>
+    <número>33</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Salvador Dias</nome>
+    <número>33</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João do Rio, alfaiate</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pires</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingo Pires, carpinteiro</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Pires, carpinteiro</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Joana Pires</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Fernandes, carpinteiro</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Fernandes</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Olvieira</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de Matos</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Araújo Ferreira, alfaiate</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónimo Portilho</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Filipa Gonçalves</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gonçalves, violeiro</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana de Azevedo</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Salvador Francisco, moleiro</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Silva</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel Machado</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>cónego Manuel Antunes</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inácio de Azevedo Barbosa</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Aranha de Brito, abade de S. Cosme</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cónego Francisco de Meira Carrilho</nome>
+    <número>33</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>34</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>família Falcões Cota</nome>
+    <número>34</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Diogo de Sousa</nome>
+    <número>35</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>35</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>convento dos Remédios</nome>
+    <número>35</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Câmara</nome>
+    <número>35</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. André de Torquemada, Bispo de Dume</nome>
+    <número>35</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre António Ferreira Torres</nome>
+    <número>35</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Dias, viúva</nome>
+    <número>35</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre José Ferreira, vigário de Covas</nome>
+    <número>35</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>confraria de S. João do Souto</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Congregação do Oratório</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de Oliveira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gracia Pereira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Correia, solteira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Fernandes, gentil pintor</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Pereira Fajardo</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ambrósio da Costa, odreiro</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Pereira, estalajadeiro</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Senhorinha Ferreira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Serafina Ribeiro, solteira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Baltazar Rodrigues, latoeiro</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Violante Nunes</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Dias, clérigo</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana, filha de Tomé Fernandes, vendeiro</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Gonçalvez, viúva de Tomé Fernandes, vendeiro</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mateus Gonçalves, sapateiro</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pereira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gonçalves, cortador de carne</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Madalena Gonçalves</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Marçal da Costa</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Caetano de Passos Ferreira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana de Oliveira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Passos</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Ferreira</nome>
+    <número>36</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Franciso de Barros de Almeida</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Isabel Cecília Pereira de Carvalho</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Gomes de Oliveira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Fernandes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Lopes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Lopes Pereira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Francisca</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Barbosa</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Correia</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Gomes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gomes da Costa</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Rodrigues</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Rodrigues</nome>
+    <número>37</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Apolónia Mendes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Dionísio José de Gouveia Ferraz</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Faria</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo Leite Coelho</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>secular</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Serafina Pereira de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Miguel de Sousa</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa da Silva</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Agostinho Ribeiro Mirrado</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Páscoa do Vale</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa Maria</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Vieira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Gomes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luís de Abreu</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Mendes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Dantas</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Joana de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Pereira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Francisco</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Afonso</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Francisco</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Guilherme António</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Francisca</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Martins</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Freitas</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónima Correia</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Miguel Ferreira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Soares da Silva</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António da Costa de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ventura Cerqueira</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Os herdeiros de António de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Grácia Antunes</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Os herdeiros de Pedro Rodrigues</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena de Almeida</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Os herdeiros de João Francisco</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Correia</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Ferreira</nome>
+    <número>37</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Agostinho de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca da Silva</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Gonçalves de Paiva</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Correia</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Correia Faria</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Freitas</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Monteiro</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa da Rocha</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Marques</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia de Araújo</nome>
+    <número>37</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Gomes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Fernandes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Geraldo Duarte</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gomes de Sousa</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Martinho de 
+                    Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João Marques de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Filipe Jácome de Azevedo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa 
+                    Ribeiro</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Agostinho Pinto</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Senhorinha da Rocha</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel
+                    Carvalho</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Sebastiana de Arames</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro
+                    Gonçalves</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Veríssimo Ferreira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Ferreira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Francisco de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria 
+                    de Sousa</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Ferreira de Azevedo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingas de Azevedo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Correia</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Pedro Jorge</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel José de Brito</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros do Dr. Gonçalo da Silva</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Salvador João</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Dias</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Rodrigo Anes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Domingos Pires</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Vaz</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos João</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca 
+                    Antónia</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Manuel Marçal</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Branca Vaz</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Domingos Simões</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Simoa Vieira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de João de Azevedo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inês André</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria André</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Domingos Gonçalves</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Domingues</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mateus Rodrigues</nome>
+    <número>38</número>
+    <quantidade>7</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Margarida Francisca</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Belchior Fernandes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Simões</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mateus 
+                    Rodrigues</nome>
+    <número>38</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Geraldo Gonçalves</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Luís</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Jerónimo Pinheiro</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de André Martins</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria 
+                    de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Francisco Rodrigues</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Francisca</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de João Francisco</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de António Nunes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Brás</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de António Dias</nome>
+    <número>38</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mécia Rodrigues</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Gonçalo Francisco</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Filipa Fernandes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mateus                    
+                    Rodrigues</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Fernandes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Branca Lopes</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Francisco Fernandes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Gonçalves</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Sebastião Gonçalves</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inês de Freitas</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Luís Ribeiro</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Vieira</nome>
+    <número>38</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de António Simões</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pereira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Francisco Luís</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela Geraldes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Nicolau Dias</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Geraldes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Maria Gonçalves</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Simão Álvares</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Aires Dias</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Gonçalves</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de André Gomes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Gomes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Tadeu Luís de Guimarães</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Gaspar Álvares</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana de Moure</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de António Ferreira de Azevedo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Águeda de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónimo de Freitas</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Ribeiro</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de Sousa Borlento</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónima do Espírito Santo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Gomes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana 
+                    Pereira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Ferreira Gomes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Amónia de Barros</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Martins</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel 
+                    Duarte</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Oliveira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Agostinho 
+                    Ferreira da Rocha</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Francisco</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Rosa 
+                    de Barros</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Francisca Xavier Carneiro Tinoco</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gregório José da Silva Gayo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Álvares Tinoco</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Carneiro</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gomes</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jacinta Ferreira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Ferreira</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina de Araújo</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Francisco</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria 
+                    de Freitas</nome>
+    <número>38</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mateus Rodrigues</nome>
+    <número>39</número>
+    <quantidade>7</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo Martins</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Antónia</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gomes</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Dias</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Antónia</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gonçalo Ferreira</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Nogueira</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Brás Antunes</nome>
+    <número>39</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Dias</nome>
+    <número>39</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gonçalo Pires</nome>
+    <número>39</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Geraldo Dias</nome>
+    <número>39</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Fernandes</nome>
+    <número>39</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro da C.ª Sottomaior</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Margarida Fernandes</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Fernão Anes</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Domingos Fernandes</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Gonçalves</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>herdeiros de Belchior Fernandes</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Dias</nome>
+    <número>40</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>arcebispo D.Diogo de Sousa</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Jorge da 
+        Costa</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Diogo</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>recolhimento das Beatas da
+        Penha de França</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Oratorianos</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Soares</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Recolhimento das Convertidas</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Oratonianos</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>convento dos Congregados</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Convento de Vilar de Frades</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>mosteiro de Vilar de Frades.</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vincente Francisco</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Ferreira</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido</nome>
+    <número>41</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gualter da Fonseca Pereira</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Sta. Maria de Covelo</nome>
+    <número>41</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Diogo de Sousa</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Brito Freire</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Dr. Manuel Freire de Brito</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Godis</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Oliveira</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Correia</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Natália Carvalho</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Rodrigues</nome>
+    <número>42</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Serafina João</nome>
+    <número>42</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Lopes</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Francisca</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Pinheiro</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana da Silva</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gonçalo Antunes</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João Velho</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António da Silva</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Margarida de Oliveira</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Martins</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gregória Fernandes</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel Mendes</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Estêvão Álvares</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Vaz</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel Pinheiro</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Francisco</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Dias</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Apolónia Rodrigues</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Roque Martins Leite</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Gomes</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Barros</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Soares</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cristóvão Ferreira</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Geraldo Marques</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luzia Francisca</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inês Durães</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Martins</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pinto</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Álvaro Pinto</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela Antónia</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Teotónio de Sousa</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Fernandes</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Gonçalves</nome>
+    <número>42</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>igreja de
+        S. Victor</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Luís de Sousa</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>igreja de S.Victor</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cosme Francisco</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Pereira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Hospital de S.Marcos</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gomes</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Margarida Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Oliveira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Tomé de Araújo</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Antónia</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Fernandes</nome>
+    <número>43</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Gonçalves</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Sousa</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Tomé da Silva</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inácia do Vale</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Dias</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Antónia</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Carvalho</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Martins</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Martins</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gregória Ferreira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre António de Oliveira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Gonçalves</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Gonçalves</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Teixeira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Maria</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Senhorinha Lopes</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Marcos</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento de Macedo</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Quitéria Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Franscisco de Oliveira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Antónia</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Carlos Pereira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Araújo</nome>
+    <número>43</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Josefa Teresa</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Marques</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Oliveira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>43</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Dias</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Maria</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Silva</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Gomes</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Francisco</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Silvestre de Oliveira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inês Dantas</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Ferreira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Marques</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel da Costa</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marta Ferreira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo da Costa</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Lopes</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Pereira</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Geraldo de Matos</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingas Francisca</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Garcia Correia</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca de Barros</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos de Barros</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Martim Álvares</nome>
+    <número>43</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>44</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>convento do Carmo</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Brígida Marques</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel da Costa</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Sepúlvedra</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela das Neves</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Francisco</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Lopes</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João da Costa</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Ferreira</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Dantas</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Grácia Maria de São Boaventura</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel Álvares</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Crispiana Soares</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Falcão Cotta</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Meira Carrilho</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Crispim da Silva</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Josefa de Araújo</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel da Costa Maia</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Barreto de Meneses</nome>
+    <número>44</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. João de Castela</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido 30 e 24</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>empresa</tipo>
+    <nome>Banco de Portugal</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>empresa</tipo>
+    <nome>Caixa Geral de Depósitos</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vicente Dias</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Teresa</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marcos Ferreira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Damásia Ferreira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Meira Carrilho</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>capela de Sta. Marta</nome>
+    <número>45</número>
+    <quantidade>4</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António de Castro</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pinto</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Tomé Rodrigues</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria do Vale</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Álvares de Oliveira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João de Chaves</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Ferreira Loreto</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Sta. Maria de Adaúfe</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Francisco Antunes</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Fragoso</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Jerónimo Antunes da Silva</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Pedro de Oliveira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João da Costa</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Ferreira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Manuel de Faria</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Gonçalves</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Rodrigues</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónimo Lopes</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Nogueira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónima da Cunha</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Lourenço</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Amónia</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Soares Pastor</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pereira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento de Araújo</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mónica Barbosa</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Fonseca</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Susana Vieira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre João Pinto de Araújo</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Garcia Pinto</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Filipe Machado</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Felicia da Costa</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Castro</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre António de Castro</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Pinheiro</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Filipa Teresa de Araújo</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Marques</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luisa da Mota</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jorge de Magalhães</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Pereira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Gonçalves</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Fernandes</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido</nome>
+    <número>45</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Rodrigues</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Câmara</nome>
+    <número>45</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cabido</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Pereira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Quitéria da Silva</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gomes da Silva</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Maria</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Sousa</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Soares</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Carvalho</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Soares</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Pereira Machado</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Fernandes</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Santos da Mota</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana de Magalhães</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João da Cunha</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Teresa da Silva</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Barnabé de Araújo Pereira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Fernandes</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Faustina Maria da Graça</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónimo Fernandes</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Vieira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Gomes</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre José Teixeira de Melo</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isidoro da Costa</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Maria de Sousa</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Esteves de Almeida</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Paiva</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Crispiano Ferreira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Agostinho Barbosa</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paulo de Araújo</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Francisca</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paulo da Costa</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela Francisca da Silva</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Pereira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Agostinha Francisca</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Domingos Ferreira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Francisco</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Bento Francisco Pereira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Jerónimo Francisco Pereira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Barros</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina de Araújo</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Pereira da Silva</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Francisca</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Álvares</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luísa Teixeira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre André Soares de Araújo</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Sta. Maria de Ferreiros</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marcelino de Araújo</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bernardina Rosa</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Fabião Dias</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Dias</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Ferreira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Eugénia Francisca</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Vieira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Machado</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>46</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome> Cabido</nome>
+    <número>47</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Maria de Jesus</nome>
+    <número>47</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Francisca</nome>
+    <número>47</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>48</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Barreto Gavião</nome>
+    <número>48</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco do Vale</nome>
+    <número>48</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Martinho de Araújo</nome>
+    <número>48</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Cardoso</nome>
+    <número>48</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>49</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>casal dos Chãos ou Quinteiro</nome>
+    <número>49</número>
+    <quantidade>18</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Inácio Palhares</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Vieira da Costa</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Francisca da Cruz</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Jerónimo Vieira</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Vieira</nome>
+    <número>49</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa de Sá</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gonçalves</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inocência Rodrigues</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia Ferreira</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Oliveira</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Lopes</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Lopes</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>49</número>
+    <quantidade>4</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Garcia</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Leonarda da Silva</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos António</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marta Maria</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Miguel Rodrigues</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Rodrigues</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André da Silva</nome>
+    <número>49</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Mendes</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa Teixeira</nome>
+    <número>49</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>casal dos Chãos ou Quinteiro</nome>
+    <número>50</número>
+    <quantidade>8</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido</nome>
+    <número>50</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Vieira</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vitoriana Josefa</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Joana Antónia</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Gomes</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Gomes</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luís Cardoso Coutinho de Oliveira</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia José Leonor de Vasconcelos</nome>
+    <número>50</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Dias</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Teresa</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>casal dos Chãos ou Quinteiro</nome>
+    <número>51</número>
+    <quantidade>18</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marcos Lopes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luísa Mendes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Diogo Fernandes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Almeida</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João da Costa</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Dias</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Carvalho</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Barros</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Ascensão</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento de Magalhães</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana Ribeiro</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Brites de Barros</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Tomé de Magalhães</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Caetano Gonçalves</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Ferreira</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Joana Fernandes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Gomes de Andrade</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Gomes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa da Silva</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Fernandes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Amónia Francisca</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Gomes</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luísa Maria</nome>
+    <número>51</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>Cabido</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>cabido</nome>
+    <número>52</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Silvestre de Oliveira</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Inês Dantas</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>casal dos Chãos ou Quinteiro</nome>
+    <número>52</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Paulo Francisco</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónima da Silva</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>casal de Infias ou Flores</nome>
+    <número>52</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João da Costa</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ferreira</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>família</tipo>
+    <nome>casal de Infias e Flores</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Garcia Fernandes</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Narcisa Francisca</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>confraria de S. João do Souto</nome>
+    <número>52</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Amónia Francisca</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Francisco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Sebastiana Ferreira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>53</número>
+    <quantidade>4</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Martins</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódia de Campos</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cipriano Jácome</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Nogueira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Matias Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingas Nogueira
+                    </nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana de Oliveira</nome>
+    <número>53</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Domingos Pinheiro</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento de Faria</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Pitta de Ortigueira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca de Barros</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vicente de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Antónia</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Marques</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Araújo</nome>
+    <número>53</número>
+    <quantidade>6</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Ribeiro</nome>
+    <número>53</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Fernandes de Sá</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Sabina Vieira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Borges</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Borges</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Carvalho</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Marques</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisca Fraga</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Barros</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marta de Barros</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Ferreira Torres</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cristóvão Francisco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Francisco</nome>
+    <número>53</número>
+    <quantidade>4</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela Francisca</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Borges</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Martins</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Brígida de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Ribeiro de Sá</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Joana Tinoco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingas Francisca</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António da Costa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Francisco Rodrigues</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Matos</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Rodrigues</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Gomes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cipriano da Silva</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Correia</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre José Pessoa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Neves Ferreira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Baptista</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Miguel da Costa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula Baptista</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónimo Carvalho</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marta Pereira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Jácome</nome>
+    <número>53</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Francisca</nome>
+    <número>53</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel da Costa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Maria de Andrade</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Rodrigues</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Adriano Mendes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Benta Josefa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André da Costa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento da Silva</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Catarina Rodrigues</nome>
+    <número>53</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Álvares</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Faria de Abreu</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Baptista</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Vicente Francisco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel Pereira de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marta Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Apolónia Pires</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gonçalves</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Margarida Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Geraldo Francisco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana da Silva</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Francisca</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel da Costa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel da Costa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Antunes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana da Cunha</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André Francisco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Andreza Ferreira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gomes</nome>
+    <número>53</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Dias</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Araújo
+                    </nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Domingos de Araújo Ribeiro</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João da Silva</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Carlos Carvalho Monteiro</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Amónia Soares</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Domingos Miranda Peixoto</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Peixoto</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Lopes de Oliveira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Vaz</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Correia</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Margarida Quinteira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Filipe do Vale Peixoto</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Francisco</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Tinoco
+                    </nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Gonçalo Fernandes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>André de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luísa de Sousa</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Gomes</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Luís Condesso</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mónica de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Pinheiro</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Pereira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jerónimo de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Francisca</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Simão de Araújo</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Silva</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Santos Cerqueira</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Leitão</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ribeiro</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Natália Coelho</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Manuel</nome>
+    <número>53</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jácome Borges Pacheco</nome>
+    <número>54</número>
+    <quantidade>14</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Manuel Gonçalves</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro de Oliveira</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Francisca</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Ribeiro</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Aleixo Barreiros</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Geraldo Francisco</nome>
+    <número>54</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana da Silva</nome>
+    <número>54</número>
+    <quantidade>4</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Araújo</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Josefa de Oliveira</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre José Pereira da Silva</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Ferreira</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio de Oliveira</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa de Araújo</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Francisco</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Marta de Araújo</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pascoal Ferreira</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Ferreira</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Andreza Carvalho</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos Gomes</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingos António</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Correia</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Rebelo</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ângela Francisca</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Sousa</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Vieira</nome>
+    <número>54</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Leonarda Peixoto</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Peixoto de Miranda</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Custódio Machado</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa Maria</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Lopes</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ursula da Rocha</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Dias Peixoto</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Pereira</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Gonçalves</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Peixoto</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bernardo de Oliveira da Silva</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Gomes</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ana Maria	da Silva</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bernardo Fernandes da Silva</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Geraldo Jácome</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Teresa</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Carvalho</nome>
+    <número>54</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Soares</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Luís Francisco de Paiva</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José de Freitas</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria da Silva</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Dias</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Mariana da Silva</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel de Araújo</nome>
+    <número>55</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingas Fernandes</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Pires</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Francisca</nome>
+    <número>55</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Carlos</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Teresa</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João de Araújo</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria de Aguiar</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Dias da Silva</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel
+                        Duarte</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Francisco</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Teixeira</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Carvalho</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bento Correia</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Ribeiro</nome>
+    <número>55</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Padre Cristóvão Francisco</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>António Ferreira Torres</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Bernarda Ferreira</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>José Francisco</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Marques Pereira</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Teresa Maria</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Pereira do Lago</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D. Marcelina de Araújo Rocha</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Fernandes da Silva</nome>
+    <número>55</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Domingas das Neves</nome>
+    <número>55</número>
+    <quantidade>2</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco de Barros</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Natália Fernandes</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Francisco Cardoso</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Vieira</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Jácome de Matos</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Sebastiana Maria</nome>
+    <número>55</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>igreja de S. Vicente</nome>
+    <número>56</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>instituição</tipo>
+    <nome>igreja e convento do Carmo</nome>
+    <número>56</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Sotomaior</nome>
+    <número>58</número>
+    <quantidade>3</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Ruby</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> D.Diogo de Sousa</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Cabido</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Constantino da
+                            Cunha Sottomayor</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Maria da Silva</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> António
+                            Silva</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>João Fernandes</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Felícia Fernandes </nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Manuel Dias</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Caetana da
+                            Silva</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro Rodrigues</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Maria
+                        Machado</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Antónia Francisca</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Pedro de Araújo</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Rosa Maria Ferreira</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Francisco Martins</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel Gonçalves</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Gonçalo Correia</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Francisca</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> António Dias</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Ramalho</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Domingos Gonçalves</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Helena Fernandes</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Pedro Fernandes</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Maria Martins</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Jerónimo Barreiros</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>Isabel da Cunha</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Manuel Martins</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Maria Pereira</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Diogo Gonçaves Pinheiro</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Catarina Álvares</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> António Borges</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Agostinho Leitão</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Paula da Costa</nome>
+    <número>58</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome>D.Diogo de Sousa</nome>
+    <número>59</número>
+    <quantidade>1</quantidade>
+  </entidade>
+  <entidade>
+    <tipo>pessoa</tipo>
+    <nome> Domingos Correia de Abreu</nome>
+    <número>59</número>
+    <quantidade>1</quantidade>
+  </entidade>
+</entidades>

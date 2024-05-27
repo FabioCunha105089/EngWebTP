@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruas>
+  <rua>
+    <nome>Rua do Campo</nome>
+    <número>1</número>
+  </rua>
+  <rua>
+    <nome>Rua Nova</nome>
+    <número>2</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Açougues velhos</nome>
+    <número>3</número>
+  </rua>
+  <rua>
+    <nome>Praça do Pão</nome>
+    <número>4</número>
+  </rua>
+  <rua>
+    <nome>Rua das Oucias</nome>
+    <número>5</número>
+  </rua>
+  <rua>
+    <nome> Rua do Souto Porta do Souto </nome>
+    <número>6</número>
+  </rua>
+  <rua>
+    <nome> Loura e Terreiro do Castelo  </nome>
+    <número>7</número>
+  </rua>
+  <rua>
+    <nome>Rua de Janes </nome>
+    <número>8</número>
+  </rua>
+  <rua>
+    <nome>Rua de S.João</nome>
+    <número>9</número>
+  </rua>
+  <rua>
+    <nome>Travessa da Rua de S. João para a do Forno</nome>
+    <número>10</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Cegos ou do Forno</nome>
+    <número>11</número>
+  </rua>
+  <rua>
+    <nome>Travessa Da Rua Do Forno Para A Do Poco</nome>
+    <número>12</número>
+  </rua>
+  <rua>
+    <nome>Rua Pequena</nome>
+    <número>13</número>
+  </rua>
+  <rua>
+    <nome>Rua de Sta. Maria ou do Poço</nome>
+    <número>14</número>
+  </rua>
+  <rua>
+    <nome>Travessa da Rua do Poço para a de D.Gualdim</nome>
+    <número>15</número>
+  </rua>
+  <rua>
+    <nome>Rua de D. Gualdim</nome>
+    <número>16</número>
+  </rua>
+  <rua>
+    <nome>Travessa da Rua de D.Gualdim até ao Couto do Arvoredo</nome>
+    <número>17</número>
+  </rua>
+  <rua>
+    <nome>Rua das Chagas</nome>
+    <número>18</número>
+  </rua>
+  <rua>
+    <nome>Rua de Sto. António</nome>
+    <número>19</número>
+  </rua>
+  <rua>
+    <nome>Terreiro de Sto. António e Postigo</nome>
+    <número>20</número>
+  </rua>
+  <rua>
+    <nome>Rua Verde</nome>
+    <número>21</número>
+  </rua>
+  <rua>
+    <nome>Rua de Maximinos</nome>
+    <número>22</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Sapateiros e Rossio da Praça</nome>
+    <número>23</número>
+  </rua>
+  <rua>
+    <nome>Rua da Vielinha</nome>
+    <número>24</número>
+  </rua>
+  <rua>
+    <nome>Campo de S. Sebastião e em Frente do Açougue</nome>
+    <número>25</número>
+  </rua>
+  <rua>
+    <nome>Rua de S.Miguel O Anjo</nome>
+    <número>26</número>
+  </rua>
+  <rua>
+    <nome>Rua Da Cruz De Pedra</nome>
+    <número>27</número>
+  </rua>
+  <rua>
+    <nome>Rua Direita</nome>
+    <número>28</número>
+  </rua>
+  <rua>
+    <nome>Rua do Beco</nome>
+    <número>29</número>
+  </rua>
+  <rua>
+    <nome>Cangosta De S. Sebastião</nome>
+    <número>30</número>
+  </rua>
+  <rua>
+    <nome>Rua do Alcaide</nome>
+    <número>31</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Pelames</nome>
+    <número>32</número>
+  </rua>
+  <rua>
+    <nome>Campo de S. Tiago</nome>
+    <número>33</número>
+  </rua>
+  <rua>
+    <nome>Cangosta das Cruzes</nome>
+    <número>34</número>
+  </rua>
+  <rua>
+    <nome>Rua de S. Marcos</nome>
+    <número>35</número>
+  </rua>
+  <rua>
+    <nome>Rua das Águas</nome>
+    <número>36</número>
+  </rua>
+  <rua>
+    <nome>Rua de S. Lázaro</nome>
+    <número>37</número>
+  </rua>
+  <rua>
+    <nome>Rua da Ponte de Guimarães</nome>
+    <número>38</número>
+  </rua>
+  <rua>
+    <nome>Ponte de Guimarães</nome>
+    <número>39</número>
+  </rua>
+  <rua>
+    <nome>Rua do Paymanta</nome>
+    <número>40</número>
+  </rua>
+  <rua>
+    <nome>Campo de Santa Ana</nome>
+    <número>41</número>
+  </rua>
+  <rua>
+    <nome>Campo e Calçada de Nossa Senhora a Branca</nome>
+    <número>42</número>
+  </rua>
+  <rua>
+    <nome>Campo de Nossa Senhora a Branca. Rua da Régua. Rua Nova da Seara</nome>
+    <número>43</número>
+  </rua>
+  <rua>
+    <nome>Rua da Fonte da Carcova</nome>
+    <número>44</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Chãos de Baixo</nome>
+    <número>45</número>
+  </rua>
+  <rua>
+    <nome>Rua de Santo André</nome>
+    <número>46</número>
+  </rua>
+  <rua>
+    <nome>Rua de S. Barnabé</nome>
+    <número>47</número>
+  </rua>
+  <rua>
+    <nome>Praça do Gavião</nome>
+    <número>48</número>
+  </rua>
+  <rua>
+    <nome>Rua de S. Gonçalo</nome>
+    <número>49</número>
+  </rua>
+  <rua>
+    <nome>Rua de Nossa Senhora de Guadalupe</nome>
+    <número>50</número>
+  </rua>
+  <rua>
+    <nome>Rua Da Oliveira</nome>
+    <número>51</número>
+  </rua>
+  <rua>
+    <nome>Rua em Frente de Nossa Senhora de Guadalupe</nome>
+    <número>52</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Chãos de Cima</nome>
+    <número>53</número>
+  </rua>
+  <rua>
+    <nome>Rua das Palhotas</nome>
+    <número>54</número>
+  </rua>
+  <rua>
+    <nome>Rua de Infias</nome>
+    <número>55</número>
+  </rua>
+  <rua>
+    <nome>Cangosta da Escoura</nome>
+    <número>56</número>
+  </rua>
+  <rua>
+    <nome>Estrada de Real</nome>
+    <número>57</número>
+  </rua>
+  <rua>
+    <nome>Rua da Cónega</nome>
+    <número>58</número>
+  </rua>
+  <rua>
+    <nome>Rua dos Biscaínhos</nome>
+    <número>59</número>
+  </rua>
+  <rua>
+    <nome>Cangosta da Rua das Águas</nome>
+    <número>60</número>
+  </rua>
+</ruas>
