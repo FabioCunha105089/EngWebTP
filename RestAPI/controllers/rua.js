@@ -8,9 +8,9 @@ module.exports.list = () => {
     exec()
 }
 
-module.exports.findByNumero = numero => {
+module.exports.findById = id => {
     return Rua
-    .findOne({numero : numero})
+    .findOne({_id : id})
     .exec()
 }
 
@@ -21,20 +21,20 @@ module.exports.findByName = name => {
 }
 
 module.exports.insert = async rua => {
-    if (!(await Rua.findOne({numer : rua.numero}).exec())) {
+    if (!(await Rua.findOne({_id : rua._id}).exec())) {
         var newRua = Rua(rua)
         return newRua.save()
     }
 }
 
-module.exports.delete = numero => {
+module.exports.delete = _id => {
     return Rua
-    .findOneAndDelete({numero : numero})
+    .findOneAndDelete({_id : _id})
     .exec()
 }
 
-module.exports.update = (numero, rua) => {
+module.exports.update = (_id, rua) => {
     return Rua
-    .findOneAndUpdate({numero : numero}, rua, {new : true})
+    .findOneAndUpdate({_id : _id}, rua, {new : true})
     .exec()
 }

@@ -5,12 +5,7 @@ import re
 
 def clean_strings(s):
     s = s.replace('\n', '').replace('\"', '').replace('D.', 'D. ').replace('S.', 'S. ').rstrip().lstrip()
-    spl = s.split()
-    res = []
-    for w in spl:
-        w = w.capitalize()
-        res.append(w)
-    s = ' '.join(res)
+    s = ' '.join(s.split())
     return s
 
 def format_paragraph(paragraphs):
@@ -34,7 +29,7 @@ def format_paragraph(paragraphs):
                 full_paragraph += f'<a href="/{path}/{caps}">{child.text}</a>'
             if child.tail:
                 full_paragraph += child.tail
-        para_list.append(full_paragraph)
+        para_list.append(clean_strings(full_paragraph))
     return para_list
 
 ruas = []
@@ -64,30 +59,36 @@ for dirpath, _, files in os.walk('./texto'):
                 if casas and len(casas) > 0:
                     casas_list = []
                     for casa in casas:
+                        numero = casa.find('número').text
+                        if numero == '-':
+                             continue
+                        enfiteuta = casa.find('enfiteuta')
+                        enfiteuta_text = ''
+                        if enfiteuta is not None:
+                            enfiteuta_text = enfiteuta.text
+                        foro = casa.find('foro')
+                        foro_text = ''
+                        if foro is not None:
+                            foro_text = foro.text
                         desc = ''
                         if d := casa.find('desc'):
-                            desc = format_paragraph(d)
-                        foro = ''
-                        if f := casa.find('foro'):
-                            foro = f
-                        enfiteuta = ''
-                        if e := casa.find('enfiteuta'):
-                            enfiteuta = e
+                            desc = format_paragraph(d)                        
                         casas_list.append({
-                            'numero': casa.find('número').text,
-                            'enfiteuta': enfiteuta,
+                            'numero': numero,
+                            'enfiteuta': enfiteuta_text,
                             'desc': desc,
-                            'foro': foro
+                            'foro': foro_text
                         })
+                        ###
             ruas.append({
-                'numero': meta.find('número').text,
+                '_id': meta.find('número').text,
                 'nome': meta.find('nome').text,
                 'desc': para_list,
                 'figuras': figuras_list,
                 'casas': casas_list
             })
 
-with open('entradas.json', 'w') as file:
+with open('./entradas.json', 'w') as file:
     file.write(json.dumps(ruas, indent=2, ensure_ascii=False))
             
 
