@@ -16,7 +16,7 @@ module.exports.findById = id => {
 
 module.exports.findByNome = nome => {
     return Entidade
-    .find({nome : nome})
+    .findOne({nome : nome})
     .exec()
 }
 

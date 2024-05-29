@@ -10,8 +10,8 @@ router.get('/', function (req, res) {
 });
 
 // Consultar uma rua
-router.get('/:id', function (req, res) {
-  Entidade.findById(req.params.id)
+router.get('/:nome', function (req, res) {
+  Entidade.findByNome(req.params.nome)
     .then(data => res.jsonp(data))
     .catch(erro => res.jsonp(erro))
 });

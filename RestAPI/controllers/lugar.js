@@ -22,7 +22,7 @@ module.exports.findByRua = numero => {
 
 module.exports.findByNome = nome => {
     return Lugar
-    .find({nome : nome})
+    .findOne({nome : nome})
     .exec()
 }
 

@@ -12,7 +12,7 @@ router.get('/', async function(req, res, next) {
 });
 
 router.get('/:nome', function(req, res) {
-  axios.get('http://localhost:3000/entidade?nome=' + req.params.nome)
+  axios.get('http://localhost:3000/entidade/' + req.params.nome)
   .then(resp => res.render('entidade', {entidade : resp.data[0]}))
   .catch(erro => console.log(erro))
 })
