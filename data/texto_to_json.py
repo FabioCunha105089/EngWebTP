@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import json
 import os
-import re
 
 def clean_strings(s):
     s = s.replace('\n', '').replace('\"', '').replace('D.', 'D. ').replace('S.', 'S. ').rstrip().lstrip()

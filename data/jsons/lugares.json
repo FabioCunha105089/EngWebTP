@@ -1,4302 +1,3910 @@
 [
   {
-    "_id": "1",
+    "_id": 1,
     "nome": "RUA_NOVA",
-    "rua": "1"
+    "ruas": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "23"
+    ]
   },
   {
-    "_id": "2",
+    "_id": 2,
     "nome": "PORTA_DE_S._FRANCISCO",
-    "rua": "1"
+    "ruas": [
+      "1",
+      "21"
+    ]
   },
   {
-    "_id": "3",
-    "nome": "PORTA_DE_S._FRANCISCO",
-    "rua": "1"
-  },
-  {
-    "_id": "4",
+    "_id": 3,
     "nome": "EDIFICIO_DA_CAMARA_MUNICIPAL",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "5",
+    "_id": 4,
     "nome": "BRAGA",
-    "rua": "1"
+    "ruas": [
+      "1",
+      "2",
+      "9",
+      "10",
+      "16",
+      "35",
+      "36",
+      "37",
+      "38",
+      "40",
+      "42",
+      "43",
+      "44",
+      "48",
+      "53",
+      "57",
+      "58"
+    ]
   },
   {
-    "_id": "6",
+    "_id": 5,
     "nome": "PRADO",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "7",
+    "_id": 6,
     "nome": "PONTE_DE_LIMA",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "8",
+    "_id": 7,
     "nome": "VALENÇA",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "9",
+    "_id": 8,
     "nome": "RUA_DA_CONEGA",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "10",
+    "_id": 9,
     "nome": "CAMPO",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "11",
+    "_id": 10,
     "nome": "PRIMEIRO_QUARTEL",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "12",
+    "_id": 11,
     "nome": "CAMPO_DA_VINHA",
-    "rua": "1"
+    "ruas": [
+      "1",
+      "6",
+      "58",
+      "59"
+    ]
   },
   {
-    "_id": "13",
+    "_id": 12,
     "nome": "RUA_DO_CAMPO",
-    "rua": "1"
+    "ruas": [
+      "1",
+      "2"
+    ]
   },
   {
-    "_id": "14",
+    "_id": 13,
     "nome": "RUA_D._FREI_CAETANO_BRANDAO",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "15",
+    "_id": 14,
     "nome": "RUA_D._DIOGO_DE_SOUSA",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "16",
+    "_id": 15,
     "nome": "LARGO_CONSELHEIRO_TORRES_E_ALMEIDA",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "17",
+    "_id": 16,
     "nome": "RUA_NOVA_DE_SOUSA",
-    "rua": "1"
+    "ruas": [
+      "1",
+      "2",
+      "3",
+      "23"
+    ]
   },
   {
-    "_id": "18",
+    "_id": 17,
     "nome": "SÃO_PEDRO_DE_MERELIM.",
-    "rua": "1"
+    "ruas": [
+      "1"
+    ]
   },
   {
-    "_id": "19",
+    "_id": 18,
     "nome": "RUA_DO_SOUTO",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "22",
+      "36"
+    ]
   },
   {
-    "_id": "20",
-    "nome": "BRAGA",
-    "rua": "2"
-  },
-  {
-    "_id": "21",
+    "_id": 19,
     "nome": "CAMPO_DAS_HORTAS",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "25",
+      "26"
+    ]
   },
   {
-    "_id": "22",
+    "_id": 20,
     "nome": "PORTA_NOVA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "23",
+    "_id": 21,
     "nome": "IGREJA_DA_MISERICÓRDIA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "24",
+    "_id": 22,
     "nome": "CASA_BRASONADA_DE_FAMILIARES_DE_D._JORGE_DA_COSTA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "25",
+    "_id": 23,
     "nome": "PRACINHA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "26",
+    "_id": 24,
     "nome": "PRAÇA_DA_HORTALICE",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "27",
+    "_id": 25,
     "nome": "PRAÇA_DO_PESCADO",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "28",
+    "_id": 26,
     "nome": "PRAÇA_DO_PÃO",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "3",
+      "4",
+      "14",
+      "16",
+      "22"
+    ]
   },
   {
-    "_id": "29",
+    "_id": 27,
     "nome": "CENTRO_COMERCIAL_DA_CIDADE",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "30",
+    "_id": 28,
     "nome": "SÉ",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "10",
+      "11",
+      "13",
+      "14",
+      "16"
+    ]
   },
   {
-    "_id": "31",
+    "_id": 29,
     "nome": "ARCADA",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "36",
+      "37",
+      "38",
+      "39",
+      "45"
+    ]
   },
   {
-    "_id": "32",
-    "nome": "RUA_NOVA",
-    "rua": "2"
-  },
-  {
-    "_id": "33",
+    "_id": 30,
     "nome": "RUA_DE_D._DIOGO_DE_SOUSA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "34",
+    "_id": 31,
     "nome": "PRAÇA_VELHA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "35",
+    "_id": 32,
     "nome": "CAPELA_DA_SENHORA_DA_GLÓRIA",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "36",
+    "_id": 33,
     "nome": "CAPELA_DA_SENHORA_DA_PIEDADE_DE_JESUS_DA_MISERICÓRDIA.",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "37",
+    "_id": 34,
     "nome": "ANTIGOS_AÇOUGES",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "38",
+    "_id": 35,
     "nome": "RUA_DOS_AÇOUGUES_VELHOS",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "4"
+    ]
   },
   {
-    "_id": "39",
+    "_id": 36,
     "nome": "REAL",
-    "rua": "2"
+    "ruas": [
+      "2"
+    ]
   },
   {
-    "_id": "40",
+    "_id": 37,
     "nome": "MITRA",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "18",
+      "32"
+    ]
   },
   {
-    "_id": "41",
+    "_id": 38,
     "nome": "RUA_DOS_SAPATEIROS",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "22",
+      "23",
+      "24"
+    ]
   },
   {
-    "_id": "42",
-    "nome": "RUA_DO_CAMPO",
-    "rua": "2"
-  },
-  {
-    "_id": "43",
-    "nome": "RUA_NOVA_DE_SOUSA",
-    "rua": "2"
-  },
-  {
-    "_id": "44",
+    "_id": 39,
     "nome": "S._PEDRO_DE_MERELIM",
-    "rua": "2"
+    "ruas": [
+      "2",
+      "20"
+    ]
   },
   {
-    "_id": "45",
-    "nome": "SÉ",
-    "rua": "3"
-  },
-  {
-    "_id": "46",
-    "nome": "RUA_NOVA",
-    "rua": "3"
-  },
-  {
-    "_id": "47",
+    "_id": 40,
     "nome": "RUA_DO_POÇO",
-    "rua": "3"
+    "ruas": [
+      "3",
+      "4",
+      "5",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ]
   },
   {
-    "_id": "48",
+    "_id": 41,
     "nome": "RUA_DO_CABIDO",
-    "rua": "3"
+    "ruas": [
+      "3"
+    ]
   },
   {
-    "_id": "49",
+    "_id": 42,
     "nome": "TRAVESSA_DOS_AÇOUGUES_VELHOS",
-    "rua": "3"
+    "ruas": [
+      "3"
+    ]
   },
   {
-    "_id": "50",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "3"
-  },
-  {
-    "_id": "51",
-    "nome": "RUA_NOVA_DE_SOUSA",
-    "rua": "3"
-  },
-  {
-    "_id": "52",
-    "nome": "SÉ",
-    "rua": "4"
-  },
-  {
-    "_id": "53",
+    "_id": 43,
     "nome": "RUA_DOS_AÇOUGUES",
-    "rua": "4"
+    "ruas": [
+      "4"
+    ]
   },
   {
-    "_id": "54",
+    "_id": 44,
     "nome": "RUA_D._GONÇALO_PEREIRA",
-    "rua": "4"
+    "ruas": [
+      "4",
+      "12",
+      "14",
+      "16"
+    ]
   },
   {
-    "_id": "55",
+    "_id": 45,
     "nome": "D._GUALDIM_PAIS",
-    "rua": "4"
+    "ruas": [
+      "4"
+    ]
   },
   {
-    "_id": "56",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "4"
-  },
-  {
-    "_id": "57",
+    "_id": 46,
     "nome": "D._DIOGO_DE_SOUSA",
-    "rua": "4"
+    "ruas": [
+      "4"
+    ]
   },
   {
-    "_id": "58",
+    "_id": 47,
     "nome": "RUA_DE_MAXIMINOS",
-    "rua": "4"
+    "ruas": [
+      "4",
+      "16",
+      "18",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ]
   },
   {
-    "_id": "59",
+    "_id": 48,
     "nome": "D._GUALDIM",
-    "rua": "4"
+    "ruas": [
+      "4"
+    ]
   },
   {
-    "_id": "60",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "4"
-  },
-  {
-    "_id": "61",
+    "_id": 49,
     "nome": "PALÁCIO_DOS_ARCEBISPOS",
-    "rua": "4"
+    "ruas": [
+      "4"
+    ]
   },
   {
-    "_id": "62",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "4"
-  },
-  {
-    "_id": "63",
+    "_id": 50,
     "nome": "RUA_D._PAIO_MENDES",
-    "rua": "4"
+    "ruas": [
+      "4"
+    ]
   },
   {
-    "_id": "64",
-    "nome": "RUA_DO_POÇO",
-    "rua": "4"
-  },
-  {
-    "_id": "65",
+    "_id": 51,
     "nome": "RUA_DE_D._GUALDIM",
-    "rua": "4"
+    "ruas": [
+      "4",
+      "15",
+      "16",
+      "17",
+      "19",
+      "20"
+    ]
   },
   {
-    "_id": "66",
-    "nome": "RUA_DOS_AÇOUGUES_VELHOS",
-    "rua": "4"
-  },
-  {
-    "_id": "67",
-    "nome": "SÉ",
-    "rua": "5"
-  },
-  {
-    "_id": "68",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "5"
-  },
-  {
-    "_id": "69",
+    "_id": 52,
     "nome": "FONTE_DE_S._GERALDO",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "70",
+    "_id": 53,
     "nome": "CAPELA_DA_GLÓRIA",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "71",
+    "_id": 54,
     "nome": "CASA_DO_CONSELHO_MUNICIPAL",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "72",
+    "_id": 55,
     "nome": "CAPELA_MOR_DA_SÉ",
-    "rua": "5"
+    "ruas": [
+      "5",
+      "9"
+    ]
   },
   {
-    "_id": "73",
+    "_id": 56,
     "nome": "RUA_DE_S._JOÃO",
-    "rua": "5"
+    "ruas": [
+      "5",
+      "6",
+      "8",
+      "10",
+      "11"
+    ]
   },
   {
-    "_id": "74",
+    "_id": 57,
     "nome": "PORTA_DE_S._JOÃO",
-    "rua": "5"
+    "ruas": [
+      "5",
+      "8",
+      "9",
+      "10",
+      "35"
+    ]
   },
   {
-    "_id": "75",
+    "_id": 58,
     "nome": "LADO_SUL_DA_SÉ,_ENTRE_O_BRAÇO_DO_TRANSEPTO_E_A_FACHADA",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "76",
+    "_id": 59,
     "nome": "ROCIO_DA_SÉ",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "77",
+    "_id": 60,
     "nome": "EDIFÍCIO_DO_TRIBUNAL_DO_TRABALHO/DELEGAÇÃO_ESCOLAR",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "78",
+    "_id": 61,
     "nome": "RESIDÊNCIA_ACADÉMICA",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "79",
+    "_id": 62,
     "nome": "RUA_DE_NOSSA_SENHORA_DO_LEITE",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "80",
-    "nome": "ROCIO_DA_SÉ",
-    "rua": "5"
-  },
-  {
-    "_id": "81",
+    "_id": 63,
     "nome": "ESCOLA_COIMBRÃ",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "82",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "5"
-  },
-  {
-    "_id": "83",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "5"
-  },
-  {
-    "_id": "84",
+    "_id": 64,
     "nome": "CASA_DE_HERDADE_DÍZIMA_A_DEUS",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "85",
+    "_id": 65,
     "nome": "TERREIRO_DAS_OUSSIAS",
-    "rua": "5"
+    "ruas": [
+      "5",
+      "13"
+    ]
   },
   {
-    "_id": "86",
+    "_id": 66,
     "nome": "RUA_PEQUENA.",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "87",
+    "_id": 67,
     "nome": "RUA_PEQUENA",
-    "rua": "5"
+    "ruas": [
+      "5",
+      "12",
+      "13",
+      "14"
+    ]
   },
   {
-    "_id": "88",
+    "_id": 68,
     "nome": "RUA_DE_STA._MARIA_OU_DO_POÇO",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "89",
+    "_id": 69,
     "nome": "SACRISTIA_DA_SÉ",
-    "rua": "5"
+    "ruas": [
+      "5"
+    ]
   },
   {
-    "_id": "90",
-    "nome": "SACRISTIA_DA_SÉ",
-    "rua": "5"
-  },
-  {
-    "_id": "91",
+    "_id": 70,
     "nome": "RUA_DAS_OUSSIAS",
-    "rua": "5"
+    "ruas": [
+      "5",
+      "11",
+      "13",
+      "14"
+    ]
   },
   {
-    "_id": "92",
-    "nome": "RUA_DO_POÇO",
-    "rua": "5"
-  },
-  {
-    "_id": "93",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "6"
-  },
-  {
-    "_id": "94",
+    "_id": 71,
     "nome": "MURALHAS_DE_BRAGA",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "95",
-    "nome": "RUA_NOVA",
-    "rua": "6"
-  },
-  {
-    "_id": "96",
+    "_id": 72,
     "nome": "PAÇO_DOS_ARCEBISPOS",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "97",
+    "_id": 73,
     "nome": "CASTELO",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "7"
+    ]
   },
   {
-    "_id": "98",
+    "_id": 74,
     "nome": "PORTA_DA_MURALHA",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "99",
+    "_id": 75,
     "nome": "LARGO_DO_PAÇO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "100",
+    "_id": 76,
     "nome": "RUA_JUSTINO_CRUZ",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "101",
-    "nome": "CAMPO_DA_VINHA",
-    "rua": "6"
-  },
-  {
-    "_id": "102",
+    "_id": 77,
     "nome": "RUA_FRANCISCO_SANCHES",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "103",
+    "_id": 78,
     "nome": "LARGO_DE_S._JOÃO_DO_SOUTO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "104",
+    "_id": 79,
     "nome": "CASA_DO_PASSADIÇO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "105",
+    "_id": 80,
     "nome": "PORTA_DO_SOUTO",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "35",
+      "41"
+    ]
   },
   {
-    "_id": "106",
+    "_id": 81,
     "nome": "LARGO_BARÃO_DE_S._MARTINHO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "107",
+    "_id": 82,
     "nome": "RUA_DOS_JANES",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "108",
+    "_id": 83,
     "nome": "ARCO_DA_PORTA_DO_SOUTO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "109",
+    "_id": 84,
     "nome": "PAÇOS_ARCEBISPAIS",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "110",
+    "_id": 85,
     "nome": "CASAS_NOVAS_DA_RELAÇÃO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "111",
+    "_id": 86,
     "nome": "ALJUBE",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "112",
+    "_id": 87,
     "nome": "RELAÇÃO_ECLESIÁSTICA",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "113",
+    "_id": 88,
     "nome": "CASA_FOREIRA_À_MITRA",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "26"
+    ]
   },
   {
-    "_id": "114",
+    "_id": 89,
     "nome": "CASA_DO_MORGADO_DOS_LEITES",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "115",
+    "_id": 90,
     "nome": "IGREJA_DE_S._PEDRO_D'ESTE",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "11"
+    ]
   },
   {
-    "_id": "116",
+    "_id": 91,
     "nome": "CASA_DÍZIMA_A_DEUS",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "117",
+    "_id": 92,
     "nome": "CONFRARIA_DE_SANTIAGO_DA_CIVIDADE",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "118",
-    "nome": "CASA_DÍZIMA_A_DEUS",
-    "rua": "6"
-  },
-  {
-    "_id": "119",
+    "_id": 93,
     "nome": "CONFRARIA_DE_S._JOÃO_DO_SOUTO",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "7"
+    ]
   },
   {
-    "_id": "120",
+    "_id": 94,
     "nome": "CAPELA_DOS_CERVEIRAS",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "121",
+    "_id": 95,
     "nome": "CAPELA_DE_STA._BÁRBARA",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "122",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "6"
-  },
-  {
-    "_id": "123",
+    "_id": 96,
     "nome": "TERREIRO_DO_CASTELO",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "7"
+    ]
   },
   {
-    "_id": "124",
-    "nome": "PORTA_DO_SOUTO",
-    "rua": "6"
-  },
-  {
-    "_id": "125",
+    "_id": 97,
     "nome": "IGREJA_DE_FRAIÃO",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "126",
+    "_id": 98,
     "nome": "OBRA_DA_SÉ",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "127",
+    "_id": 99,
     "nome": "RUA_DE_JANES",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "128",
+    "_id": 100,
     "nome": "CONVENTO_DO_CARMO",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "54"
+    ]
   },
   {
-    "_id": "129",
+    "_id": 101,
     "nome": "S._JOÃO_DO_SOUTO",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "35",
+      "54"
+    ]
   },
   {
-    "_id": "130",
+    "_id": 102,
     "nome": "MOSTEIRO_DE_ADAÚFE",
-    "rua": "6"
+    "ruas": [
+      "6"
+    ]
   },
   {
-    "_id": "131",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "6"
-  },
-  {
-    "_id": "132",
+    "_id": 103,
     "nome": "CORORARIA",
-    "rua": "6"
+    "ruas": [
+      "6",
+      "8"
+    ]
   },
   {
-    "_id": "133",
+    "_id": 104,
     "nome": "IGREJA_DOS_TERCEIROS",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "134",
+    "_id": 105,
     "nome": "CIDADELA",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "135",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "7"
-  },
-  {
-    "_id": "136",
-    "nome": "TERREIRO_DO_CASTELO",
-    "rua": "7"
-  },
-  {
-    "_id": "137",
+    "_id": 106,
     "nome": "LOURA",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "138",
-    "nome": "CASTELO",
-    "rua": "7"
-  },
-  {
-    "_id": "139",
+    "_id": 107,
     "nome": "IGREJA_DO_TERCEIROS",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "140",
+    "_id": 108,
     "nome": "CASA_DO_DEFINITÓRIO",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "141",
+    "_id": 109,
     "nome": "RUA_DO_CASTELO",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "142",
-    "nome": "CONFRARIA_DE_S._JOÃO_DO_SOUTO",
-    "rua": "7"
-  },
-  {
-    "_id": "143",
+    "_id": 110,
     "nome": "FORNO_DA_VILA",
-    "rua": "7"
+    "ruas": [
+      "7"
+    ]
   },
   {
-    "_id": "144",
+    "_id": 111,
     "nome": "IGREJA_DE_S._JOÃO_DO_SOUTO",
-    "rua": "8"
+    "ruas": [
+      "8"
+    ]
   },
   {
-    "_id": "145",
+    "_id": 112,
     "nome": "PORTA_DE_SOUTO",
-    "rua": "8"
+    "ruas": [
+      "8",
+      "41"
+    ]
   },
   {
-    "_id": "146",
+    "_id": 113,
     "nome": "JANO",
-    "rua": "8"
+    "ruas": [
+      "8"
+    ]
   },
   {
-    "_id": "147",
+    "_id": 114,
     "nome": "JANOAS",
-    "rua": "8"
+    "ruas": [
+      "8"
+    ]
   },
   {
-    "_id": "148",
-    "nome": "PORTA_DE_S._JOÃO",
-    "rua": "8"
-  },
-  {
-    "_id": "149",
+    "_id": 115,
     "nome": "IGREJA_DE_S._JOÃO_DE_SOUTO",
-    "rua": "8"
+    "ruas": [
+      "8",
+      "10"
+    ]
   },
   {
-    "_id": "150",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "8"
-  },
-  {
-    "_id": "151",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "8"
-  },
-  {
-    "_id": "152",
-    "nome": "CORORARIA",
-    "rua": "8"
-  },
-  {
-    "_id": "153",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "8"
-  },
-  {
-    "_id": "154",
+    "_id": 116,
     "nome": "CASA_DA_CORORARIA",
-    "rua": "8"
+    "ruas": [
+      "8"
+    ]
   },
   {
-    "_id": "155",
-    "nome": "IGREJA_DE_S._JOÃO_DO_SOUTO",
-    "rua": "8"
-  },
-  {
-    "_id": "156",
+    "_id": 117,
     "nome": "RUA_AMPLA",
-    "rua": "9"
+    "ruas": [
+      "9"
+    ]
   },
   {
-    "_id": "157",
+    "_id": 118,
     "nome": "RUA_DE_S._MARCOS",
-    "rua": "9"
+    "ruas": [
+      "9"
+    ]
   },
   {
-    "_id": "158",
+    "_id": 119,
     "nome": "CAPPELLA_MAIOR_DA_SÉ",
-    "rua": "9"
+    "ruas": [
+      "9"
+    ]
   },
   {
-    "_id": "159",
-    "nome": "PORTA_DE_S._JOÃO",
-    "rua": "9"
-  },
-  {
-    "_id": "160",
-    "nome": "CAPELA_MOR_DA_SÉ",
-    "rua": "9"
-  },
-  {
-    "_id": "161",
+    "_id": 120,
     "nome": "CAMPO_DOS_REMÉDIOS_E_GRANGINHOS",
-    "rua": "9"
+    "ruas": [
+      "9"
+    ]
   },
   {
-    "_id": "162",
+    "_id": 121,
     "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "9"
+    "ruas": [
+      "9",
+      "35",
+      "37",
+      "38",
+      "39",
+      "40"
+    ]
   },
   {
-    "_id": "163",
-    "nome": "BRAGA",
-    "rua": "9"
-  },
-  {
-    "_id": "164",
+    "_id": 122,
     "nome": "CASA_DOS_PAIVAS",
-    "rua": "9"
+    "ruas": [
+      "9"
+    ]
   },
   {
-    "_id": "165",
+    "_id": 123,
     "nome": "FLORENÇA",
-    "rua": "9"
+    "ruas": [
+      "9"
+    ]
   },
   {
-    "_id": "166",
-    "nome": "IGREJA_DE_S._JOÃO_DE_SOUTO",
-    "rua": "10"
-  },
-  {
-    "_id": "167",
-    "nome": "PORTA_DE_S._JOÃO",
-    "rua": "10"
-  },
-  {
-    "_id": "168",
-    "nome": "BRAGA",
-    "rua": "10"
-  },
-  {
-    "_id": "169",
+    "_id": 124,
     "nome": "«REXIO_DE_S._JOÃO»",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "170",
-    "nome": "SÉ",
-    "rua": "10"
-  },
-  {
-    "_id": "171",
+    "_id": 125,
     "nome": "BAIRRO_DAS_TRAVESSAS",
-    "rua": "10"
+    "ruas": [
+      "10",
+      "16"
+    ]
   },
   {
-    "_id": "172",
+    "_id": 126,
     "nome": "«TRAVESSA_PARA_A_RUA_DE_S._JOÃO»",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "173",
+    "_id": 127,
     "nome": "RUA_DA_CARRAPATA",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "174",
+    "_id": 128,
     "nome": "RUA_DE_PAIO_MANTA",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "175",
+    "_id": 129,
     "nome": "RUA_COELHO",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "176",
+    "_id": 130,
     "nome": "RUA_DE_«COELHO»",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "177",
+    "_id": 131,
     "nome": "«TRAVESSA_PARA_O_REXIO_DE_S._JOÃO»",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "178",
+    "_id": 132,
     "nome": "LARGO_DE_S._JOÃO_DE_SOUTO",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "179",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "10"
-  },
-  {
-    "_id": "180",
+    "_id": 133,
     "nome": "RUA_D._AFONSO_HENRIQUES",
-    "rua": "10"
+    "ruas": [
+      "10",
+      "12",
+      "15",
+      "16",
+      "17"
+    ]
   },
   {
-    "_id": "181",
-    "nome": "LARGO_DE_S._JOÃO_DE_SOUTO",
-    "rua": "10"
-  },
-  {
-    "_id": "182",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "10"
-  },
-  {
-    "_id": "183",
+    "_id": 134,
     "nome": "CASAL_DE_REAL",
-    "rua": "10"
+    "ruas": [
+      "10"
+    ]
   },
   {
-    "_id": "184",
+    "_id": 135,
     "nome": "FREGUESIA_DE_S._JERÓNIMO_DE_REAL",
-    "rua": "10"
+    "ruas": [
+      "10",
+      "36"
+    ]
   },
   {
-    "_id": "185",
+    "_id": 136,
     "nome": "RUA_DO_FORNO",
-    "rua": "10"
+    "ruas": [
+      "10",
+      "11",
+      "12"
+    ]
   },
   {
-    "_id": "186",
-    "nome": "RUA_DO_FORNO",
-    "rua": "10"
-  },
-  {
-    "_id": "187",
+    "_id": 137,
     "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "10"
+    "ruas": [
+      "10",
+      "18",
+      "25",
+      "34",
+      "35"
+    ]
   },
   {
-    "_id": "188",
+    "_id": 138,
     "nome": "IGREJA_DO_COLÉGIO_DA_COMPANHIA_DE_JESUS",
-    "rua": "11"
+    "ruas": [
+      "11"
+    ]
   },
   {
-    "_id": "189",
-    "nome": "SÉ",
-    "rua": "11"
-  },
-  {
-    "_id": "190",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "11"
-  },
-  {
-    "_id": "191",
+    "_id": 139,
     "nome": "RUA_DAS_OUCIAS",
-    "rua": "11"
+    "ruas": [
+      "11",
+      "13"
+    ]
   },
   {
-    "_id": "192",
+    "_id": 140,
     "nome": "RUA_PAY_MANTA",
-    "rua": "11"
+    "ruas": [
+      "11"
+    ]
   },
   {
-    "_id": "193",
+    "_id": 141,
     "nome": "RUA_DE_PAY_MANTA",
-    "rua": "11"
+    "ruas": [
+      "11"
+    ]
   },
   {
-    "_id": "194",
-    "nome": "RUA_DO_FORNO",
-    "rua": "11"
-  },
-  {
-    "_id": "195",
-    "nome": "RUA_DE_S._JOÃO",
-    "rua": "11"
-  },
-  {
-    "_id": "196",
-    "nome": "RUA_DAS_OUSSIAS",
-    "rua": "11"
-  },
-  {
-    "_id": "197",
+    "_id": 142,
     "nome": "CAPELA_DE_NOSSA_SENHORA_DA_GLÓRIA",
-    "rua": "11"
+    "ruas": [
+      "11"
+    ]
   },
   {
-    "_id": "198",
-    "nome": "IGREJA_DE_S._PEDRO_D'ESTE",
-    "rua": "11"
-  },
-  {
-    "_id": "199",
-    "nome": "RUA_DO_FORNO",
-    "rua": "11"
-  },
-  {
-    "_id": "200",
-    "nome": "RUA_DO_POÇO",
-    "rua": "11"
-  },
-  {
-    "_id": "201",
+    "_id": 143,
     "nome": "RUA_DAS_TRAVESSAS",
-    "rua": "12"
+    "ruas": [
+      "12",
+      "14",
+      "17",
+      "18",
+      "19",
+      "21"
+    ]
   },
   {
-    "_id": "202",
+    "_id": 144,
     "nome": "VELHO_BAIRRO_MEDIEVAL",
-    "rua": "12"
+    "ruas": [
+      "12"
+    ]
   },
   {
-    "_id": "203",
+    "_id": 145,
     "nome": "VELHA_RUA_ROMANA",
-    "rua": "12"
+    "ruas": [
+      "12"
+    ]
   },
   {
-    "_id": "204",
-    "nome": "RUA_D._AFONSO_HENRIQUES",
-    "rua": "12"
-  },
-  {
-    "_id": "205",
-    "nome": "RUA_DO_FORNO",
-    "rua": "12"
-  },
-  {
-    "_id": "206",
-    "nome": "RUA_D._GONÇALO_PEREIRA",
-    "rua": "12"
-  },
-  {
-    "_id": "207",
-    "nome": "RUA_DO_FORNO",
-    "rua": "12"
-  },
-  {
-    "_id": "208",
+    "_id": 146,
     "nome": "RUA_DO_FORNO_OU_DOS_CEGOS",
-    "rua": "12"
+    "ruas": [
+      "12"
+    ]
   },
   {
-    "_id": "209",
+    "_id": 147,
     "nome": "RUA_DOS_PALHAIS",
-    "rua": "12"
+    "ruas": [
+      "12"
+    ]
   },
   {
-    "_id": "210",
-    "nome": "RUA_DO_POÇO",
-    "rua": "12"
-  },
-  {
-    "_id": "211",
+    "_id": 148,
     "nome": "RUA_DE_SANTA_MARIA_OU_DO_POÇO",
-    "rua": "12"
+    "ruas": [
+      "12"
+    ]
   },
   {
-    "_id": "212",
-    "nome": "RUA_PEQUENA",
-    "rua": "12"
-  },
-  {
-    "_id": "213",
-    "nome": "RUA_DAS_OUCIAS",
-    "rua": "13"
-  },
-  {
-    "_id": "214",
+    "_id": 149,
     "nome": "TRAVESSA_DA_RUA_DO_FORNO_PARA_A_DO_POÇO",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "215",
+    "_id": 150,
     "nome": "BAIRRO_MEDIEVAL",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "216",
+    "_id": 151,
     "nome": "CATEDRAL",
-    "rua": "13"
+    "ruas": [
+      "13",
+      "14"
+    ]
   },
   {
-    "_id": "217",
+    "_id": 152,
     "nome": "MERCADO_DA_OLARIA",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "218",
-    "nome": "SÉ",
-    "rua": "13"
-  },
-  {
-    "_id": "219",
+    "_id": 153,
     "nome": "RUA_DO_TEIVE",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "220",
-    "nome": "RUA_PEQUENA",
-    "rua": "13"
-  },
-  {
-    "_id": "221",
+    "_id": 154,
     "nome": "RUA_PAINSALVOS",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "222",
-    "nome": "RUA_DAS_OUSSIAS",
-    "rua": "13"
-  },
-  {
-    "_id": "223",
+    "_id": 155,
     "nome": "TRAVESSA",
-    "rua": "13"
+    "ruas": [
+      "13",
+      "16"
+    ]
   },
   {
-    "_id": "224",
-    "nome": "RUA_DO_POÇO",
-    "rua": "13"
-  },
-  {
-    "_id": "225",
+    "_id": 156,
     "nome": "SANTA_MARIA",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "226",
+    "_id": 157,
     "nome": "FORNO",
-    "rua": "13"
+    "ruas": [
+      "13"
+    ]
   },
   {
-    "_id": "227",
-    "nome": "RUA_PEQUENA",
-    "rua": "13"
-  },
-  {
-    "_id": "228",
-    "nome": "TERREIRO_DAS_OUSSIAS",
-    "rua": "13"
-  },
-  {
-    "_id": "229",
-    "nome": "CATEDRAL",
-    "rua": "14"
-  },
-  {
-    "_id": "230",
+    "_id": 158,
     "nome": "TERREIRO_DE_S._PAULO_OU_DE_S._TIAGO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "231",
+    "_id": 159,
     "nome": "PORTA_DE_S._TIAGO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "232",
+    "_id": 160,
     "nome": "COLÉGIO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "233",
+    "_id": 161,
     "nome": "RUA_DO_SOUTO-ARCADA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "234",
+    "_id": 162,
     "nome": "MURALHA",
-    "rua": "14"
+    "ruas": [
+      "14",
+      "17"
+    ]
   },
   {
-    "_id": "235",
+    "_id": 163,
     "nome": "TERREIRO_DE_S._TIAGO",
-    "rua": "14"
+    "ruas": [
+      "14",
+      "20"
+    ]
   },
   {
-    "_id": "236",
+    "_id": 164,
     "nome": "RUA_DA_ERVA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "237",
+    "_id": 165,
     "nome": "IGREJA_DE_SANTIAGO",
-    "rua": "14"
+    "ruas": [
+      "14",
+      "16"
+    ]
   },
   {
-    "_id": "238",
+    "_id": 166,
     "nome": "SINAGOGA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "239",
+    "_id": 167,
     "nome": "RUA_DA_JUDIARIA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "240",
-    "nome": "SÉ",
-    "rua": "14"
-  },
-  {
-    "_id": "241",
+    "_id": 168,
     "nome": "IGREJA_DE_SANTA_MARIA_DE_BRAGA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "242",
+    "_id": 169,
     "nome": "RUA_DE_SANTA_MARIA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "243",
+    "_id": 170,
     "nome": "JUDIARIA_VELHA",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "244",
-    "nome": "TERREIRO_DE_S._TIAGO",
-    "rua": "14"
-  },
-  {
-    "_id": "245",
-    "nome": "RUA_DO_POÇO",
-    "rua": "14"
-  },
-  {
-    "_id": "246",
-    "nome": "RUA_DAS_TRAVESSAS",
-    "rua": "14"
-  },
-  {
-    "_id": "247",
+    "_id": 171,
     "nome": "RUA_DE_S._TIAGO",
-    "rua": "14"
+    "ruas": [
+      "14",
+      "16"
+    ]
   },
   {
-    "_id": "248",
-    "nome": "RUA_D._GONÇALO_PEREIRA",
-    "rua": "14"
-  },
-  {
-    "_id": "249",
-    "nome": "RUA_DAS_OUSSIAS",
-    "rua": "14"
-  },
-  {
-    "_id": "250",
-    "nome": "RUA_PEQUENA",
-    "rua": "14"
-  },
-  {
-    "_id": "251",
-    "nome": "RUA_DE_SANTA_MARIA",
-    "rua": "14"
-  },
-  {
-    "_id": "252",
+    "_id": 172,
     "nome": "DO_POÇO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "253",
+    "_id": 173,
     "nome": "DO_FORNO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "254",
+    "_id": 174,
     "nome": "MORGADO_DE_REAL",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "255",
+    "_id": 175,
     "nome": "RIOFRIO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "256",
+    "_id": 176,
     "nome": "IGREJA_DE_SANTIAGO_DA_CIVIDADE",
-    "rua": "14"
+    "ruas": [
+      "14",
+      "16"
+    ]
   },
   {
-    "_id": "257",
-    "nome": "RUA_DO_POÇO",
-    "rua": "14"
-  },
-  {
-    "_id": "258",
+    "_id": 177,
     "nome": "DE_D._GUALDIM",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "259",
+    "_id": 178,
     "nome": "CAPELA_DE_S._BENTO",
-    "rua": "14"
+    "ruas": [
+      "14"
+    ]
   },
   {
-    "_id": "260",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "14"
-  },
-  {
-    "_id": "261",
-    "nome": "RUA_D._AFONSO_HENRIQUES",
-    "rua": "15"
-  },
-  {
-    "_id": "262",
+    "_id": 179,
     "nome": "RUAS_D._GONÇALO_PEREIRA_E_D._GUALDIM_PAIS",
-    "rua": "15"
+    "ruas": [
+      "15"
+    ]
   },
   {
-    "_id": "263",
-    "nome": "RUA_DO_POÇO",
-    "rua": "15"
-  },
-  {
-    "_id": "264",
+    "_id": 180,
     "nome": "AÇOUGUE",
-    "rua": "15"
+    "ruas": [
+      "15"
+    ]
   },
   {
-    "_id": "265",
+    "_id": 181,
     "nome": "TRAVESS",
-    "rua": "15"
+    "ruas": [
+      "15"
+    ]
   },
   {
-    "_id": "266",
+    "_id": 182,
     "nome": "SANTIAGO",
-    "rua": "15"
+    "ruas": [
+      "15"
+    ]
   },
   {
-    "_id": "267",
+    "_id": 183,
     "nome": "RUA_DE_D._GUALDIM.",
-    "rua": "15"
+    "ruas": [
+      "15"
+    ]
   },
   {
-    "_id": "268",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "15"
-  },
-  {
-    "_id": "269",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "16"
-  },
-  {
-    "_id": "270",
+    "_id": 184,
     "nome": "TERREIRO_DE_STO._ANTÓNIO",
-    "rua": "16"
+    "ruas": [
+      "16",
+      "19"
+    ]
   },
   {
-    "_id": "271",
-    "nome": "BAIRRO_DAS_TRAVESSAS",
-    "rua": "16"
-  },
-  {
-    "_id": "272",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "16"
-  },
-  {
-    "_id": "273",
-    "nome": "SÉ",
-    "rua": "16"
-  },
-  {
-    "_id": "274",
-    "nome": "RUA_D._AFONSO_HENRIQUES",
-    "rua": "16"
-  },
-  {
-    "_id": "275",
-    "nome": "RUA_DE_S._TIAGO",
-    "rua": "16"
-  },
-  {
-    "_id": "276",
+    "_id": 185,
     "nome": "RUA_DE_S._PAULO",
-    "rua": "16"
+    "ruas": [
+      "16",
+      "20"
+    ]
   },
   {
-    "_id": "277",
+    "_id": 186,
     "nome": "ARQUIVO_DA_CÂMARA_MUNICIPAL_DE_BRAGA",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "278",
+    "_id": 187,
     "nome": "CÂMARA",
-    "rua": "16"
+    "ruas": [
+      "16",
+      "26",
+      "31"
+    ]
   },
   {
-    "_id": "279",
+    "_id": 188,
     "nome": "RUA_DE_D._GUALDÍM",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "280",
+    "_id": 189,
     "nome": "CIDADE_MEDIEVAL",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "281",
+    "_id": 190,
     "nome": "A_IGREJA_DE_SANTIAGO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "282",
+    "_id": 191,
     "nome": "IGREJA_DA_CIVIDADE",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "283",
+    "_id": 192,
     "nome": "PALÁCIO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "284",
+    "_id": 193,
     "nome": "RUA_DOS_BURGUESES",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "285",
+    "_id": 194,
     "nome": "SOUTO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "286",
-    "nome": "IGREJA_DE_SANTIAGO",
-    "rua": "16"
-  },
-  {
-    "_id": "287",
-    "nome": "RUA_D._GONÇALO_PEREIRA",
-    "rua": "16"
-  },
-  {
-    "_id": "288",
-    "nome": "BRAGA",
-    "rua": "16"
-  },
-  {
-    "_id": "289",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "16"
-  },
-  {
-    "_id": "290",
+    "_id": 195,
     "nome": "CAPELA",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "291",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "16"
-  },
-  {
-    "_id": "292",
-    "nome": "TRAVESSA",
-    "rua": "16"
-  },
-  {
-    "_id": "293",
-    "nome": "RUA_DO_POÇO",
-    "rua": "16"
-  },
-  {
-    "_id": "294",
-    "nome": "IGREJA_DE_SANTIAGO_DA_CIVIDADE",
-    "rua": "16"
-  },
-  {
-    "_id": "295",
+    "_id": 196,
     "nome": "TERREIRO_DE_SANTO_ANTÓNIO",
-    "rua": "16"
+    "ruas": [
+      "16",
+      "19"
+    ]
   },
   {
-    "_id": "296",
+    "_id": 197,
     "nome": "RUA_DE_SANTO_ANTÓNIO",
-    "rua": "16"
+    "ruas": [
+      "16",
+      "17"
+    ]
   },
   {
-    "_id": "297",
+    "_id": 198,
     "nome": "RUA_DAS_CHAGAS",
-    "rua": "16"
+    "ruas": [
+      "16",
+      "17",
+      "18",
+      "22",
+      "45"
+    ]
   },
   {
-    "_id": "298",
+    "_id": 199,
     "nome": "STO._ANTÓNIO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "299",
+    "_id": 200,
     "nome": "CONFRARIA_DE_SANTIAGO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "300",
+    "_id": 201,
     "nome": "CASA_DO_CONCELHO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "301",
+    "_id": 202,
     "nome": "CASA_FOREIRA_À_CONFRARIA_DE_SANTIAGO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "302",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "16"
-  },
-  {
-    "_id": "303",
+    "_id": 203,
     "nome": "PRAÇA_DO_MUNICÍPIO",
-    "rua": "16"
+    "ruas": [
+      "16"
+    ]
   },
   {
-    "_id": "304",
-    "nome": "RUA_DAS_TRAVESSAS",
-    "rua": "17"
-  },
-  {
-    "_id": "305",
+    "_id": 204,
     "nome": "RUA_VERDE",
-    "rua": "17"
+    "ruas": [
+      "17",
+      "21",
+      "22",
+      "23"
+    ]
   },
   {
-    "_id": "306",
+    "_id": 205,
     "nome": "COUTO_DO_ARVOREDO",
-    "rua": "17"
+    "ruas": [
+      "17",
+      "21"
+    ]
   },
   {
-    "_id": "307",
-    "nome": "MURALHA",
-    "rua": "17"
-  },
-  {
-    "_id": "308",
+    "_id": 206,
     "nome": "CAMPO_DAS_CARVALHEIRAS",
-    "rua": "17"
+    "ruas": [
+      "17",
+      "25"
+    ]
   },
   {
-    "_id": "309",
+    "_id": 207,
     "nome": "S._MIGUEL_O_ANJO",
-    "rua": "17"
+    "ruas": [
+      "17"
+    ]
   },
   {
-    "_id": "310",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "17"
-  },
-  {
-    "_id": "311",
-    "nome": "RUA_D._AFONSO_HENRIQUES",
-    "rua": "17"
-  },
-  {
-    "_id": "312",
-    "nome": "RUA_DE_SANTO_ANTÓNIO",
-    "rua": "17"
-  },
-  {
-    "_id": "313",
-    "nome": "RUA_DAS_CHAGAS",
-    "rua": "17"
-  },
-  {
-    "_id": "314",
-    "nome": "RUA_VERDE",
-    "rua": "17"
-  },
-  {
-    "_id": "315",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "17"
-  },
-  {
-    "_id": "316",
-    "nome": "RUA_DAS_TRAVESSAS",
-    "rua": "18"
-  },
-  {
-    "_id": "317",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "18"
-  },
-  {
-    "_id": "318",
+    "_id": 208,
     "nome": "TRIPARIA",
-    "rua": "18"
+    "ruas": [
+      "18"
+    ]
   },
   {
-    "_id": "319",
-    "nome": "RUA_DAS_CHAGAS",
-    "rua": "18"
-  },
-  {
-    "_id": "320",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "18"
-  },
-  {
-    "_id": "321",
+    "_id": 209,
     "nome": "RUA_D._FREI_CAETANO_BRANDÃO",
-    "rua": "18"
+    "ruas": [
+      "18",
+      "23"
+    ]
   },
   {
-    "_id": "322",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "18"
-  },
-  {
-    "_id": "323",
+    "_id": 210,
     "nome": "IGREJA_DE_SANTIADO_DA_CIVIDADE",
-    "rua": "18"
+    "ruas": [
+      "18"
+    ]
   },
   {
-    "_id": "324",
-    "nome": "MITRA",
-    "rua": "18"
-  },
-  {
-    "_id": "325",
+    "_id": 211,
     "nome": "HOSPITAL_DE_REAL",
-    "rua": "18"
+    "ruas": [
+      "18"
+    ]
   },
   {
-    "_id": "326",
-    "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "18"
-  },
-  {
-    "_id": "327",
-    "nome": "RUA_DAS_TRAVESSAS",
-    "rua": "19"
-  },
-  {
-    "_id": "328",
-    "nome": "TERREIRO_DE_SANTO_ANTÓNIO",
-    "rua": "19"
-  },
-  {
-    "_id": "329",
+    "_id": 212,
     "nome": "JUDIARIA_NOVA",
-    "rua": "19"
+    "ruas": [
+      "19"
+    ]
   },
   {
-    "_id": "330",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "19"
-  },
-  {
-    "_id": "331",
-    "nome": "TERREIRO_DE_STO._ANTÓNIO",
-    "rua": "19"
-  },
-  {
-    "_id": "332",
+    "_id": 213,
     "nome": "«CASAS_TORRES»",
-    "rua": "19"
+    "ruas": [
+      "19"
+    ]
   },
   {
-    "_id": "333",
+    "_id": 214,
     "nome": "MOSTEIRO_DE_BOURO",
-    "rua": "19"
+    "ruas": [
+      "19",
+      "20"
+    ]
   },
   {
-    "_id": "334",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "19"
-  },
-  {
-    "_id": "335",
-    "nome": "TERREIRO_DE_S._TIAGO",
-    "rua": "20"
-  },
-  {
-    "_id": "336",
+    "_id": 215,
     "nome": "POSTIGO_DE_S._SEBASTIÃO",
-    "rua": "20"
+    "ruas": [
+      "20",
+      "21"
+    ]
   },
   {
-    "_id": "337",
+    "_id": 216,
     "nome": "RUA_TRAVESSA",
-    "rua": "20"
+    "ruas": [
+      "20"
+    ]
   },
   {
-    "_id": "338",
+    "_id": 217,
     "nome": "RUA_DO_POSTIGO",
-    "rua": "20"
+    "ruas": [
+      "20"
+    ]
   },
   {
-    "_id": "339",
+    "_id": 218,
     "nome": "RUA_DO_TERREIRO_DE_SANTO_ANTÓNIO",
-    "rua": "20"
+    "ruas": [
+      "20"
+    ]
   },
   {
-    "_id": "340",
+    "_id": 219,
     "nome": "«POSTIGO»_DA_MURALHA",
-    "rua": "20"
+    "ruas": [
+      "20"
+    ]
   },
   {
-    "_id": "341",
-    "nome": "RUA_DE_S._PAULO",
-    "rua": "20"
-  },
-  {
-    "_id": "342",
-    "nome": "S._PEDRO_DE_MERELIM",
-    "rua": "20"
-  },
-  {
-    "_id": "343",
+    "_id": 220,
     "nome": "PENSO",
-    "rua": "20"
+    "ruas": [
+      "20"
+    ]
   },
   {
-    "_id": "344",
+    "_id": 221,
     "nome": "MELGAÇO",
-    "rua": "20"
+    "ruas": [
+      "20"
+    ]
   },
   {
-    "_id": "345",
-    "nome": "MOSTEIRO_DE_BOURO",
-    "rua": "20"
-  },
-  {
-    "_id": "346",
-    "nome": "RUA_DE_D._GUALDIM",
-    "rua": "20"
-  },
-  {
-    "_id": "347",
-    "nome": "POSTIGO_DE_S._SEBASTIÃO",
-    "rua": "21"
-  },
-  {
-    "_id": "348",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "21"
-  },
-  {
-    "_id": "349",
-    "nome": "PORTA_DE_S._FRANCISCO",
-    "rua": "21"
-  },
-  {
-    "_id": "350",
+    "_id": 222,
     "nome": "RUAS_DOS_SAPATEIROS_E_DO_CAMPO",
-    "rua": "21"
+    "ruas": [
+      "21"
+    ]
   },
   {
-    "_id": "351",
+    "_id": 223,
     "nome": "MAXIMINOS",
-    "rua": "21"
+    "ruas": [
+      "21",
+      "23",
+      "29"
+    ]
   },
   {
-    "_id": "352",
+    "_id": 224,
     "nome": "CAPELA_DE_S._SEBASTIÃO",
-    "rua": "21"
+    "ruas": [
+      "21"
+    ]
   },
   {
-    "_id": "353",
+    "_id": 225,
     "nome": "CAMPO_DE_S._MIGUEL_O_ANJO",
-    "rua": "21"
+    "ruas": [
+      "21"
+    ]
   },
   {
-    "_id": "354",
-    "nome": "RUA_DAS_TRAVESSAS",
-    "rua": "21"
-  },
-  {
-    "_id": "355",
-    "nome": "COUTO_DO_ARVOREDO",
-    "rua": "21"
-  },
-  {
-    "_id": "356",
-    "nome": "RUA_VERDE",
-    "rua": "21"
-  },
-  {
-    "_id": "357",
+    "_id": 226,
     "nome": "RUA_DE_ST.º_ANTÓNIO",
-    "rua": "21"
+    "ruas": [
+      "21"
+    ]
   },
   {
-    "_id": "358",
+    "_id": 227,
     "nome": "«LUGAR_DO_SABUGAL»",
-    "rua": "21"
+    "ruas": [
+      "21"
+    ]
   },
   {
-    "_id": "359",
+    "_id": 228,
     "nome": "RUA_DE_STO._ANTÓNIO.",
-    "rua": "21"
+    "ruas": [
+      "21"
+    ]
   },
   {
-    "_id": "360",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "21"
-  },
-  {
-    "_id": "361",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "22"
-  },
-  {
-    "_id": "362",
+    "_id": 229,
     "nome": "PORTA_DE_MAXIMINOS",
-    "rua": "22"
+    "ruas": [
+      "22"
+    ]
   },
   {
-    "_id": "363",
+    "_id": 230,
     "nome": "NOSSA_SENHORA_DA_AJUDA",
-    "rua": "22"
+    "ruas": [
+      "22",
+      "27"
+    ]
   },
   {
-    "_id": "364",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "22"
-  },
-  {
-    "_id": "365",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "22"
-  },
-  {
-    "_id": "366",
-    "nome": "PRAÇA_DO_PÃO",
-    "rua": "22"
-  },
-  {
-    "_id": "367",
-    "nome": "RUA_DAS_CHAGAS",
-    "rua": "22"
-  },
-  {
-    "_id": "368",
-    "nome": "RUA_VERDE",
-    "rua": "22"
-  },
-  {
-    "_id": "369",
-    "nome": "RUA_DOS_SAPATEIROS",
-    "rua": "22"
-  },
-  {
-    "_id": "370",
+    "_id": 231,
     "nome": "SÉ_DE_BRAGA",
-    "rua": "22"
+    "ruas": [
+      "22",
+      "27"
+    ]
   },
   {
-    "_id": "371",
-    "nome": "RUA_VERDE",
-    "rua": "23"
-  },
-  {
-    "_id": "372",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "23"
-  },
-  {
-    "_id": "373",
-    "nome": "RUA_NOVA",
-    "rua": "23"
-  },
-  {
-    "_id": "374",
-    "nome": "MAXIMINOS",
-    "rua": "23"
-  },
-  {
-    "_id": "375",
+    "_id": 232,
     "nome": "ROSSIO_DA_PRAÇA",
-    "rua": "23"
+    "ruas": [
+      "23"
+    ]
   },
   {
-    "_id": "376",
-    "nome": "RUA_DOS_SAPATEIROS",
-    "rua": "23"
-  },
-  {
-    "_id": "377",
-    "nome": "RUA_D._FREI_CAETANO_BRANDÃO",
-    "rua": "23"
-  },
-  {
-    "_id": "378",
-    "nome": "RUA_NOVA_DE_SOUSA",
-    "rua": "23"
-  },
-  {
-    "_id": "379",
+    "_id": 233,
     "nome": "RUA_DA_VIELINHA",
-    "rua": "23"
+    "ruas": [
+      "23",
+      "24"
+    ]
   },
   {
-    "_id": "380",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "24"
-  },
-  {
-    "_id": "381",
+    "_id": 234,
     "nome": "REXIO_DA_PRAÇA",
-    "rua": "24"
+    "ruas": [
+      "24"
+    ]
   },
   {
-    "_id": "382",
-    "nome": "RUA_DOS_SAPATEIROS",
-    "rua": "24"
-  },
-  {
-    "_id": "383",
-    "nome": "RUA_DA_VIELINHA",
-    "rua": "24"
-  },
-  {
-    "_id": "384",
-    "nome": "CAMPO_DAS_HORTAS",
-    "rua": "25"
-  },
-  {
-    "_id": "385",
+    "_id": 235,
     "nome": "CAMPO_DE_S._SEBASTIÃO",
-    "rua": "25"
+    "ruas": [
+      "25",
+      "27"
+    ]
   },
   {
-    "_id": "386",
+    "_id": 236,
     "nome": "EM_FRENTE_DO_AÇOUGUE",
-    "rua": "25"
+    "ruas": [
+      "25"
+    ]
   },
   {
-    "_id": "387",
+    "_id": 237,
     "nome": "RUA_DE_S._MIGUEL_O_ANJO",
-    "rua": "25"
+    "ruas": [
+      "25",
+      "27"
+    ]
   },
   {
-    "_id": "388",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "25"
-  },
-  {
-    "_id": "389",
+    "_id": 238,
     "nome": "CAPELA_DE_S._MIGUEL_O_ANJO",
-    "rua": "25"
+    "ruas": [
+      "25",
+      "26"
+    ]
   },
   {
-    "_id": "390",
-    "nome": "RUA_DE_S._MIGUEL_O_ANJO",
-    "rua": "25"
-  },
-  {
-    "_id": "391",
+    "_id": 239,
     "nome": "CRUZEIRO",
-    "rua": "25"
+    "ruas": [
+      "25"
+    ]
   },
   {
-    "_id": "392",
+    "_id": 240,
     "nome": "AVENIDA_DE_S._MIGUEL_O_ANJO",
-    "rua": "25"
+    "ruas": [
+      "25"
+    ]
   },
   {
-    "_id": "393",
-    "nome": "CAMPO_DE_S._SEBASTIÃO",
-    "rua": "25"
-  },
-  {
-    "_id": "394",
-    "nome": "CAMPO_DAS_CARVALHEIRAS",
-    "rua": "25"
-  },
-  {
-    "_id": "395",
+    "_id": 241,
     "nome": "RUA_DO_MATADOURO_VELHO",
-    "rua": "25"
+    "ruas": [
+      "25"
+    ]
   },
   {
-    "_id": "396",
+    "_id": 242,
     "nome": "RUA_DO_ARRABALDE_DA_CRUZ_DE_PEDRA",
-    "rua": "25"
+    "ruas": [
+      "25",
+      "30"
+    ]
   },
   {
-    "_id": "397",
-    "nome": "RUA_DE_S._MIGUEL_O_ANJO",
-    "rua": "25"
-  },
-  {
-    "_id": "398",
-    "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "25"
-  },
-  {
-    "_id": "399",
+    "_id": 243,
     "nome": "RUA_EM_FRENTE_DOS_AÇOGUES",
-    "rua": "26"
+    "ruas": [
+      "26"
+    ]
   },
   {
-    "_id": "400",
-    "nome": "CAMPO_DAS_HORTAS",
-    "rua": "26"
-  },
-  {
-    "_id": "401",
+    "_id": 244,
     "nome": "RUA_DE_CRUZ_DE_PEDRA",
-    "rua": "26"
+    "ruas": [
+      "26"
+    ]
   },
   {
-    "_id": "402",
-    "nome": "CAPELA_DE_S._MIGUEL_O_ANJO",
-    "rua": "26"
-  },
-  {
-    "_id": "403",
-    "nome": "RUA_DE_MAXIMINOS",
-    "rua": "26"
-  },
-  {
-    "_id": "404",
+    "_id": 245,
     "nome": "RUA_VISCONDE_PINDELA",
-    "rua": "26"
+    "ruas": [
+      "26"
+    ]
   },
   {
-    "_id": "405",
-    "nome": "CASA_FOREIRA_À_MITRA",
-    "rua": "26"
-  },
-  {
-    "_id": "406",
+    "_id": 246,
     "nome": "ROSSIO",
-    "rua": "26"
+    "ruas": [
+      "26"
+    ]
   },
   {
-    "_id": "407",
+    "_id": 247,
     "nome": "RUA_DA_CRUZ_DA_PEDRA.",
-    "rua": "26"
+    "ruas": [
+      "26",
+      "31"
+    ]
   },
   {
-    "_id": "408",
-    "nome": "CÂMARA",
-    "rua": "26"
-  },
-  {
-    "_id": "409",
+    "_id": 248,
     "nome": "AÇOGUE",
-    "rua": "26"
+    "ruas": [
+      "26"
+    ]
   },
   {
-    "_id": "410",
-    "nome": "RUA_DE_S._MIGUEL_O_ANJO",
-    "rua": "27"
-  },
-  {
-    "_id": "411",
+    "_id": 249,
     "nome": "BECO_E_DIREITA",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "412",
-    "nome": "NOSSA_SENHORA_DA_AJUDA",
-    "rua": "27"
-  },
-  {
-    "_id": "413",
+    "_id": 250,
     "nome": "IGREJA_DE_MAXIMINOS",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "414",
+    "_id": 251,
     "nome": "RUA_DO_CAIRES",
-    "rua": "27"
+    "ruas": [
+      "27",
+      "29"
+    ]
   },
   {
-    "_id": "415",
+    "_id": 252,
     "nome": "LARGO_DO_BECO",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "416",
-    "nome": "CAMPO_DE_S._SEBASTIÃO",
-    "rua": "27"
-  },
-  {
-    "_id": "417",
+    "_id": 253,
     "nome": "LISBOA",
-    "rua": "27"
+    "ruas": [
+      "27",
+      "42"
+    ]
   },
   {
-    "_id": "418",
+    "_id": 254,
     "nome": "COMPANHIA_DE_JESUS",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "419",
-    "nome": "SÉ_DE_BRAGA",
-    "rua": "27"
-  },
-  {
-    "_id": "420",
+    "_id": 255,
     "nome": "S._CRISTÓVÃO",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "421",
+    "_id": 256,
     "nome": "S._PEDRO_DE_MAXIMINOS",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "422",
+    "_id": 257,
     "nome": "RUA_DA_CRUZ_DA_PEDRA",
-    "rua": "27"
+    "ruas": [
+      "27",
+      "30"
+    ]
   },
   {
-    "_id": "423",
+    "_id": 258,
     "nome": "S._SEBASTIÃO",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "424",
+    "_id": 259,
     "nome": "CANGOSTA_DOS_CORVOS",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "425",
+    "_id": 260,
     "nome": "RUA_DA_CRUZ_DE_PEDRA",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "426",
+    "_id": 261,
     "nome": "RUDA_DA_CRUZ_DA_PEDRA",
-    "rua": "27"
+    "ruas": [
+      "27"
+    ]
   },
   {
-    "_id": "427",
+    "_id": 262,
     "nome": "RUA_CRUZ_DE_PEDRA",
-    "rua": "28"
+    "ruas": [
+      "28"
+    ]
   },
   {
-    "_id": "428",
+    "_id": 263,
     "nome": "MONTE_DAS_PENAS",
-    "rua": "28"
+    "ruas": [
+      "28"
+    ]
   },
   {
-    "_id": "429",
+    "_id": 264,
     "nome": "LARGO_DE_MAXIMINOS",
-    "rua": "28"
+    "ruas": [
+      "28"
+    ]
   },
   {
-    "_id": "430",
+    "_id": 265,
     "nome": "PRAÇA_DO_CONDESTÁVEL",
-    "rua": "28"
+    "ruas": [
+      "28"
+    ]
   },
   {
-    "_id": "431",
+    "_id": 266,
     "nome": "ENFIAMENTO_DA_CANGOSTA_DE_S._SEBASTIÃO",
-    "rua": "29"
+    "ruas": [
+      "29"
+    ]
   },
   {
-    "_id": "432",
-    "nome": "MAXIMINOS",
-    "rua": "29"
-  },
-  {
-    "_id": "433",
-    "nome": "RUA_DO_CAIRES",
-    "rua": "29"
-  },
-  {
-    "_id": "434",
+    "_id": 267,
     "nome": "BECO",
-    "rua": "29"
+    "ruas": [
+      "29",
+      "30"
+    ]
   },
   {
-    "_id": "435",
+    "_id": 268,
     "nome": "CIVIDADE",
-    "rua": "30"
+    "ruas": [
+      "30"
+    ]
   },
   {
-    "_id": "436",
+    "_id": 269,
     "nome": "TERREIRO_DE_S._SEBASTIÃO",
-    "rua": "30"
+    "ruas": [
+      "30"
+    ]
   },
   {
-    "_id": "437",
+    "_id": 270,
     "nome": "CAPELA_DE_S._SEBASTIÃO_DAS_CARVALHEIRAS)",
-    "rua": "30"
+    "ruas": [
+      "30"
+    ]
   },
   {
-    "_id": "438",
-    "nome": "BECO",
-    "rua": "30"
-  },
-  {
-    "_id": "439",
+    "_id": 271,
     "nome": "IGREJA_PAROQUIAL_DE_MAXIMINOS",
-    "rua": "30"
+    "ruas": [
+      "30"
+    ]
   },
   {
-    "_id": "440",
+    "_id": 272,
     "nome": "RUA_DOS_MARCHANTES",
-    "rua": "30"
+    "ruas": [
+      "30"
+    ]
   },
   {
-    "_id": "441",
+    "_id": 273,
     "nome": "RUA_DO_ARRABALDE_DA_CRUZ_DA_PEDRA",
-    "rua": "30"
+    "ruas": [
+      "30",
+      "31"
+    ]
   },
   {
-    "_id": "442",
-    "nome": "RUA_DO_ARRABALDE_DA_CRUZ_DE_PEDRA",
-    "rua": "30"
-  },
-  {
-    "_id": "443",
-    "nome": "RUA_DA_CRUZ_DA_PEDRA",
-    "rua": "30"
-  },
-  {
-    "_id": "444",
+    "_id": 274,
     "nome": "RUA_DO_ARRABALDE_DE_CRUZ_DA_PEDRA",
-    "rua": "30"
+    "ruas": [
+      "30"
+    ]
   },
   {
-    "_id": "445",
+    "_id": 275,
     "nome": "CAMPO_DE_S._TIAGO",
-    "rua": "31"
+    "ruas": [
+      "31",
+      "33",
+      "34"
+    ]
   },
   {
-    "_id": "446",
+    "_id": 276,
     "nome": "TERREIRO_DE_S._SEBASTIÃO.",
-    "rua": "31"
+    "ruas": [
+      "31"
+    ]
   },
   {
-    "_id": "447",
-    "nome": "CÂMARA",
-    "rua": "31"
-  },
-  {
-    "_id": "448",
-    "nome": "RUA_DO_ARRABALDE_DA_CRUZ_DA_PEDRA",
-    "rua": "31"
-  },
-  {
-    "_id": "449",
+    "_id": 277,
     "nome": "ARRABALDE_DA_CRUZ_DA_PEDRA",
-    "rua": "31"
+    "ruas": [
+      "31"
+    ]
   },
   {
-    "_id": "450",
-    "nome": "RUA_DA_CRUZ_DA_PEDRA.",
-    "rua": "31"
-  },
-  {
-    "_id": "451",
+    "_id": 278,
     "nome": "LARGO_DE_S._TIAGO",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "452",
+    "_id": 279,
     "nome": "PONTE_DOS_PELAMES",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "453",
+    "_id": 280,
     "nome": "PORTO",
-    "rua": "32"
+    "ruas": [
+      "32",
+      "33"
+    ]
   },
   {
-    "_id": "454",
+    "_id": 281,
     "nome": "RUA_DO_INFANTE",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "455",
+    "_id": 282,
     "nome": "DE_PELAMES",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "456",
+    "_id": 283,
     "nome": "RUA_DE_S._GERALDO",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "457",
+    "_id": 284,
     "nome": "CONVENTO_DA_CONCEIÇÃO",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "458",
+    "_id": 285,
     "nome": "CAMPO_DE_SANTIAGO",
-    "rua": "32"
+    "ruas": [
+      "32",
+      "33",
+      "34"
+    ]
   },
   {
-    "_id": "459",
-    "nome": "MITRA",
-    "rua": "32"
-  },
-  {
-    "_id": "460",
-    "nome": "CAMPO_DE_SANTIAGO",
-    "rua": "32"
-  },
-  {
-    "_id": "461",
+    "_id": 286,
     "nome": "COUTO_DE_MOURE_DE_OLIVAIS",
-    "rua": "32"
+    "ruas": [
+      "32"
+    ]
   },
   {
-    "_id": "462",
-    "nome": "PORTO",
-    "rua": "33"
-  },
-  {
-    "_id": "463",
+    "_id": 287,
     "nome": "RUA_DOS_PELAMES",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "464",
+    "_id": 288,
     "nome": "COLÉGIO_DE_S._PAULO",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "465",
+    "_id": 289,
     "nome": "SEMINÁRIO_DE_SANTIAGO",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "466",
+    "_id": 290,
     "nome": "RUAS_DOS_PELAMES",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "467",
+    "_id": 291,
     "nome": "RUA_S._PAULO",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "468",
+    "_id": 292,
     "nome": "LARGO_DE_S._PAULO",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "469",
-    "nome": "CAMPO_DE_S._TIAGO",
-    "rua": "33"
-  },
-  {
-    "_id": "470",
+    "_id": 293,
     "nome": "RUA_DOS_PELLAMES",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "471",
+    "_id": 294,
     "nome": "CASA_DOS_FALCÕES_COTA",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "472",
+    "_id": 295,
     "nome": "LUGAR_DO_POMBAL",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "473",
+    "_id": 296,
     "nome": "FREGUESIA_DE_STA._MARIA_DE_MUJÃO",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "474",
+    "_id": 297,
     "nome": "CAMPO_DE_AVELAR,_FIGUEIRA_E_LARANJEIRA",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "475",
+    "_id": 298,
     "nome": "CAMPO_DE_SANTIGO",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "476",
-    "nome": "RUA_DOS_PELAMES",
-    "rua": "33"
-  },
-  {
-    "_id": "477",
+    "_id": 299,
     "nome": "RUA_DO_ALCAIDE",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "478",
+    "_id": 300,
     "nome": "FREGUESIA_DE_CERVÃES",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "479",
+    "_id": 301,
     "nome": "CAMPO_DOS_REMÉDIOS",
-    "rua": "33"
+    "ruas": [
+      "33",
+      "35"
+    ]
   },
   {
-    "_id": "480",
+    "_id": 302,
     "nome": "IGREJA_DE_SANTA_CRUZ",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "481",
+    "_id": 303,
     "nome": "CANGOSTA_DAS_CRUZES",
-    "rua": "33"
+    "ruas": [
+      "33"
+    ]
   },
   {
-    "_id": "482",
-    "nome": "CAMPO_DE_SANTIAGO",
-    "rua": "33"
-  },
-  {
-    "_id": "483",
+    "_id": 304,
     "nome": "RUA_DOS_CHÃOS_DE_BAIXO",
-    "rua": "33"
+    "ruas": [
+      "33",
+      "44",
+      "46",
+      "53"
+    ]
   },
   {
-    "_id": "484",
-    "nome": "CAMPO_DE_S._TIAGO",
-    "rua": "34"
-  },
-  {
-    "_id": "485",
-    "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "34"
-  },
-  {
-    "_id": "486",
-    "nome": "CAMPO_DE_S._TIAGO",
-    "rua": "34"
-  },
-  {
-    "_id": "487",
+    "_id": 305,
     "nome": "RUA_DO_ANJO",
-    "rua": "34"
+    "ruas": [
+      "34",
+      "45"
+    ]
   },
   {
-    "_id": "488",
-    "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "34"
-  },
-  {
-    "_id": "489",
-    "nome": "CAMPO_DE_SANTIAGO",
-    "rua": "34"
-  },
-  {
-    "_id": "490",
-    "nome": "PORTA_DO_SOUTO",
-    "rua": "35"
-  },
-  {
-    "_id": "491",
-    "nome": "CAMPO_DOS_REMÉDIOS",
-    "rua": "35"
-  },
-  {
-    "_id": "492",
-    "nome": "BRAGA",
-    "rua": "35"
-  },
-  {
-    "_id": "493",
+    "_id": 306,
     "nome": "CAPELA_DE_STA._LUZIA",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "494",
+    "_id": 307,
     "nome": "MORGADO_DE_BESTEIROS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "495",
+    "_id": 308,
     "nome": "CONVENTO_DOS_REMÉDIOS",
-    "rua": "35"
+    "ruas": [
+      "35",
+      "36"
+    ]
   },
   {
-    "_id": "496",
+    "_id": 309,
     "nome": "CONVENTO_DE_NOSSA_SENHORA_DOS_REMÉDIOS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "497",
-    "nome": "PORTA_DE_S._JOÃO",
-    "rua": "35"
-  },
-  {
-    "_id": "498",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "35"
-  },
-  {
-    "_id": "499",
-    "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "35"
-  },
-  {
-    "_id": "500",
+    "_id": 310,
     "nome": "RUA_DOS_GRANJINHOS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "501",
+    "_id": 311,
     "nome": "S._LÁZARO",
-    "rua": "35"
+    "ruas": [
+      "35",
+      "36",
+      "38"
+    ]
   },
   {
-    "_id": "502",
+    "_id": 312,
     "nome": "GRANJINHOS",
-    "rua": "35"
+    "ruas": [
+      "35",
+      "37"
+    ]
   },
   {
-    "_id": "503",
-    "nome": "HOSPITAL_DE_S._MARCOS",
-    "rua": "35"
-  },
-  {
-    "_id": "504",
+    "_id": 313,
     "nome": "NOSSA_SENHORA_A_BRANCA",
-    "rua": "35"
+    "ruas": [
+      "35",
+      "36",
+      "37"
+    ]
   },
   {
-    "_id": "505",
-    "nome": "S._JOÃO_DO_SOUTO",
-    "rua": "35"
-  },
-  {
-    "_id": "506",
+    "_id": 314,
     "nome": "CANGOSTA_DA_PALMATÓRIA",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "507",
+    "_id": 315,
     "nome": "HORTAS_DOS_GRANGINHOS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "508",
+    "_id": 316,
     "nome": "FONTE_DO_ÍDOLO",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "509",
+    "_id": 317,
     "nome": "HORTAS_DE_S._MARCOS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "510",
+    "_id": 318,
     "nome": "FONTE_DE_S._MARCOS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "511",
+    "_id": 319,
     "nome": "RUA_DE_S._LÁZARO",
-    "rua": "35"
+    "ruas": [
+      "35",
+      "37",
+      "38"
+    ]
   },
   {
-    "_id": "512",
+    "_id": 320,
     "nome": "TERREIRO_DE_S._LÁZARO",
-    "rua": "35"
+    "ruas": [
+      "35",
+      "37",
+      "38"
+    ]
   },
   {
-    "_id": "513",
+    "_id": 321,
     "nome": "RUA_DOS_GRANGINHOS",
-    "rua": "35"
+    "ruas": [
+      "35"
+    ]
   },
   {
-    "_id": "514",
-    "nome": "S._LÁZARO",
-    "rua": "36"
-  },
-  {
-    "_id": "515",
+    "_id": 322,
     "nome": "PORTA_DE_GUIMARÃES",
-    "rua": "36"
+    "ruas": [
+      "36"
+    ]
   },
   {
-    "_id": "516",
-    "nome": "ARCADA",
-    "rua": "36"
-  },
-  {
-    "_id": "517",
+    "_id": 323,
     "nome": "PONTE_DE_GUIMARÃES",
-    "rua": "36"
+    "ruas": [
+      "36",
+      "38",
+      "40"
+    ]
   },
   {
-    "_id": "518",
-    "nome": "RUA_DO_SOUTO",
-    "rua": "36"
-  },
-  {
-    "_id": "519",
-    "nome": "CONVENTO_DOS_REMÉDIOS",
-    "rua": "36"
-  },
-  {
-    "_id": "520",
+    "_id": 324,
     "nome": "RUA_DAS_ÁGUAS",
-    "rua": "36"
+    "ruas": [
+      "36",
+      "37",
+      "41",
+      "60"
+    ]
   },
   {
-    "_id": "521",
+    "_id": 325,
     "nome": "AVENIDA_DA_LIBERDADE",
-    "rua": "36"
+    "ruas": [
+      "36",
+      "37",
+      "39"
+    ]
   },
   {
-    "_id": "522",
+    "_id": 326,
     "nome": "RECHICHO",
-    "rua": "36"
+    "ruas": [
+      "36"
+    ]
   },
   {
-    "_id": "523",
-    "nome": "RUA_DAS_ÁGUAS",
-    "rua": "36"
-  },
-  {
-    "_id": "524",
-    "nome": "RUA_DAS_ÁGUAS",
-    "rua": "36"
-  },
-  {
-    "_id": "525",
-    "nome": "BRAGA",
-    "rua": "36"
-  },
-  {
-    "_id": "526",
+    "_id": 327,
     "nome": "CASAL_DO_RIBEIRO",
-    "rua": "36"
+    "ruas": [
+      "36"
+    ]
   },
   {
-    "_id": "527",
-    "nome": "FREGUESIA_DE_S._JERÓNIMO_DE_REAL",
-    "rua": "36"
-  },
-  {
-    "_id": "528",
+    "_id": 328,
     "nome": "QUINTOS_DA_MITRA",
-    "rua": "36"
+    "ruas": [
+      "36"
+    ]
   },
   {
-    "_id": "529",
-    "nome": "NOSSA_SENHORA_A_BRANCA",
-    "rua": "36"
-  },
-  {
-    "_id": "530",
+    "_id": 329,
     "nome": "CANGOSTA_DA_RUA_DAS_ÁGUAS",
-    "rua": "36"
+    "ruas": [
+      "36"
+    ]
   },
   {
-    "_id": "531",
-    "nome": "ARCADA",
-    "rua": "37"
-  },
-  {
-    "_id": "532",
+    "_id": 330,
     "nome": "GUIMARÃES",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "533",
+    "_id": 331,
     "nome": "RUA_DE_ÁGUAS",
-    "rua": "37"
+    "ruas": [
+      "37",
+      "41"
+    ]
   },
   {
-    "_id": "534",
-    "nome": "TERREIRO_DE_S._LÁZARO",
-    "rua": "37"
-  },
-  {
-    "_id": "535",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "37"
-  },
-  {
-    "_id": "536",
-    "nome": "AVENIDA_DA_LIBERDADE",
-    "rua": "37"
-  },
-  {
-    "_id": "537",
+    "_id": 332,
     "nome": "LARGO_DO_RECHICHO",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "538",
+    "_id": 333,
     "nome": "RUA_25_DE_ABRIL",
-    "rua": "37"
+    "ruas": [
+      "37",
+      "38"
+    ]
   },
   {
-    "_id": "539",
-    "nome": "RUA_DAS_ÁGUAS",
-    "rua": "37"
-  },
-  {
-    "_id": "540",
-    "nome": "NOSSA_SENHORA_A_BRANCA",
-    "rua": "37"
-  },
-  {
-    "_id": "541",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "37"
-  },
-  {
-    "_id": "542",
+    "_id": 334,
     "nome": "FREGUESIA_DE_S._PEDRO_DE_MAXIMINOS",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "543",
+    "_id": 335,
     "nome": "CASAL_OU_QUINTA_DE_PORTAS",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "544",
-    "nome": "BRAGA",
-    "rua": "37"
-  },
-  {
-    "_id": "545",
+    "_id": 336,
     "nome": "CASAL_DE_PORTAS_(CASA_Nº1)",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "546",
-    "nome": "TERREIRO_DE_S._LÁZARO",
-    "rua": "37"
-  },
-  {
-    "_id": "547",
+    "_id": 337,
     "nome": "CASAL_DOS_ALAMOS",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "548",
+    "_id": 338,
     "nome": "RUA_DE_TRÁS_DE_S._MARCOS",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "549",
-    "nome": "GRANJINHOS",
-    "rua": "37"
-  },
-  {
-    "_id": "550",
+    "_id": 339,
     "nome": "S._MARCOS",
-    "rua": "37"
+    "ruas": [
+      "37"
+    ]
   },
   {
-    "_id": "551",
+    "_id": 340,
     "nome": "ÁGOAS",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "552",
-    "nome": "S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "553",
-    "nome": "ARCADA",
-    "rua": "38"
-  },
-  {
-    "_id": "554",
-    "nome": "PONTE_DE_GUIMARÃES",
-    "rua": "38"
-  },
-  {
-    "_id": "555",
+    "_id": 341,
     "nome": "RUA_DA_PONTE",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "556",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "557",
+    "_id": 342,
     "nome": "CAPELA_DE_S._LÁZARO",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "558",
+    "_id": 343,
     "nome": "TROÇO_DA_AVENIDA_DA_LIBERDADE",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "559",
-    "nome": "RUA_25_DE_ABRIL",
-    "rua": "38"
-  },
-  {
-    "_id": "560",
+    "_id": 344,
     "nome": "LARGO_DAS_LATINHAS_OU_DO_SENHOR_DOS_AFLITOS",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "561",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "562",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "38"
-  },
-  {
-    "_id": "563",
-    "nome": "TERREIRO_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "564",
-    "nome": "TERREIRO_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "565",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "566",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "567",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "568",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "569",
+    "_id": 345,
     "nome": "RUA_PAIO_MANTA",
-    "rua": "38"
+    "ruas": [
+      "38",
+      "39"
+    ]
   },
   {
-    "_id": "570",
-    "nome": "BRAGA",
-    "rua": "38"
-  },
-  {
-    "_id": "571",
+    "_id": 346,
     "nome": "LAGES",
-    "rua": "38"
+    "ruas": [
+      "38",
+      "39"
+    ]
   },
   {
-    "_id": "572",
-    "nome": "RUA_PAIO_MANTA",
-    "rua": "38"
-  },
-  {
-    "_id": "573",
+    "_id": 347,
     "nome": "CASAL_DOS_GALOS",
-    "rua": "38"
+    "ruas": [
+      "38",
+      "39"
+    ]
   },
   {
-    "_id": "574",
-    "nome": "CASAL_DOS_GALOS",
-    "rua": "38"
-  },
-  {
-    "_id": "575",
-    "nome": "PONTE_DE_GUIMARÃES",
-    "rua": "38"
-  },
-  {
-    "_id": "576",
+    "_id": 348,
     "nome": "FREGUESIA_DE_S._JOSÉ_DE_S._LÁZARO",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "577",
-    "nome": "CASAL_DOS_GALOS",
-    "rua": "38"
-  },
-  {
-    "_id": "578",
+    "_id": 349,
     "nome": "PELAMES",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "579",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "580",
-    "nome": "CAPELA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "581",
+    "_id": 350,
     "nome": "RUA_DE_TRÁS_DE_S._MARCOS_(GRANJINHOS)",
-    "rua": "38"
+    "ruas": [
+      "38"
+    ]
   },
   {
-    "_id": "582",
-    "nome": "RUA_DE_S._LÁZARO",
-    "rua": "38"
-  },
-  {
-    "_id": "583",
+    "_id": 351,
     "nome": "CAPELA_DE_D._GONÇALO_PEREIRA",
-    "rua": "38"
+    "ruas": [
+      "38",
+      "42"
+    ]
   },
   {
-    "_id": "584",
-    "nome": "ARCADA",
-    "rua": "39"
-  },
-  {
-    "_id": "585",
+    "_id": 352,
     "nome": "PONTE_SOBRE_O_RIO_ESTE",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "586",
+    "_id": 353,
     "nome": "LARGO_DO_SENHOR_DOS_AFLITOS",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "587",
+    "_id": 354,
     "nome": "LATINHAS",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "588",
-    "nome": "AVENIDA_DA_LIBERDADE",
-    "rua": "39"
-  },
-  {
-    "_id": "589",
+    "_id": 355,
     "nome": "RUA_CONSELHEIRO_LOBATO",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "590",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "39"
-  },
-  {
-    "_id": "591",
-    "nome": "CASAL_DOS_GALOS",
-    "rua": "39"
-  },
-  {
-    "_id": "592",
+    "_id": 356,
     "nome": "RUA_DO_PAIO_MANTA_E_LAGES",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "593",
+    "_id": 357,
     "nome": "CASAL_E_MOÍNHOS_DO_SALGUEIRO",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "594",
+    "_id": 358,
     "nome": "RUA_DO_PAIO_MANTA",
-    "rua": "39"
+    "ruas": [
+      "39"
+    ]
   },
   {
-    "_id": "595",
-    "nome": "LAGES",
-    "rua": "39"
-  },
-  {
-    "_id": "596",
-    "nome": "RUA_PAIO_MANTA",
-    "rua": "39"
-  },
-  {
-    "_id": "597",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "40"
-  },
-  {
-    "_id": "598",
+    "_id": 359,
     "nome": "PONTILHÃO_DAS_LAGES",
-    "rua": "40"
+    "ruas": [
+      "40"
+    ]
   },
   {
-    "_id": "599",
-    "nome": "BRAGA",
-    "rua": "40"
-  },
-  {
-    "_id": "600",
+    "_id": 360,
     "nome": "PAI_AMANTE",
-    "rua": "40"
+    "ruas": [
+      "40"
+    ]
   },
   {
-    "_id": "601",
+    "_id": 361,
     "nome": "CONSELHEIRO_LOBATO",
-    "rua": "40"
+    "ruas": [
+      "40"
+    ]
   },
   {
-    "_id": "602",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "40"
-  },
-  {
-    "_id": "603",
+    "_id": 362,
     "nome": "QUINTA_E_MOINHOS_DA_SERRA",
-    "rua": "40"
+    "ruas": [
+      "40"
+    ]
   },
   {
-    "_id": "604",
+    "_id": 363,
     "nome": "QUINTÃ_E_MOINHOS_DA_SERRA_E_DA_RIBEIRA",
-    "rua": "40"
+    "ruas": [
+      "40"
+    ]
   },
   {
-    "_id": "605",
-    "nome": "PONTE_DE_GUIMARÃES",
-    "rua": "40"
-  },
-  {
-    "_id": "606",
-    "nome": "RUA_DA_PONTE_DE_GUIMARÃES",
-    "rua": "40"
-  },
-  {
-    "_id": "607",
-    "nome": "PORTA_DE_SOUTO",
-    "rua": "41"
-  },
-  {
-    "_id": "608",
+    "_id": 364,
     "nome": "CORREDOURA",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "609",
+    "_id": 365,
     "nome": "SENHORA_A_BRANCA",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "610",
+    "_id": 366,
     "nome": "S._VICTOR",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "611",
+    "_id": 367,
     "nome": "CHAVES",
-    "rua": "41"
+    "ruas": [
+      "41",
+      "43"
+    ]
   },
   {
-    "_id": "612",
+    "_id": 368,
     "nome": "BOM_JESUS",
-    "rua": "41"
+    "ruas": [
+      "41",
+      "43"
+    ]
   },
   {
-    "_id": "613",
-    "nome": "PORTA_DO_SOUTO",
-    "rua": "41"
-  },
-  {
-    "_id": "614",
+    "_id": 369,
     "nome": "SANTA_MARIA_A_BRANCA",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "615",
+    "_id": 370,
     "nome": "RUA_DA_CORREDOURA",
-    "rua": "41"
+    "ruas": [
+      "41",
+      "43"
+    ]
   },
   {
-    "_id": "616",
+    "_id": 371,
     "nome": "CAMPO_DE_SANTA_ANA",
-    "rua": "41"
+    "ruas": [
+      "41",
+      "49"
+    ]
   },
   {
-    "_id": "617",
-    "nome": "RUA_DE_ÁGUAS",
-    "rua": "41"
-  },
-  {
-    "_id": "618",
+    "_id": 372,
     "nome": "AVENIDA_CENTRAL",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "619",
+    "_id": 373,
     "nome": "RUA_DE_S._GONÇALO",
-    "rua": "41"
+    "ruas": [
+      "41",
+      "48",
+      "50"
+    ]
   },
   {
-    "_id": "620",
-    "nome": "RUA_DAS_ÁGUAS",
-    "rua": "41"
-  },
-  {
-    "_id": "621",
+    "_id": 374,
     "nome": "CAMPO_DA_RUA_DAS_ÁGUAS",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "622",
+    "_id": 375,
     "nome": "CAMINHO_NOVO",
-    "rua": "41"
+    "ruas": [
+      "41"
+    ]
   },
   {
-    "_id": "623",
+    "_id": 376,
     "nome": "SANTA_ANA",
-    "rua": "42"
+    "ruas": [
+      "42",
+      "44"
+    ]
   },
   {
-    "_id": "624",
+    "_id": 377,
     "nome": "RUA_DE_SANTA_MARGARIDA",
-    "rua": "42"
+    "ruas": [
+      "42",
+      "51"
+    ]
   },
   {
-    "_id": "625",
+    "_id": 378,
     "nome": "RUA_DO_SARDOAL",
-    "rua": "42"
+    "ruas": [
+      "42"
+    ]
   },
   {
-    "_id": "626",
+    "_id": 379,
     "nome": "RUAS_DE_RESTAURAÇÃO_E_31_DE_JANEIRO",
-    "rua": "42"
+    "ruas": [
+      "42"
+    ]
   },
   {
-    "_id": "627",
+    "_id": 380,
     "nome": "CAPELA_DE_N.SRA",
-    "rua": "42"
+    "ruas": [
+      "42"
+    ]
   },
   {
-    "_id": "628",
+    "_id": 381,
     "nome": "«CASAL_E_QUINTA_DE_SOBRADO»",
-    "rua": "42"
+    "ruas": [
+      "42"
+    ]
   },
   {
-    "_id": "629",
+    "_id": 382,
     "nome": "CIDADE_DE_BRAGA",
-    "rua": "42"
+    "ruas": [
+      "42"
+    ]
   },
   {
-    "_id": "630",
-    "nome": "BRAGA",
-    "rua": "42"
-  },
-  {
-    "_id": "631",
-    "nome": "LISBOA",
-    "rua": "42"
-  },
-  {
-    "_id": "632",
-    "nome": "CAPELA_DE_D._GONÇALO_PEREIRA",
-    "rua": "42"
-  },
-  {
-    "_id": "633",
-    "nome": "CHAVES",
-    "rua": "43"
-  },
-  {
-    "_id": "634",
-    "nome": "RUA_DA_CORREDOURA",
-    "rua": "43"
-  },
-  {
-    "_id": "635",
+    "_id": 383,
     "nome": "RÉGUA",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "636",
+    "_id": 384,
     "nome": "RUA_NOVA_DA_SEARA",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "637",
+    "_id": 385,
     "nome": "BARROSO",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "638",
-    "nome": "BOM_JESUS",
-    "rua": "43"
-  },
-  {
-    "_id": "639",
+    "_id": 386,
     "nome": "CAMPO_DE_NOSSA_SENHORA_A_BRANCA",
-    "rua": "43"
+    "ruas": [
+      "43",
+      "60"
+    ]
   },
   {
-    "_id": "640",
+    "_id": 387,
     "nome": "RUA_DA_RÉGUA",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "641",
-    "nome": "RUA_NOVA_DA_SEARA",
-    "rua": "43"
-  },
-  {
-    "_id": "642",
-    "nome": "BRAGA",
-    "rua": "43"
-  },
-  {
-    "_id": "643",
-    "nome": "CAMPO_DE_NOSSA_SENHORA_A_BRANCA",
-    "rua": "43"
-  },
-  {
-    "_id": "644",
+    "_id": 388,
     "nome": "RUAS_DA_RÉGUA_E_NOVA_DA_SEARA",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "645",
+    "_id": 389,
     "nome": "RUA_DE_S._VICTOR",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "646",
+    "_id": 390,
     "nome": "N._SRA._A_BRANCA",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "647",
+    "_id": 391,
     "nome": "RANHAS",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "648",
+    "_id": 392,
     "nome": "FREGUESIA_DE_S._VITOR",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "649",
+    "_id": 393,
     "nome": "FREGUESIA_DE_BARROSO",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "650",
+    "_id": 394,
     "nome": "FREGUESIA_DE_S._MAMEDE_D'ESTE",
-    "rua": "43"
+    "ruas": [
+      "43"
+    ]
   },
   {
-    "_id": "651",
-    "nome": "SANTA_ANA",
-    "rua": "44"
-  },
-  {
-    "_id": "652",
+    "_id": 395,
     "nome": "VINHA",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "653",
+    "_id": 396,
     "nome": "FONTE_DA_CÁRCOVA_OU_CÁRCODA",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "654",
+    "_id": 397,
     "nome": "RUA_DOS_MERCADORES",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "655",
+    "_id": 398,
     "nome": "RUA_DOS_CAPELISTAS",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "656",
+    "_id": 399,
     "nome": "LARGO_DOS_PENEDOS",
-    "rua": "44"
+    "ruas": [
+      "44",
+      "45",
+      "46",
+      "53"
+    ]
   },
   {
-    "_id": "657",
+    "_id": 400,
     "nome": "RUA_DO_CARVALHAL",
-    "rua": "44"
+    "ruas": [
+      "44",
+      "45",
+      "53"
+    ]
   },
   {
-    "_id": "658",
+    "_id": 401,
     "nome": "EIRADO",
-    "rua": "44"
+    "ruas": [
+      "44",
+      "45"
+    ]
   },
   {
-    "_id": "659",
-    "nome": "RUA_DOS_CHÃOS_DE_BAIXO",
-    "rua": "44"
-  },
-  {
-    "_id": "660",
+    "_id": 402,
     "nome": "FREGUESIA_DE_STA._LUCRÉCIA",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "661",
-    "nome": "BRAGA",
-    "rua": "44"
-  },
-  {
-    "_id": "662",
+    "_id": 403,
     "nome": "MONTE_DE_CASTRO",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "663",
+    "_id": 404,
     "nome": "S._LOURENÇO",
-    "rua": "44"
+    "ruas": [
+      "44"
+    ]
   },
   {
-    "_id": "664",
-    "nome": "RUA_DO_CARVALHAL",
-    "rua": "44"
-  },
-  {
-    "_id": "665",
-    "nome": "ARCADA",
-    "rua": "45"
-  },
-  {
-    "_id": "666",
-    "nome": "LARGO_DOS_PENEDOS",
-    "rua": "45"
-  },
-  {
-    "_id": "667",
+    "_id": 405,
     "nome": "LARGO_DO_EYRADO",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "668",
+    "_id": 406,
     "nome": "RUA_DOS_CHAOS_DE_BAIXO",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "669",
+    "_id": 407,
     "nome": "RUA_DOS_CHÃOS",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "670",
+    "_id": 408,
     "nome": "EYRADO",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "671",
+    "_id": 409,
     "nome": "LARGO_DE_S._FRANCISCO",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "672",
+    "_id": 410,
     "nome": "RUA_DA_FONTE_DA_CARCOVA",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "673",
-    "nome": "EIRADO",
-    "rua": "45"
-  },
-  {
-    "_id": "674",
+    "_id": 411,
     "nome": "CASTELO_RODRIGO",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "675",
-    "nome": "RUA_DO_ANJO",
-    "rua": "45"
-  },
-  {
-    "_id": "676",
-    "nome": "RUA_DO_CARVALHAL",
-    "rua": "45"
-  },
-  {
-    "_id": "677",
-    "nome": "RUA_DO_CARVALHAL",
-    "rua": "45"
-  },
-  {
-    "_id": "678",
-    "nome": "RUA_DAS_CHAGAS",
-    "rua": "45"
-  },
-  {
-    "_id": "679",
+    "_id": 412,
     "nome": "PALMEIRA",
-    "rua": "45"
+    "ruas": [
+      "45",
+      "54"
+    ]
   },
   {
-    "_id": "680",
+    "_id": 413,
     "nome": "PEDRO_D'ESTE",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "681",
+    "_id": 414,
     "nome": "RUA_DE_STO._ANDRÉ",
-    "rua": "45"
+    "ruas": [
+      "45",
+      "47",
+      "48",
+      "53"
+    ]
   },
   {
-    "_id": "682",
+    "_id": 415,
     "nome": "CAMPO_DE_STA._ANA",
-    "rua": "45"
+    "ruas": [
+      "45",
+      "49"
+    ]
   },
   {
-    "_id": "683",
+    "_id": 416,
     "nome": "TERREIRO_DO_EIRADO",
-    "rua": "45"
+    "ruas": [
+      "45"
+    ]
   },
   {
-    "_id": "684",
-    "nome": "CAMPO_DE_STA._ANA",
-    "rua": "45"
-  },
-  {
-    "_id": "685",
+    "_id": 417,
     "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "46"
+    "ruas": [
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51"
+    ]
   },
   {
-    "_id": "686",
-    "nome": "LARGO_DOS_PENEDOS",
-    "rua": "46"
-  },
-  {
-    "_id": "687",
+    "_id": 418,
     "nome": "RUA_DE_SANTO_ANDRÉ",
-    "rua": "46"
+    "ruas": [
+      "46"
+    ]
   },
   {
-    "_id": "688",
+    "_id": 419,
     "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "46"
+    "ruas": [
+      "46",
+      "47",
+      "53",
+      "54",
+      "56"
+    ]
   },
   {
-    "_id": "689",
+    "_id": 420,
     "nome": "RUA_DE_S._BARNABÉ",
-    "rua": "46"
+    "ruas": [
+      "46",
+      "51",
+      "53"
+    ]
   },
   {
-    "_id": "690",
+    "_id": 421,
     "nome": "STA._MARIA_DE_PALMEIRA",
-    "rua": "46"
+    "ruas": [
+      "46"
+    ]
   },
   {
-    "_id": "691",
-    "nome": "RUA_DOS_CHÃOS_DE_BAIXO",
-    "rua": "46"
-  },
-  {
-    "_id": "692",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "47"
-  },
-  {
-    "_id": "693",
+    "_id": 422,
     "nome": "CAMPO_NOVO",
-    "rua": "47"
+    "ruas": [
+      "47",
+      "49",
+      "50",
+      "51"
+    ]
   },
   {
-    "_id": "694",
-    "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "47"
-  },
-  {
-    "_id": "695",
+    "_id": 423,
     "nome": "S._BARNABÉ",
-    "rua": "47"
+    "ruas": [
+      "47"
+    ]
   },
   {
-    "_id": "696",
-    "nome": "RUA_DE_STO._ANDRÉ",
-    "rua": "47"
-  },
-  {
-    "_id": "697",
-    "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "47"
-  },
-  {
-    "_id": "698",
+    "_id": 424,
     "nome": "S._VICENTE",
-    "rua": "47"
+    "ruas": [
+      "47",
+      "51",
+      "53"
+    ]
   },
   {
-    "_id": "699",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "48"
-  },
-  {
-    "_id": "700",
-    "nome": "BRAGA",
-    "rua": "48"
-  },
-  {
-    "_id": "701",
+    "_id": 425,
     "nome": "PRAÇA_MOUZINHO_DE_ALBUQUERQUE",
-    "rua": "48"
+    "ruas": [
+      "48"
+    ]
   },
   {
-    "_id": "702",
-    "nome": "RUA_DE_S._GONÇALO",
-    "rua": "48"
-  },
-  {
-    "_id": "703",
+    "_id": 426,
     "nome": "S._PAIO_DE_POUSADA",
-    "rua": "48"
+    "ruas": [
+      "48",
+      "53"
+    ]
   },
   {
-    "_id": "704",
+    "_id": 427,
     "nome": "RUA_STO._ANDRÉ",
-    "rua": "48"
+    "ruas": [
+      "48"
+    ]
   },
   {
-    "_id": "705",
-    "nome": "RUA_DE_STO._ANDRÉ",
-    "rua": "48"
-  },
-  {
-    "_id": "706",
+    "_id": 428,
     "nome": "RUA_DAS_OLIVEIRAS",
-    "rua": "48"
+    "ruas": [
+      "48",
+      "51"
+    ]
   },
   {
-    "_id": "707",
+    "_id": 429,
     "nome": "RUA_DE_N._SRA._DE_GUADALUPE",
-    "rua": "48"
+    "ruas": [
+      "48",
+      "52"
+    ]
   },
   {
-    "_id": "708",
+    "_id": 430,
     "nome": "NOGUEIRA",
-    "rua": "48"
+    "ruas": [
+      "48"
+    ]
   },
   {
-    "_id": "709",
-    "nome": "CAMPO_NOVO",
-    "rua": "49"
-  },
-  {
-    "_id": "710",
-    "nome": "CAMPO_DE_SANTA_ANA",
-    "rua": "49"
-  },
-  {
-    "_id": "711",
+    "_id": 431,
     "nome": "RECOLHIMENTO_DAS_CONVERTIDAS",
-    "rua": "49"
+    "ruas": [
+      "49"
+    ]
   },
   {
-    "_id": "712",
+    "_id": 432,
     "nome": "MOSTEIRO_DE_VILAR_DE_FRADES",
-    "rua": "49"
+    "ruas": [
+      "49"
+    ]
   },
   {
-    "_id": "713",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "49"
-  },
-  {
-    "_id": "714",
+    "_id": 433,
     "nome": "RUA_DE_S._GONÇALO.",
-    "rua": "49"
+    "ruas": [
+      "49"
+    ]
   },
   {
-    "_id": "715",
-    "nome": "CAMPO_DE_STA._ANA",
-    "rua": "49"
-  },
-  {
-    "_id": "716",
+    "_id": 434,
     "nome": "ADAUFE",
-    "rua": "49"
+    "ruas": [
+      "49"
+    ]
   },
   {
-    "_id": "717",
+    "_id": 435,
     "nome": "S._MAMEDE_D'ESTE",
-    "rua": "49"
+    "ruas": [
+      "49"
+    ]
   },
   {
-    "_id": "718",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "49"
-  },
-  {
-    "_id": "719",
+    "_id": 436,
     "nome": "RECOLHIMENTO_DE_STA._MARIA_MADALENA",
-    "rua": "49"
+    "ruas": [
+      "49"
+    ]
   },
   {
-    "_id": "720",
-    "nome": "CAMPO_NOVO",
-    "rua": "50"
-  },
-  {
-    "_id": "721",
+    "_id": 437,
     "nome": "CAPELA_DE_GUADALUPE",
-    "rua": "50"
+    "ruas": [
+      "50",
+      "51",
+      "52"
+    ]
   },
   {
-    "_id": "722",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "50"
-  },
-  {
-    "_id": "723",
-    "nome": "RUA_DE_S._GONÇALO",
-    "rua": "50"
-  },
-  {
-    "_id": "724",
+    "_id": 438,
     "nome": "RUA_EM_FRENTE_DE_NOSSA_SENHORA_DE_GUADALUPE",
-    "rua": "50"
+    "ruas": [
+      "50"
+    ]
   },
   {
-    "_id": "725",
+    "_id": 439,
     "nome": "RUA_DE_GUADALUPE",
-    "rua": "50"
+    "ruas": [
+      "50",
+      "52"
+    ]
   },
   {
-    "_id": "726",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "50"
-  },
-  {
-    "_id": "727",
+    "_id": 440,
     "nome": "RUA_EM_FRENTE_DE_N._SRA._DE_GUADALUPE",
-    "rua": "50"
+    "ruas": [
+      "50"
+    ]
   },
   {
-    "_id": "728",
-    "nome": "CAMPO_NOVO",
-    "rua": "51"
-  },
-  {
-    "_id": "729",
+    "_id": 441,
     "nome": "LARGO_DAS_TERESINHAS",
-    "rua": "51"
+    "ruas": [
+      "51"
+    ]
   },
   {
-    "_id": "730",
+    "_id": 442,
     "nome": "CANGOSTA",
-    "rua": "51"
+    "ruas": [
+      "51"
+    ]
   },
   {
-    "_id": "731",
-    "nome": "RUA_DE_SANTA_MARGARIDA",
-    "rua": "51"
-  },
-  {
-    "_id": "732",
+    "_id": 443,
     "nome": "IGREJA_DE_S._VICENTE",
-    "rua": "51"
+    "ruas": [
+      "51",
+      "52"
+    ]
   },
   {
-    "_id": "733",
-    "nome": "CAPELA_DE_GUADALUPE",
-    "rua": "51"
-  },
-  {
-    "_id": "734",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "51"
-  },
-  {
-    "_id": "735",
-    "nome": "RUA_DAS_OLIVEIRAS",
-    "rua": "51"
-  },
-  {
-    "_id": "736",
-    "nome": "PRAÇA_DO_GAVIÃO",
-    "rua": "51"
-  },
-  {
-    "_id": "737",
-    "nome": "RUA_DE_S._BARNABÉ",
-    "rua": "51"
-  },
-  {
-    "_id": "738",
-    "nome": "S._VICENTE",
-    "rua": "51"
-  },
-  {
-    "_id": "739",
+    "_id": 444,
     "nome": "CANGOSTA_DE_GUADALUPE",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "740",
+    "_id": 445,
     "nome": "RUA_DE_NOSSA_SENHORA_DE_GUADALUPE",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "741",
-    "nome": "RUA_DE_GUADALUPE",
-    "rua": "52"
-  },
-  {
-    "_id": "742",
-    "nome": "IGREJA_DE_S._VICENTE",
-    "rua": "52"
-  },
-  {
-    "_id": "743",
-    "nome": "CAPELA_DE_GUADALUPE",
-    "rua": "52"
-  },
-  {
-    "_id": "744",
+    "_id": 446,
     "nome": "RUA_DE_ARRABALDE",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "745",
+    "_id": 447,
     "nome": "MONTE_DE_SANTA_MARGARIDA",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "746",
+    "_id": 448,
     "nome": "CONVENTO_E_CAPELA_DAS_TERESINHAS",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "747",
+    "_id": 449,
     "nome": "RUA_DE_CAMÕES",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "748",
-    "nome": "RUA_DE_N._SRA._DE_GUADALUPE",
-    "rua": "52"
-  },
-  {
-    "_id": "749",
+    "_id": 450,
     "nome": "RUA_N._SRA._DE_GUADALUPE",
-    "rua": "52"
+    "ruas": [
+      "52"
+    ]
   },
   {
-    "_id": "750",
-    "nome": "RUA_DOS_CHÃOS_DE_BAIXO",
-    "rua": "53"
-  },
-  {
-    "_id": "751",
+    "_id": 451,
     "nome": "IGREJA_DE_S._VICENTE.",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "752",
+    "_id": 452,
     "nome": "S._BARNABÉ_E_OLIVEIRAS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "753",
+    "_id": 453,
     "nome": "RUA_DE_ESPANHA",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "754",
+    "_id": 454,
     "nome": "CASAL_DAS_OLIVEIRAS_E_LEIRA_DA_AGRA_DA_ESCOURA",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "755",
+    "_id": 455,
     "nome": "CASAL_DOS_CHÃOS_OU_DO_QUINTEIRO,",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "756",
-    "nome": "LARGO_DOS_PENEDOS",
-    "rua": "53"
-  },
-  {
-    "_id": "757",
+    "_id": 456,
     "nome": "RUA_DOS_CHÃOS_DE_SIMA",
-    "rua": "53"
+    "ruas": [
+      "53",
+      "54"
+    ]
   },
   {
-    "_id": "758",
+    "_id": 457,
     "nome": "RUAS_DE_S._BARNABÉ_E_OLIVEIRAS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "759",
-    "nome": "RUA_DO_CARVALHAL",
-    "rua": "53"
-  },
-  {
-    "_id": "760",
+    "_id": 458,
     "nome": "RUA_DE_S._VICENTE",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "761",
+    "_id": 459,
     "nome": "CASAL_DAS_OLIVEIRAS",
-    "rua": "53"
+    "ruas": [
+      "53",
+      "54"
+    ]
   },
   {
-    "_id": "762",
+    "_id": 460,
     "nome": "LUGAR_DOS_PENEDOS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "763",
+    "_id": 461,
     "nome": "S._LOURENÇO_DE_SANDE",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "764",
+    "_id": 462,
     "nome": "STA._MARIA_DE_MOURE",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "765",
+    "_id": 463,
     "nome": "REQUIÃO",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "766",
-    "nome": "S._PAIO_DE_POUSADA",
-    "rua": "53"
-  },
-  {
-    "_id": "767",
+    "_id": 464,
     "nome": "PALME",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "768",
+    "_id": 465,
     "nome": "S._CRISTÓVÃO_DE_REGALADOS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "769",
+    "_id": 466,
     "nome": "LEIRA_DA_ESCOURA",
-    "rua": "53"
+    "ruas": [
+      "53",
+      "54"
+    ]
   },
   {
-    "_id": "770",
+    "_id": 467,
     "nome": "S._VÍTOR",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "771",
-    "nome": "S._VICENTE",
-    "rua": "53"
-  },
-  {
-    "_id": "772",
-    "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "53"
-  },
-  {
-    "_id": "773",
+    "_id": 468,
     "nome": "RUA_DAS_PALHOTAS",
-    "rua": "53"
+    "ruas": [
+      "53",
+      "56"
+    ]
   },
   {
-    "_id": "774",
-    "nome": "BRAGA",
-    "rua": "53"
-  },
-  {
-    "_id": "775",
+    "_id": 469,
     "nome": "TERESINHAS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "776",
+    "_id": 470,
     "nome": "RUA_DE_S._BARNABÉ_E_DO_CAMINHO_DOS_CHÃOS_PARA_AS_TERESINHAS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "777",
+    "_id": 471,
     "nome": "RUAS_DE_S._BARNABÉ_E_DAS_OLIVEIRAS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "778",
+    "_id": 472,
     "nome": "CASAL_DOS_CHÃOS_OU_QUINTEIRO",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "779",
-    "nome": "RUA_DE_S._BARNABÉ",
-    "rua": "53"
-  },
-  {
-    "_id": "780",
-    "nome": "RUA_DE_S._BARNABÉ",
-    "rua": "53"
-  },
-  {
-    "_id": "781",
+    "_id": 473,
     "nome": "SANTA_EULÁLIA_DE_REVELHE",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "782",
-    "nome": "CASAL_DOS_CHÃOS_OU_QUINTEIRO",
-    "rua": "53"
-  },
-  {
-    "_id": "783",
+    "_id": 474,
     "nome": "S._PEDRO_DE_DORNELAS",
-    "rua": "53"
+    "ruas": [
+      "53"
+    ]
   },
   {
-    "_id": "784",
-    "nome": "RUA_DE_STO._ANDRÉ",
-    "rua": "53"
-  },
-  {
-    "_id": "785",
-    "nome": "RUA_DOS_CHÃOS_DE_SIMA",
-    "rua": "54"
-  },
-  {
-    "_id": "786",
+    "_id": 475,
     "nome": "ALTO_MINHO",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "787",
+    "_id": 476,
     "nome": "RUA_NOVA_DO_BICO",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "788",
+    "_id": 477,
     "nome": "GEIRA",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "789",
+    "_id": 478,
     "nome": "GERÊS",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "790",
+    "_id": 479,
     "nome": "ASTORGA",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "791",
-    "nome": "PALMEIRA",
-    "rua": "54"
-  },
-  {
-    "_id": "792",
+    "_id": 480,
     "nome": "PICO_DE_REGALADOS",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "793",
+    "_id": 481,
     "nome": "RUA_ANDRADE_CORVO",
-    "rua": "54"
+    "ruas": [
+      "54",
+      "57"
+    ]
   },
   {
-    "_id": "794",
+    "_id": 482,
     "nome": "INFIAS",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "795",
+    "_id": 483,
     "nome": "NOVA_DO_BICO",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "796",
-    "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "54"
-  },
-  {
-    "_id": "797",
-    "nome": "S._JOÃO_DO_SOUTO",
-    "rua": "54"
-  },
-  {
-    "_id": "798",
+    "_id": 484,
     "nome": "CANGOSTA_DA_ESCOURA",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "799",
-    "nome": "LEIRA_DA_ESCOURA",
-    "rua": "54"
-  },
-  {
-    "_id": "800",
-    "nome": "LEIRA_DA_ESCOURA",
-    "rua": "54"
-  },
-  {
-    "_id": "801",
-    "nome": "LEIRA_DA_ESCOURA",
-    "rua": "54"
-  },
-  {
-    "_id": "802",
+    "_id": 485,
     "nome": "VILA_DO_CONDE",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "803",
+    "_id": 486,
     "nome": "CASAL_DO_LAGARTO",
-    "rua": "54"
+    "ruas": [
+      "54",
+      "55",
+      "56"
+    ]
   },
   {
-    "_id": "804",
-    "nome": "CASAL_DAS_OLIVEIRAS",
-    "rua": "54"
-  },
-  {
-    "_id": "805",
-    "nome": "S._JOÃO_DO_SOUTO",
-    "rua": "54"
-  },
-  {
-    "_id": "806",
-    "nome": "CONVENTO_DO_CARMO",
-    "rua": "54"
-  },
-  {
-    "_id": "807",
+    "_id": 487,
     "nome": "FONTE_DE_PÃO_TRIGO",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "808",
+    "_id": 488,
     "nome": "BRASIL",
-    "rua": "54"
+    "ruas": [
+      "54"
+    ]
   },
   {
-    "_id": "809",
+    "_id": 489,
     "nome": "RUA_DA_ESCOURA",
-    "rua": "55"
+    "ruas": [
+      "55",
+      "56"
+    ]
   },
   {
-    "_id": "810",
-    "nome": "CASAL_DO_LAGARTO",
-    "rua": "55"
-  },
-  {
-    "_id": "811",
+    "_id": 490,
     "nome": "RUA_CONSELHEIRO_JANUÁRIO",
-    "rua": "55"
+    "ruas": [
+      "55"
+    ]
   },
   {
-    "_id": "812",
+    "_id": 491,
     "nome": "RUA_DE_INFIAS",
-    "rua": "55"
+    "ruas": [
+      "55"
+    ]
   },
   {
-    "_id": "813",
+    "_id": 492,
     "nome": "S._PEDRO_D'ESTE",
-    "rua": "55"
+    "ruas": [
+      "55"
+    ]
   },
   {
-    "_id": "814",
-    "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "56"
-  },
-  {
-    "_id": "815",
+    "_id": 493,
     "nome": "RUA_GABRIEL_PEREIRA_DE_CASTRO",
-    "rua": "56"
+    "ruas": [
+      "56"
+    ]
   },
   {
-    "_id": "816",
-    "nome": "RUA_DA_ESCOURA",
-    "rua": "56"
-  },
-  {
-    "_id": "817",
-    "nome": "RUA_DAS_PALHOTAS",
-    "rua": "56"
-  },
-  {
-    "_id": "818",
-    "nome": "RUA_DOS_CHÃOS_DE_CIMA",
-    "rua": "56"
-  },
-  {
-    "_id": "819",
+    "_id": 494,
     "nome": "CASAL_DE_INFIAS",
-    "rua": "56"
+    "ruas": [
+      "56"
+    ]
   },
   {
-    "_id": "820",
-    "nome": "CASAL_DO_LAGARTO",
-    "rua": "56"
-  },
-  {
-    "_id": "821",
-    "nome": "BRAGA",
-    "rua": "57"
-  },
-  {
-    "_id": "822",
-    "nome": "RUA_ANDRADE_CORVO",
-    "rua": "57"
-  },
-  {
-    "_id": "823",
+    "_id": 495,
     "nome": "S._JERÓNIMO_DE_REAL",
-    "rua": "57"
+    "ruas": [
+      "57",
+      "58"
+    ]
   },
   {
-    "_id": "824",
+    "_id": 496,
     "nome": "CABIDO",
-    "rua": "57"
+    "ruas": [
+      "57",
+      "59",
+      "60"
+    ]
   },
   {
-    "_id": "825",
+    "_id": 497,
     "nome": "QUINTA_DA_CÓNEGA",
-    "rua": "57"
+    "ruas": [
+      "57",
+      "58",
+      "59"
+    ]
   },
   {
-    "_id": "826",
+    "_id": 498,
     "nome": "QUINTA_DA_CÓNEGA(FREGUESIA_DE_S._PEDRO_DE_MAXIMINOS)",
-    "rua": "57"
+    "ruas": [
+      "57"
+    ]
   },
   {
-    "_id": "827",
+    "_id": 499,
     "nome": "QUINTA_DO_REAL",
-    "rua": "57"
+    "ruas": [
+      "57"
+    ]
   },
   {
-    "_id": "828",
+    "_id": 500,
     "nome": "CURUTELA",
-    "rua": "57"
+    "ruas": [
+      "57"
+    ]
   },
   {
-    "_id": "829",
+    "_id": 501,
     "nome": "PÓPULO",
-    "rua": "57"
+    "ruas": [
+      "57"
+    ]
   },
   {
-    "_id": "830",
+    "_id": 502,
     "nome": "RUA_DA_CÓNEGA",
-    "rua": "57"
+    "ruas": [
+      "57",
+      "59"
+    ]
   },
   {
-    "_id": "831",
-    "nome": "BRAGA",
-    "rua": "58"
-  },
-  {
-    "_id": "832",
-    "nome": "S._JERÓNIMO_DE_REAL",
-    "rua": "58"
-  },
-  {
-    "_id": "833",
+    "_id": 503,
     "nome": "BRAGA-LUGO",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "834",
+    "_id": 504,
     "nome": "NOVA_DA_CÓNEGA",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "835",
+    "_id": 505,
     "nome": "CÓNEGA",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "836",
+    "_id": 506,
     "nome": "BOAVISTA",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "837",
+    "_id": 507,
     "nome": "CASAL_DA_PORTA",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "838",
-    "nome": "CAMPO_DA_VINHA",
-    "rua": "58"
-  },
-  {
-    "_id": "839",
+    "_id": 508,
     "nome": "BISCAINHOS",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "840",
-    "nome": "QUINTA_DA_CÓNEGA",
-    "rua": "58"
-  },
-  {
-    "_id": "841",
+    "_id": 509,
     "nome": "CASA_REAL",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "842",
-    "nome": "QUINTA_DA_CÓNEGA",
-    "rua": "58"
-  },
-  {
-    "_id": "843",
+    "_id": 510,
     "nome": "BOUÇA_DA_COTURELA",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "844",
+    "_id": 511,
     "nome": "ESTRADA_DE_REAL",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "845",
+    "_id": 512,
     "nome": "QUINTA_DA_PORTA(CASA_Nº1)",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "846",
+    "_id": 513,
     "nome": "COTURELA",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "847",
+    "_id": 514,
     "nome": "CONVENTO_DE_S._FRUTUOSO",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "848",
+    "_id": 515,
     "nome": "PÓPULO.",
-    "rua": "58"
+    "ruas": [
+      "58"
+    ]
   },
   {
-    "_id": "849",
+    "_id": 516,
     "nome": "CAMPO_DA_VINHA_COM_O_CAMPO_DAS_HORTAS",
-    "rua": "59"
+    "ruas": [
+      "59"
+    ]
   },
   {
-    "_id": "850",
-    "nome": "CABIDO",
-    "rua": "59"
-  },
-  {
-    "_id": "851",
+    "_id": 517,
     "nome": "RUA_DOS_BISCAÍNHOS",
-    "rua": "59"
+    "ruas": [
+      "59"
+    ]
   },
   {
-    "_id": "852",
-    "nome": "QUINTA_DA_CÓNEGA",
-    "rua": "59"
-  },
-  {
-    "_id": "853",
-    "nome": "RUA_DA_CÓNEGA",
-    "rua": "59"
-  },
-  {
-    "_id": "854",
-    "nome": "CAMPO_DA_VINHA",
-    "rua": "59"
-  },
-  {
-    "_id": "855",
-    "nome": "RUA_DAS_ÁGUAS",
-    "rua": "60"
-  },
-  {
-    "_id": "856",
+    "_id": 518,
     "nome": "PALHA",
-    "rua": "60"
+    "ruas": [
+      "60"
+    ]
   },
   {
-    "_id": "857",
-    "nome": "CAMPO_DE_NOSSA_SENHORA_A_BRANCA",
-    "rua": "60"
-  },
-  {
-    "_id": "858",
-    "nome": "CABIDO",
-    "rua": "60"
-  },
-  {
-    "_id": "859",
+    "_id": 519,
     "nome": "(O_RECHICHO)",
-    "rua": "60"
+    "ruas": [
+      "60"
+    ]
   },
   {
-    "_id": "860",
+    "_id": 520,
     "nome": "RUA_DO_RAIO_E_LARGO_JOÃO_PENHA_(OU_DO_RECHICHO).",
-    "rua": "60"
+    "ruas": [
+      "60"
+    ]
   }
 ]
