@@ -12,14 +12,38 @@ router.get('/', async function(req, res, next) {
 });
 
 router.get('/:nome', function(req, res) {
-  axios.get('http://localhost:3000/entidades?lugar=' + req.params.nome)
-  .then(resp => {
-    var lugar = resp.data[0]
-    axios.get('http://localhost:3000/rua?_id=' + lugar.rua)
-    .then(resp_rua => res.render('lugar', {lugar : lugar, rua : resp_rua.data[0]}))
-    .catch(erro => console.log(erro))
-  })
-  .catch(erro => console.log(erro))
-})
+  console.log('http://localhost:3000/lugar/' + req.params.nome)
+  axios.get('http://localhost:3000/lugar/' + req.params.nome)
+    .then(resp => {
+      var lugar = resp.data;
+      var ruaPromises = [];
+      
+      for (const rua_id of lugar.ruas) {
+        ruaPromises.push(
+          axios.get('http://localhost:3000/rua/' + rua_id)
+            .then(resp_rua => resp_rua.data[0])
+            .catch(erro => {
+              console.log(erro);
+              return null; // Handle error, possibly pushing a null to maintain list length
+            })
+        );
+      }
+
+      Promise.all(ruaPromises)
+        .then(ruas => {
+          // Filter out any null responses if error handling was done above
+          ruas = ruas.filter(rua => rua !== null);
+          res.render('lugar', { lugar: lugar, ruas: ruas });
+        })
+        .catch(erro => {
+          console.log(erro);
+          res.status(500).send('Error retrieving ruas');
+        });
+    })
+    .catch(erro => {
+      console.log(erro);
+      res.status(500).send('Error retrieving lugar');
+    });
+});
 
 module.exports = router;
