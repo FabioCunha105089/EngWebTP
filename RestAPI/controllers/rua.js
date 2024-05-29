@@ -4,8 +4,8 @@ var Rua = require('../models/rua')
 module.exports.list = () => {
     return Rua
     .find()
-    .sort({ nome : 1 }).
-    exec()
+    .sort({ _id : 1 })
+    .exec()
 }
 
 module.exports.findById = id => {
