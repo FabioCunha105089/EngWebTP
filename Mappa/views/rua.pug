@@ -2,3 +2,27 @@ extends layout
 
 block content
     h1= rua._id + " - " + rua.nome
+    each figura in rua.figuras
+        div
+            img(src=figura.path, alt=figura.foto_id)
+            p= figura.desc
+    each para in rua.desc
+        p
+            != para
+    if rua.casas != null
+        each casa in rua.casas
+            p
+                b Numero #{casa.numero}
+                ul
+                    if casa.enfiteuta != null && casa.enfiteuta.length > 0
+                        li 
+                            b Enfiteuta:
+                            <span> #{casa.enfiteuta} </span>
+                    if casa.foro != null && casa.foro.length > 0
+                        li 
+                            b Foro:
+                            <span> #{casa.foro} </span>
+                    each para in casa.desc
+                        p
+                            != para
+        

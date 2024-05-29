@@ -27,8 +27,8 @@ block content
   div.centered-list
     h1 Welcome to Mappa
     ol
-      each rua in ruas
+      each entidade in entidades
         li
-          a(href='/' + rua._id) #{rua.nome}
+          a(href='/entidades/' + entidade.nome) #{entidade.nome}
   
   footer.w3-red Trabalho Prático de Engenharia Web, UMINHO LEI 2024, realizado por Fábio Cunha e Gabriel Araújo

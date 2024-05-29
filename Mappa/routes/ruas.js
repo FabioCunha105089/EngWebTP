@@ -6,9 +6,15 @@ const axios = require('axios');
 router.get('/', async function(req, res, next) {
   axios.get('http://localhost:3000/rua/')
   .then(resp => {
-    console.log('entrou no index')
+    res.render('list_ruas', {ruas : resp.data})
   })
   .catch(erro => console.log(erro))
 });
+
+router.get('/:numero', function(req, res) {
+  axios.get('http://localhost:3000/rua?_id=' + req.params.numero)
+  .then(resp => res.render('rua', {rua : resp.data[0]}))
+  .catch(erro => console.log(erro))
+})
 
 module.exports = router;
