@@ -12,16 +12,15 @@ router.get('/', async function(req, res, next) {
 });
 
 router.get('/:nome', function(req, res) {
-  console.log('http://localhost:3000/lugar/' + req.params.nome)
   axios.get('http://localhost:3000/lugar/' + req.params.nome)
     .then(resp => {
       var lugar = resp.data;
       var ruaPromises = [];
-      
+
       for (const rua_id of lugar.ruas) {
         ruaPromises.push(
           axios.get('http://localhost:3000/rua/' + rua_id)
-            .then(resp_rua => resp_rua.data[0])
+            .then(resp_rua => resp_rua.data)
             .catch(erro => {
               console.log(erro);
               return null; // Handle error, possibly pushing a null to maintain list length

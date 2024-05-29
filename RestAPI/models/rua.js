@@ -14,7 +14,7 @@ const casaSchema = new mongoose.Schema({
 }, {_id: false})
 
 var ruaSchema = new mongoose.Schema({
-    _id: String,
+    _id: Number,
     numero: String,
     nome: String,
     desc: [String],
