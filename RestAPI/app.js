@@ -12,7 +12,9 @@ db.once('open', () => {
   console.log("Conexão ao MongoDB realizada com sucesso")
 })
 
-var engWebTP2024Router = require('./routes/engWebTP2024');
+var ruaRouter = require('./routes/rua.js');
+var entidadeRouter = require('./routes/entidade.js');
+var lugarRouter = require('./routes/lugar.js');
 
 var app = express();
 
@@ -22,6 +24,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', engWebTP2024Router);
+app.use('/rua', ruaRouter);
+app.use('/entidade', entidadeRouter);
+app.use('/lugar', lugarRouter);
 
 module.exports = app;

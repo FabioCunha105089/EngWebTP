@@ -4,7 +4,7 @@ var Rua = require('../models/rua')
 module.exports.list = () => {
     return Rua
     .find()
-    .sort({nome : 1}).
+    .sort({ nome : 1 }).
     exec()
 }
 
@@ -14,22 +14,22 @@ module.exports.findById = id => {
     .exec()
 }
 
-module.exports.findByName = name => {
+module.exports.findByName = nome => {
     return Rua
     .findOne({nome : nome})
     .exec()
 }
 
-module.exports.insert = async rua => {
-    if (!(await Rua.findOne({_id : rua._id}).exec())) {
-        var newRua = Rua(rua)
+module.exports.insert = rua => {
+    if (Rua.find({_id : rua._id}).exec().lentgth != 1) {
+        var newRua = new Rua(rua)
         return newRua.save()
     }
 }
 
-module.exports.delete = _id => {
+module.exports.delete = id => {
     return Rua
-    .findOneAndDelete({_id : _id})
+    .findByIdAndDelete(id)
     .exec()
 }
 

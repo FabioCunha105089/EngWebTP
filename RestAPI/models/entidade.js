@@ -7,4 +7,4 @@ var entidadeSchema = new mongoose.Schema({
     quantidade: String
 })
 
-module.exports = mongoose.model('entidade', entidadeSchema, 'entidade')
+module.exports = mongoose.model('entidade', entidadeSchema)

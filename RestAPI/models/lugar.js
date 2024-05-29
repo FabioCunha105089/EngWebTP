@@ -6,4 +6,4 @@ var lugarSchema = new mongoose.Schema({
     rua: String
 })
 
-module.exports = mongoose.model('lugar', lugarSchema, 'lugar')
+module.exports = mongoose.model('lugar', lugarSchema, 'lugares')
