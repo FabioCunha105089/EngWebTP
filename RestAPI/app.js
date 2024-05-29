@@ -40,6 +40,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Passport Local Strategy
+var userModel = require('./models/user');
 passport.use(new LocalStrategy(userModel.authenticate()));
 passport.serializeUser(userModel.serializeUser());
 passport.deserializeUser(userModel.deserializeUser());

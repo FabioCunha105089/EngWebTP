@@ -1,18 +1,18 @@
 var express = require('express');
 var router = express.Router();
 var userModel = require('../models/user')
-
+var passport = require('passport');
 var User = require('../controllers/user')
 
 router.get('/', function (req, res) {
   User.list()
-    .then(dados => res.status(200).jsonp({ dados: dados }))
+    .then(list => res.status(200).jsonp({ list }))
     .catch(e => res.status(500).jsonp({ error: e }))
 })
 
 router.get('/:id', function (req, res) {
   User.getUser(req.params.id)
-    .then(dados => res.status(200).jsonp({ dados: dados }))
+    .then(user => res.status(200).jsonp({ user }))
     .catch(e => res.status(500).jsonp({ error: e }))
 })
 

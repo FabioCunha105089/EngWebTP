@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4(style="max-width:500px;margin:auto;margin-top:50px;")
+      .w3-container.w3-blue
+        h2 Iniciar sessão
+
+      form.w3-container(action="/conta/login" method="post")
+        label.w3-text-blue
+          b Nome de utilizador
+        input.w3-input.w3-border(type='text' name='username' required)
+
+        label.w3-text-blue
+          b Palavra-passe
+        input.w3-input.w3-border(type='password' name='password' required)
+
+        br
+        button.w3-button.w3-blue(type='submit') Iniciar sessão
+
+      .w3-container.w3-padding-16
+        a.w3-text-blue(href='/conta/registo') Não tem uma conta? Registe-se.
