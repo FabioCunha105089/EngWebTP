@@ -3,8 +3,8 @@ services:
     image: mongo:latest
     container_name: mongodb
     volumes:
-      - ./data:/data/db
-  
+      - ./data/jsons:/data
+
   web:
     build:
       context: .
@@ -16,4 +16,3 @@ services:
       - mongodb
     links:
       - mongodb
-        

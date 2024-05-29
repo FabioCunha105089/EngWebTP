@@ -8,12 +8,12 @@ const figuraSchema = new mongoose.Schema({
 
 const casaSchema = new mongoose.Schema({
     numero: String,
-    efitetura: String,
+    enfiteuta: String,
     desc: [String],
     foro: String
 }, {_id: false})
 
-var ruaSchema = new mongoose.Schema({
+var infoRuaSchema = new mongoose.Schema({
     _id: String,
     numero: String,
     nome: String,
@@ -22,4 +22,4 @@ var ruaSchema = new mongoose.Schema({
     casas: [casaSchema]
 })
 
-module.exports = mongoose.model('rua', ruaSchema, 'rua')
+module.exports = mongoose.model('infoRua', infoRuaSchema)

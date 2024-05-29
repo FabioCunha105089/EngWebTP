@@ -4,7 +4,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose')
 
-var mongoDB = 'mongodb://127.0.0.1:27017/engWebTP2024'
+var mongoDB = 'mongodb://mongodb:27017/engWebTP2024'
 mongoose.connect(mongoDB)
 var db = mongoose.connection
 db.on('error', console.error.bind(console, 'Erro de conexão ao MongoDB'))
