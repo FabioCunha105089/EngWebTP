@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var session = require('express-session');
 
 var indexRouter = require('./routes/index');
 var ruasRouter = require('./routes/ruas')
@@ -21,6 +22,18 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Session setup
+app.use(session({
+  secret: 'EngWebTP2024',
+  resave: false,
+  saveUninitialized: true,
+}));
+
+app.use((req, res, next) => {
+  res.locals.isLoggedIn = !!req.session.token;
+  next();
+});
 
 app.use('/', indexRouter);
 app.use('/ruas', ruasRouter)

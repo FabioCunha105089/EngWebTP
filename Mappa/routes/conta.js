@@ -36,10 +36,16 @@ router.post('/login', async (req, res) => {
     });
     // Store token in a session or cookie
     req.session.token = response.data.token;
-    res.redirect('/ruas');
+    res.redirect('/');
   } catch (error) {
+    console.log(error);
     res.render('loginFalhou', { error: error.response.data.error });
   }
+});
+
+router.get('/sair', function(req, res) {
+  req.session.token = null;
+  res.redirect('/');
 });
 
 module.exports = router;

@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var userModel = require('../models/user')
 var passport = require('passport');
+var jwt = require('jsonwebtoken')
 var User = require('../controllers/user')
 
 router.get('/', function (req, res) {
@@ -48,29 +49,27 @@ router.post('/login', function (req, res, next) {
       
       // Update lastAccess attribute
       user.lastAccess = new Date().toISOString().substring(0, 19);
-      user.save(function (saveErr) {
-        if (saveErr) {
-          return res.status(500).jsonp({ error: "Error updating lastAccess: " + saveErr });
-        }
-
-        // Generate JWT token
-        jwt.sign({
-          username: user.username,
-          level: user.level,
-          sub: 'login'
-        }, "EngWebTP2024", { expiresIn: 3600 }, function (e, token) {
-          if (e) {
-            res.status(500).jsonp({ error: "Error generating token: " + e });
-          } else {
-            res.status(200).jsonp({ token: token });
-          }
+      user.save()
+        .then(() => {
+          // Generate JWT token
+          jwt.sign({
+            username: user.username,
+            level: user.level,
+            sub: 'login'
+          }, "EngWebTP2024", { expiresIn: 3600 }, function (e, token) {
+            if (e) {
+              res.status(500).jsonp({ error: "Error generating token: " + e });
+            } else {
+              res.status(200).jsonp({ token: token });
+            }
+          });
+        })
+        .catch(saveErr => {
+          res.status(500).jsonp({ error: "Error updating lastAccess: " + saveErr });
         });
-      });
     });
   })(req, res, next);
 });
-
-
 
 router.put('/:id', function (req, res) {
   User.updateUser(req.params.id, req.body)

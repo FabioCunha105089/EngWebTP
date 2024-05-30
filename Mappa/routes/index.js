@@ -1,14 +1,10 @@
 var express = require('express');
 var router = express.Router();
-const axios = require('axios');
+const Auth = require('../auth/auth')
 
 /* GET home page. */
-router.get('/', async function(req, res, next) {
-  axios.get('http://localhost:3000/rua/')
-  .then(resp => {
-    console.log('entrou no index')
-  })
-  .catch(erro => console.log(erro))
+router.get('/', function(req, res, next) {
+  res.render('index');
 });
 
 module.exports = router;

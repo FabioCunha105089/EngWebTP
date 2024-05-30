@@ -2,29 +2,29 @@ extends layout
 
 block content
   .w3-container
-    .w3-card-4(style="max-width:500px;margin:auto;margin-top:50px;")
-      .w3-container.w3-blue
+    .w3-card-4(style="width:400px;margin:auto;margin-top:50px;margin-bottom:50px;")
+      .w3-container.w3-amber
         h2 Registo
 
       form.w3-container(action="/conta/registo" method="post")
-        label.w3-text-blue
+        label.w3-text-black
           b Nome de utilizador
         input.w3-input.w3-border(type='text' name='username' required)
 
-        label.w3-text-blue
+        label.w3-text-black
           b Nome
         input.w3-input.w3-border(type='text' name='name' required)
 
-        label.w3-text-blue
+        label.w3-text-black
           b E-mail
         input.w3-input.w3-border(type='email' name='email' required)
 
-        label.w3-text-blue
+        label.w3-text-black
           b Palavra-passe
         input.w3-input.w3-border(type='password' name='password' required)
 
         br
-        button.w3-button.w3-blue(type='submit') Registar
+        button.w3-button.w3-amber(type='submit') Registar
 
       .w3-container.w3-padding-16
         a.w3-text-blue(href='/conta/login') Já tem uma conta? Faça login
