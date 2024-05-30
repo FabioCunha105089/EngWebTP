@@ -2,6 +2,10 @@ var express = require('express');
 var router = express.Router();
 const axios = require('axios');
 
+router.get('/', function(req, res) {
+  res.render('perfil', {user : req.session.user})
+})
+
 // Render the registration page
 router.get('/registo', function(req, res) {
   res.render('registo');
@@ -35,6 +39,7 @@ router.post('/login', async (req, res) => {
       password: req.body.password
     });
     // Store token in a session or cookie
+    req.session.user = response.data.user
     req.session.token = response.data.token;
     res.redirect('/');
   } catch (error) {

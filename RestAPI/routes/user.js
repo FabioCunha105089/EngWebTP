@@ -60,7 +60,7 @@ router.post('/login', function (req, res, next) {
             if (e) {
               res.status(500).jsonp({ error: "Error generating token: " + e });
             } else {
-              res.status(200).jsonp({ token: token });
+              res.status(200).jsonp({ token: token, user : user });
             }
           });
         })
