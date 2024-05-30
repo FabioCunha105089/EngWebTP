@@ -26,12 +26,12 @@
             
         </para>
         <figura id="MRB-09-norte">
-            <imagem path="../imagem/MRB-9-RuaDeSJoao-Norte.jpg"/>
+            <imagem path="/images/MRB-9-RuaDeSJoao-Norte.jpg"/>
             <legenda>Rua de S.João - vista norte. </legenda>
         </figura>
         
         <figura id="MRB-09-sul">
-            <imagem path="../imagem/MRB-9-RuaDeSJoao-Sul.jpg"/>
+            <imagem path="/images/MRB-9-RuaDeSJoao-Sul.jpg"/>
             <legenda>Rua de S.João - vista sul. </legenda>
         </figura>
     </corpo>

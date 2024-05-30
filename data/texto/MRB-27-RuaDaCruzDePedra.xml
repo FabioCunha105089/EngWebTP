@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-27-poente">
-            <imagem path="../imagem/MRB-27-RuaDaCruzDePedra-Poente.png"/>
+            <imagem path="/images/MRB-27-RuaDaCruzDePedra-Poente.png"/>
             <legenda>Rua Da Cruz De Pedra - poente</legenda>
         </figura>
         <figura id="MRB-27-nascente">
-            <imagem path="../imagem/MRB-27-RuaDaCruzDePedra-Nascente.png"/>
+            <imagem path="/images/MRB-27-RuaDaCruzDePedra-Nascente.png"/>
             <legenda>Rua Da Cruz De Pedra - nascente</legenda>
         </figura>
         <para>

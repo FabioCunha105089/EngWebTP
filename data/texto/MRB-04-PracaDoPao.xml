@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-04-norte">
-            <imagem path="../imagem/MRB-04-PracaDoPao-norte.PNG"/>
+            <imagem path="/images/MRB-04-PracaDoPao-norte.PNG"/>
             <legenda>Praça do Pão - vista norte.</legenda>
         </figura>
         <figura id="MRB-04-sul">
-            <imagem path="../imagem/MRB-04-PracaDoPao-sul.PNG"/>
+            <imagem path="/images/MRB-04-PracaDoPao-sul.PNG"/>
             <legenda>Praça do Pão - vista sul.</legenda>
         </figura>
         <para>Pequena praça em frente à fachada da <lugar>Sé</lugar>, que ao longo dos séculos foi tendo uma vida e importância diferentes, mas sempre descendente.</para>

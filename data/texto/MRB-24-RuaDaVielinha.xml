@@ -26,11 +26,11 @@
             Nascente.</para>
 
         <figura id="MRB-24-nascente">
-            <imagem path="../imagem/MRB-24-RuaDaVielinha-nascente.jpg"/>
+            <imagem path="/images/MRB-24-RuaDaVielinha-nascente.jpg"/>
             <legenda>Rua da Vielinha - nascente.</legenda>
         </figura>
         <figura id="MRB-24-poente">
-            <imagem path="../imagem/MRB-24-RuaDaVielinha-poente.jpg"/>
+            <imagem path="/images/MRB-24-RuaDaVielinha-poente.jpg"/>
             <legenda>Rua da Vielinha - poente.</legenda>
         </figura>
 

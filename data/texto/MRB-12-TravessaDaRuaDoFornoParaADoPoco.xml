@@ -29,11 +29,11 @@
         </para> 
         
         <figura id="MRB-12-norte">
-            <imagem path="../imagem/MRB-12-TravessaDaRuaDoFornoParaADoPoco-Norte.jpg"/>
+            <imagem path="/images/MRB-12-TravessaDaRuaDoFornoParaADoPoco-Norte.jpg"/>
             <legenda>Travessa Da Rua Do Forno Para A Do Poço - vista norte.</legenda>
         </figura>
         <figura id="MRB-12-sul">
-            <imagem path="../imagem/MRB-12-TravessaDaRuaDoFornoParaADoPoco-Sul.jpg"/>
+            <imagem path="/images/MRB-12-TravessaDaRuaDoFornoParaADoPoco-Sul.jpg"/>
             <legenda>Travessa Da Rua Do Forno Para A Do Poço - vista sul.</legenda>
         </figura>
         

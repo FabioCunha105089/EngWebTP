@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-26-norte">
-            <imagem path="../imagem/MRB-26-SaoMiguelOAnjo-Norte.png"/>
+            <imagem path="/images/MRB-26-SaoMiguelOAnjo-Norte.png"/>
             <legenda>Rua de S.Miguel O Anjo - Norte</legenda>
         </figura>
         <figura id="MRB-26-sul">
-            <imagem path="../imagem/MRB-26-SaoMiguelOAnjo-Sul.png"/>
+            <imagem path="/images/MRB-26-SaoMiguelOAnjo-Sul.png"/>
             <legenda>Rua de S.Miguel O Anjo - Sul</legenda>
         </figura>
         <para> 

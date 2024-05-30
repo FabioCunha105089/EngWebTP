@@ -29,11 +29,11 @@
         </para>  
         
         <figura id="MRB-13-nascente">
-            <imagem path="../imagem/MRB-13-RuaPequena-Nascente.jpg"/>
+            <imagem path="/images/MRB-13-RuaPequena-Nascente.jpg"/>
             <legenda>RuaPequena - vista nascente.</legenda>
         </figura>
         <figura id="MRB-13-poente">
-            <imagem path="../imagem/MRB-13-RuaPequena-Poente.jpg"/>
+            <imagem path="/images/MRB-13-RuaPequena-Poente.jpg"/>
             <legenda>RuaPequena - vista poente.</legenda>
         </figura>
         

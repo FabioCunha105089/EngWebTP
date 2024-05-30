@@ -15,11 +15,11 @@
         <para>As 25 casas do lado Norte e 21 do Sul eram todas prazos do <entidade tipo="pessoa">Cabido</entidade>. </para>
         <para>Mantém a designação de <lugar>rua de Santo André</lugar>.</para>
         <figura id="MRB-46-norte">
-            <imagem path="../imagem/MRB-46-RuaDeSantoAndre-a(norte).jpg"/>
+            <imagem path="/images/MRB-46-RuaDeSantoAndre-a(norte).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <figura id="MRB-46-sul">
-            <imagem path="../imagem/MRB-46-RuaDeSantoAndre-a(sul).jpg"/>
+            <imagem path="/images/MRB-46-RuaDeSantoAndre-a(sul).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <lista-casas>

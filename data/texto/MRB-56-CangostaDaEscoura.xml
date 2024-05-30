@@ -18,11 +18,11 @@
         <para>Desde <data>14 de Setembro de 1885</data> que passou a chamar-se <lugar>rua Gabriel Pereira de Castro</lugar>. Apesar das placas toponímicas existentes 
             no local competente terem gravado este nome é apenas conhecida como <lugar>rua da Escoura</lugar>.</para>
         <figura id="MRB-56-norte">
-            <imagem path="../imagem/MRB-56-CangostaDaEscoura-norte.jpg"/>
+            <imagem path="/images/MRB-56-CangostaDaEscoura-norte.jpg"/>
             <legenda>Cangosta da Escoura - vista norte.</legenda>
         </figura>
         <figura id="MRB-56-sul">
-            <imagem path="../imagem/MRB-56-CangostaDaEscoura-sul.jpg"/>
+            <imagem path="/images/MRB-56-CangostaDaEscoura-sul.jpg"/>
             <legenda>Cangosta da Escoura - vista sul.</legenda>
         </figura>
         <lista-casas>

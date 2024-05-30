@@ -39,11 +39,11 @@
             Cabido.</para>
         
         <figura id="MRB-21-nascente">
-            <imagem path="../imagem/MRB-21-RuaVerde-nascente.jpg"/>
+            <imagem path="/images/MRB-21-RuaVerde-nascente.jpg"/>
             <legenda>Rua Verde - nascente.</legenda>
         </figura>
         <figura id="MRB-21-poente">
-            <imagem path="../imagem/MRB-21-RuaVerde-poente.jpg"/>
+            <imagem path="/images/MRB-21-RuaVerde-poente.jpg"/>
             <legenda>Rua Verde - poente.</legenda>
         </figura>
         

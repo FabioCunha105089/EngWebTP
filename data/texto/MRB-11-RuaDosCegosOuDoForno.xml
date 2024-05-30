@@ -36,11 +36,11 @@
         <para>Actual <lugar>rua do Forno</lugar>.</para>
         
         <figura id="MRB-11-nascente">
-            <imagem path="../imagem/MRB-11-RuaDosCegosOuDoForno-Nascente.jpg"/>
+            <imagem path="/images/MRB-11-RuaDosCegosOuDoForno-Nascente.jpg"/>
             <legenda>Rua dos Cegos ou do Forno - vista nascente.</legenda>
         </figura>
         <figura id="MRB-11-poente">
-            <imagem path="../imagem/MRB-11-RuaDosCegosOuDoForno-Poente.jpg"/>
+            <imagem path="/images/MRB-11-RuaDosCegosOuDoForno-Poente.jpg"/>
             <legenda>Rua dos Cegos ou do Forno - vista poente.</legenda>
         </figura>
         

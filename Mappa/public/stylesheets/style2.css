@@ -42,3 +42,78 @@ footer p {
   text-align: left;
   margin-bottom: 5px; /* Add margin bottom for spacing */
 }
+
+.rectangle-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 800px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.comment-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  min-height: 100px;
+}
+
+.comment-button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.comment-button:hover {
+  background-color: #0056b3;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comment {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #777;
+}
+
+.comment-body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.rectangle-container p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+}

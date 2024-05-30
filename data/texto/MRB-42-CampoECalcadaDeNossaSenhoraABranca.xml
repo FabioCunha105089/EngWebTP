@@ -30,12 +30,12 @@
         e o alçado Sul, hoje totalmente alterado, compreende o espaço entre as <lugar>ruas de Restauração e 31 de Janeiro</lugar>.</para>
         
         <figura id="MRB-42-norte">
-            <imagem path="../imagem/MRB-42-CampoECalcadaDeNossaSenhoraABranca-Norte.jpg"/>
+            <imagem path="/images/MRB-42-CampoECalcadaDeNossaSenhoraABranca-Norte.jpg"/>
             <legenda>Campo e Calçada de Nossa Senhora a Branca- Norte.</legenda>
         </figura>
         
         <figura id="MRB-42-sul">
-            <imagem path="../imagem/MRB-42-CampoECalcadaDeNossaSenhoraABranca-Sul.jpg"/>
+            <imagem path="/images/MRB-42-CampoECalcadaDeNossaSenhoraABranca-Sul.jpg"/>
             <legenda>Campo e Calçada de Nossa Senhora a Branca- Sul.</legenda>
         </figura>
         

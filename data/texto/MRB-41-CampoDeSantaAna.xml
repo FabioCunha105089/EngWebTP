@@ -55,12 +55,12 @@
         <para>O <lugar>campo de Santa Ana</lugar> tem o nome actual de <lugar>avenida Central</lugar>.</para>
         
         <figura id="MRB-41-norte">
-            <imagem path="../imagem/MRB-41-CampoDeSantaAna-Norte.jpg"/>
+            <imagem path="/images/MRB-41-CampoDeSantaAna-Norte.jpg"/>
             <legenda>Campo de Santa Ana - Norte.</legenda>
         </figura>
         
         <figura id="MRB-41-sul">
-            <imagem path="../imagem/MRB-41-CampoDeSantaAna-Sul.jpg"/>
+            <imagem path="/images/MRB-41-CampoDeSantaAna-Sul.jpg"/>
             <legenda>Campo de Santa Ana - Sul.</legenda>
         </figura>
         

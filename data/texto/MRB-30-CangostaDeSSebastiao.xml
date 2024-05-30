@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-30-norte">
-            <imagem path="../imagem/MRB-30-CangostaDeSSbebastiao-Norte.png"/>
+            <imagem path="/images/MRB-30-CangostaDeSSbebastiao-Norte.png"/>
             <legenda>Cangosta De S. Sebastião - norte</legenda>
         </figura>
         <figura id="MRB-30-sul">
-            <imagem path="../imagem/MRB-30-CangostaDeSSbebastiao-Sul.png"/>
+            <imagem path="/images/MRB-30-CangostaDeSSbebastiao-Sul.png"/>
             <legenda>Cangosta De S. Sebastião - sul</legenda>
         </figura>
         <para>

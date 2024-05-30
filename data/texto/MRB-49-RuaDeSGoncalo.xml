@@ -26,12 +26,12 @@
         <para>Mantém o nome de <lugar norm="Rua de S. Gonçalo">rua de S. Gonçalo.</lugar></para>
         
         <figura id="MRB-49-a">
-            <imagem path="../imagem/MRB-49-RuaDeSGoncalo-a.jpg"/>
+            <imagem path="/images/MRB-49-RuaDeSGoncalo-a.jpg"/>
             <legenda>Rua de S.Gonçalo - Vista nascente-</legenda>
         </figura>
         
         <figura id="MRB-49-b">
-            <imagem path="../imagem/MRB-49-RuaDeSGoncalo-b.jpg"/>
+            <imagem path="/images/MRB-49-RuaDeSGoncalo-b.jpg"/>
             <legenda>Rua de S.Gonçalo - Vista poente.</legenda>
         </figura>
         

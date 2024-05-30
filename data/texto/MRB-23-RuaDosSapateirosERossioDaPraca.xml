@@ -36,11 +36,11 @@
         <para>Actual fragmento da <lugar>rua D. Frei Caetano Brandão</lugar>.</para>
 
         <figura id="MRB-23-nascente">
-            <imagem path="../imagem/MRB-23-RuaDosSapateirosERossioDaPraca-nascente.jpg"/>
+            <imagem path="/images/MRB-23-RuaDosSapateirosERossioDaPraca-nascente.jpg"/>
             <legenda>Rua dos Sapateiros e do Rossio da Praça - nascente.</legenda>
         </figura>
         <figura id="MRB-23-poente">
-            <imagem path="../imagem/MRB-23-RuaDosSapateirosERossioDaPraca-poente.jpg"/>
+            <imagem path="/images/MRB-23-RuaDosSapateirosERossioDaPraca-poente.jpg"/>
             <legenda>Rua dos Sapateiros e do Rossio da Praça - poente.</legenda>
         </figura>
 

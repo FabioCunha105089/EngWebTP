@@ -210,11 +210,11 @@
         </lista-casas>
         
         <figura id="MRB-36-a">
-            <imagem path="../imagem/MRB-36-RuaDasAgoas-primeira.jpg"/>
+            <imagem path="/images/MRB-36-RuaDasAgoas-primeira.jpg"/>
             <legenda>Rua das Águas - Poente.</legenda>
         </figura>
         <figura id="MRB-36-b">
-            <imagem path="../imagem/MRB-36-RuaDasAgoas-segunda.jpg"/>
+            <imagem path="/images/MRB-36-RuaDasAgoas-segunda.jpg"/>
             <legenda>Rua das Águas - Nascente.</legenda>
         </figura>
     </corpo>

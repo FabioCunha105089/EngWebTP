@@ -15,11 +15,11 @@
         <para>Das 45 casas do lado Nascente e 44 do Poente eram prazos do <entidade tipo="instituição">Cabido 30 e 24</entidade>, respectivamente.</para>
         <para>A <lugar>rua dos Chaos de Baixo</lugar> corresponde hoje à <lugar>Rua dos Chãos</lugar> e o <lugar>Eyrado</lugar> compreende o <lugar>largo de S. Francisco</lugar> e o espaço, agora construído, <entidade tipo="empresa">Banco de Portugal</entidade> e <entidade tipo="empresa">Caixa Geral de Depósitos</entidade>.</para>
         <figura id="MRB-45-nascente">
-            <imagem path="../imagem/MRB-45-RuaDosChaosDeBaixo-a(nascente).jpg"/>
+            <imagem path="/images/MRB-45-RuaDosChaosDeBaixo-a(nascente).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <figura id="MRB-45-poente">
-            <imagem path="../imagem/MRB-45-RuaDosChaosDeBaixo-a(poente).jpg"/>
+            <imagem path="/images/MRB-45-RuaDosChaosDeBaixo-a(poente).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <lista-casas>

@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-29-norte">
-            <imagem path="../imagem/MRB-29-Beco-Norte.png"/>
+            <imagem path="/images/MRB-29-Beco-Norte.png"/>
             <legenda>Rua do Beco - Norte</legenda>
         </figura>
         <figura id="MRB-29-sul">
-            <imagem path="../imagem/MRB-29-Beco-Sul.png"/>
+            <imagem path="/images/MRB-29-Beco-Sul.png"/>
             <legenda>Rua do Beco - Sul</legenda>
         </figura>
         <para>

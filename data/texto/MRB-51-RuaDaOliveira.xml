@@ -24,12 +24,12 @@
         <para>Mantém a designação de <lugar norm="Rua das Oliveiras">rua das Oliveiras</lugar>.</para>
         
         <figura id="MRB-51-a">
-            <imagem path="../imagem/MRB-51-RuaDaOliveira-a.jpg"/>
+            <imagem path="/images/MRB-51-RuaDaOliveira-a.jpg"/>
             <legenda>Rua da Oliveira - Vista nascente.</legenda>
         </figura>
         
         <figura id="MRB-51-b">
-            <imagem path="../imagem/MRB-51-RuaDaOliveira-b.jpg"/>
+            <imagem path="/images/MRB-51-RuaDaOliveira-b.jpg"/>
             <legenda>Rua da Oliveira - Vista poente.</legenda>
         </figura>
         

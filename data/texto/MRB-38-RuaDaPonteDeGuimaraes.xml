@@ -638,19 +638,19 @@
             </casa>
         </lista-casas>
         <figura id="MRB38-nascente-a">
-            <imagem path="../imagem/MRB-38-RuaDaPonteDeGuimaraes-Nascente-a.jpg"/>
+            <imagem path="/images/MRB-38-RuaDaPonteDeGuimaraes-Nascente-a.jpg"/>
             <legenda>Rua da Ponte de Guimarães - Nascente-a.</legenda>
         </figura>
         <figura id="MRB38-nascente-b">
-            <imagem path="../imagem/MRB-38-RuaDaPonteDeGuimaraes-Nascente-b.jpg"/>
+            <imagem path="/images/MRB-38-RuaDaPonteDeGuimaraes-Nascente-b.jpg"/>
             <legenda>Rua da Ponte de Guimarães - Nascente-b.</legenda>
         </figura>
         <figura id="MRB38-poente-a">
-            <imagem path="../imagem/MRB-38-RuaDaPonteDeGuimaraes-Poente-a.jpg"/>
+            <imagem path="/images/MRB-38-RuaDaPonteDeGuimaraes-Poente-a.jpg"/>
             <legenda>Rua da Ponte de Guimarães - Poente-a.</legenda>
         </figura>
         <figura id="MRB38-poente-b">
-            <imagem path="../imagem/MRB-38-RuaDaPonteDeGuimaraes-Poente-b.jpg"/>
+            <imagem path="/images/MRB-38-RuaDaPonteDeGuimaraes-Poente-b.jpg"/>
             <legenda>Rua da Ponte de Guimarães - Poente-b.</legenda>
         </figura>
     </corpo>

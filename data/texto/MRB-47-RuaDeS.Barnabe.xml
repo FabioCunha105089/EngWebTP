@@ -14,11 +14,11 @@
             Mantém o nome de <lugar>S. Barnabé</lugar>.
         </para>
         <figura id="MRB-47-nascente">
-            <imagem path="../imagem/MRB-47-RuaDeS.Barnabe-a(nascente).jpg"/>
+            <imagem path="/images/MRB-47-RuaDeS.Barnabe-a(nascente).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <figura id="MRB-47-poente">
-            <imagem path="../imagem/MRB-47-RuaDeS.Barnabe-a(poente).jpg"/>
+            <imagem path="/images/MRB-47-RuaDeS.Barnabe-a(poente).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <lista-casas>

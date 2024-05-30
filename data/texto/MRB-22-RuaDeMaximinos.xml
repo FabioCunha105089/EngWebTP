@@ -38,11 +38,11 @@
             acção dos Arcebispos na independência e formalçao de Portugal.</para>
 
         <figura id="MRB-22-norte">
-            <imagem path="../imagem/MRB-22-RuaDeMaximinos-norte.jpg"/>
+            <imagem path="/images/MRB-22-RuaDeMaximinos-norte.jpg"/>
             <legenda>Rua de Maximinos - norte.</legenda>
         </figura>
         <figura id="MRB-22-sul">
-            <imagem path="../imagem/MRB-22-RuaDeMaximinos-sul.jpg"/>
+            <imagem path="/images/MRB-22-RuaDeMaximinos-sul.jpg"/>
             <legenda>Rua de Maximinos - sul.</legenda>
         </figura>
 

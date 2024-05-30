@@ -192,11 +192,11 @@
             
         </lista-casas>
         <figura id="MRB40-sul">
-            <imagem path="../imagem/MRB-40-RuaDoPaymanta-Sul.jpg"/>
+            <imagem path="/images/MRB-40-RuaDoPaymanta-Sul.jpg"/>
             <legenda>Rua do Paymanta - Sul.</legenda>
         </figura>
         <figura id="MRB40-norte">
-            <imagem path="../imagem/MRB-40-RuaDoPaymanta-Norte.jpg"/>
+            <imagem path="/images/MRB-40-RuaDoPaymanta-Norte.jpg"/>
             <legenda>Rua do Paymanta - Norte.</legenda>
         </figura>
     </corpo>

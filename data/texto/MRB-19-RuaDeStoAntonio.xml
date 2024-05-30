@@ -31,12 +31,12 @@
         </para>
         
         <figura id="MRB-19-nascente">
-            <imagem path="../imagem/MRB-19-RuaDeStoAntonio-nascente.jpg"/>
+            <imagem path="/images/MRB-19-RuaDeStoAntonio-nascente.jpg"/>
             <legenda>Rua de Sto. António - nascente</legenda>
         </figura>
         
         <figura id="MRB-19-poente">
-            <imagem path="../imagem/MRB-19-RuaDeStoAntonio-poente.jpg"/>
+            <imagem path="/images/MRB-19-RuaDeStoAntonio-poente.jpg"/>
             <legenda>Rua de Sto. António - poente</legenda>
         </figura>
         

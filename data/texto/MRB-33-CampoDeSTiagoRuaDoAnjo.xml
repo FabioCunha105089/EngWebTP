@@ -124,7 +124,7 @@
         </lista-casas>
         
         <figura id="MR-33-a">
-            <imagem path="../imagem/MRB-33-CampoDeSTiagoRuaDoAnjo-primeira.jpg"/>
+            <imagem path="/images/MRB-33-CampoDeSTiagoRuaDoAnjo-primeira.jpg"/>
             <legenda>Campo de São Tiago - Sul</legenda>
         </figura>
         
@@ -320,7 +320,7 @@
            </casa>
        </lista-casas>
         <figura id="MR-33-b">
-            <imagem path="../imagem/MRB-33-CampoDeSTiagoRuaDoAnjo-segunda.jpg"/>
+            <imagem path="/images/MRB-33-CampoDeSTiagoRuaDoAnjo-segunda.jpg"/>
             <legenda>Rua do Anjo - Sul.</legenda>
         </figura>
     </corpo>

@@ -35,11 +35,11 @@
         <para>É actualmente, mais conhecida pela designação tradicional de rua da
             <lugar>Cónega</lugar>, do que pela oficial de rua da <lugar>Boavista</lugar>.</para>
         <figura id="MRB-58-norte">
-            <imagem path="../imagem/MRB-58-RuaDaCónega-norte.jpg"/>
+            <imagem path="/images/MRB-58-RuaDaCónega-norte.jpg"/>
             <legenda>RuaDaCónega - norte.</legenda>
         </figura>
         <figura id="MRB-58-sul">
-            <imagem path="../imagem/MRB-58-RuaDaCónega-sul.jpg"/>
+            <imagem path="/images/MRB-58-RuaDaCónega-sul.jpg"/>
             <legenda>RuaDaCónega- sul.</legenda>
         </figura>
         <lista-casas>

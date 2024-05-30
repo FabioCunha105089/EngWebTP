@@ -50,12 +50,12 @@
                 S. João de Souto</lugar>.</para>
         
         <figura id="MRB-10-norte">
-            <imagem path="../imagem/MRB-10-TravessaDaRuaDeSJoaoParaADoForno-Norte.jpg"/>
+            <imagem path="/images/MRB-10-TravessaDaRuaDeSJoaoParaADoForno-Norte.jpg"/>
             <legenda>Travessa da Rua de S. João para a do Forno - vista norte. </legenda>
         </figura>
         
         <figura id="MRB-10-sul">
-            <imagem path="../imagem/MRB-10-TravessaDaRuaDeSJoaoParaADoForno-Sul.jpg"/>
+            <imagem path="/images/MRB-10-TravessaDaRuaDeSJoaoParaADoForno-Sul.jpg"/>
             <legenda>Travessa da Rua de S. João para a do Forno - vista sul. </legenda>
         </figura>
         

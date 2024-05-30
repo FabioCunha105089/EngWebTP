@@ -7,7 +7,7 @@
     </meta>
     <corpo>
         <figura id="MRB-08">
-            <imagem path="../imagem/MRB-08-RuaDeJanes.JPG"/>
+            <imagem path="/images/MRB-08-RuaDeJanes.JPG"/>
             <legenda>Rua de Janes.</legenda>
         </figura>
         <para>Pequena e tortuosa rua que ligava a <lugar>igreja de S. João do Souto</lugar> à <lugar>Porta de Souto</lugar>. Aparece também com os nomes de <lugar norm="Rua de Jano">Jano </lugar>e <lugar norm="Rua de Janoas">Janoas</lugar>. </para>

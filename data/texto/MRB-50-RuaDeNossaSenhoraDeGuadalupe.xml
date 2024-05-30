@@ -20,12 +20,12 @@
         <para>Ainda hoje é denominada <lugar norm="Rua de Guadalupe">rua de Guadalupe</lugar>.</para>
         
         <figura id="MRB-50-a">
-            <imagem path="../imagem/MRB-50-RuaDeNossaSenhoraDeGuadalupe-a.jpg"/>
+            <imagem path="/images/MRB-50-RuaDeNossaSenhoraDeGuadalupe-a.jpg"/>
             <legenda>Rua de Nossa Senhora de Guadalupe - Vista norte.</legenda>
         </figura>
         
         <figura id="MRB-50-b">
-            <imagem path="../imagem/MRB-50-RuaDeNossaSenhoraDeGuadalupe-b.jpg"/>
+            <imagem path="/images/MRB-50-RuaDeNossaSenhoraDeGuadalupe-b.jpg"/>
             <legenda>Rua de Nossa Senhora de Guadalupe - Vista sul</legenda>
         </figura>
         

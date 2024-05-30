@@ -8,7 +8,7 @@
     </meta>
     <corpo>
         <figura id="MRB-07">
-            <imagem path="../imagem/MRB-07-LouraETerreiroDoCastelo.JPG"/>
+            <imagem path="/images/MRB-07-LouraETerreiroDoCastelo.JPG"/>
             <legenda>Loura e Terreiro do Castelo.</legenda>
         </figura>
         <para>Pequena artéria que, partindo da <lugar>igreja dos Terceiros</lugar>, contornava a <lugar>cidadela</lugar> medieval, até à <lugar>rua do Souto</lugar>.</para>

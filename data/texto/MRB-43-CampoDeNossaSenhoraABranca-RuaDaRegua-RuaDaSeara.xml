@@ -34,7 +34,7 @@
         Esta designação remonta já a <data>1865</data>.</para>
         
         <figura id="MRB-43-norte">
-            <imagem path="../imagem/MRB-43-CampoDeNossaSenhoraABranca-RuaDaRegua-RuaDaSeara-Norte.jpg"/>
+            <imagem path="/images/MRB-43-CampoDeNossaSenhoraABranca-RuaDaRegua-RuaDaSeara-Norte.jpg"/>
             <legenda>Campo de Nossa Senhora a Branca. Rua da Régua. Rua Nova da Seara- Norte.</legenda>
         </figura>
         
@@ -190,7 +190,7 @@
         </lista-casas>
         
         <figura id="MRB-43-sul">
-            <imagem path="../imagem/MRB-43-CampoDeNossaSenhoraABranca-RuaDaRegua-RuaDaSeara-Sul.jpg"/>
+            <imagem path="/images/MRB-43-CampoDeNossaSenhoraABranca-RuaDaRegua-RuaDaSeara-Sul.jpg"/>
             <legenda>Campo de Nossa Senhora a Branca. Rua da Régua. Rua Nova da Seara- Sul</legenda>
         </figura>
         

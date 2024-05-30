@@ -38,12 +38,12 @@
         </para>
         
         <figura id="MRB-18-nascente">
-            <imagem path="../imagem/MRB-18-RuaDasChagas-nascente.jpg"/>
+            <imagem path="/images/MRB-18-RuaDasChagas-nascente.jpg"/>
             <legenda>Rua das Chagas - nascente</legenda>
         </figura>
         
         <figura id="MRB-18-poente">
-            <imagem path="../imagem/MRB-18-RuaDasChagas-poente.jpg"/>
+            <imagem path="/images/MRB-18-RuaDasChagas-poente.jpg"/>
             <legenda>Rua das Chagas - poente</legenda>
         </figura>
         

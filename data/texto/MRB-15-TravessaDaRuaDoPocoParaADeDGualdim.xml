@@ -20,11 +20,11 @@
         </para>
         
         <figura id="MRB-15-norte">
-            <imagem path="../imagem/MRB-15-TravessaDaRuaDoPocoParaADeDGualdim-Norte.jpg"/>
+            <imagem path="/images/MRB-15-TravessaDaRuaDoPocoParaADeDGualdim-Norte.jpg"/>
             <legenda>Travessa da Rua do Poço para a de D.Gualdim - vista norte.</legenda>
         </figura>
         <figura id="MRB-15-sul">
-            <imagem path="../imagem/MRB-15-TravessaDaRuaDoPocoParaADeDGualdim-Sul.jpg"/>
+            <imagem path="/images/MRB-15-TravessaDaRuaDoPocoParaADeDGualdim-Sul.jpg"/>
             <legenda>Travessa da Rua do Poço para a de D.Gualdim - vista sul.</legenda>
         </figura>
         

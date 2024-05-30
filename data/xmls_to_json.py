@@ -11,6 +11,25 @@ def clean_strings(s):
     s = '_'.join(res)
     return s 
 
+# Ruas
+with open('ruas.xml', 'r') as xml_file:
+    xml_ruas = xml_file.read()
+
+root = ET.fromstring(xml_ruas)
+
+ruas_list = []
+for rua in root.findall('rua'):
+    nome = rua.find('nome').text
+    numero = rua.find('número').text
+    ruas_list.append({
+      '_id': int(numero),
+      'nome': nome
+    })
+
+with open('ruas.json', 'w') as json_file:
+    json_file.write(json.dumps(ruas_list, indent=2, ensure_ascii=False))
+    
+# Lugares    
 with open('lugares.xml', 'r') as xml_file:
     xml_lugares = xml_file.read()
 
@@ -50,7 +69,6 @@ entidades_list = []
 nomes = {}
 i = 0
 for entidade in root.findall('entidade'):
-    _id = str(i)
     tipo = entidade.find('tipo').text
     nome = entidade.find('nome').text
     nome = clean_strings(nome)

@@ -118,11 +118,11 @@
             </casa>
         </lista-casas>
         <figura id="MRB39-Norte">
-            <imagem path="../imagem/MRB-39-PonteDeGuimaraes-Norte.jpg"/>
+            <imagem path="/images/MRB-39-PonteDeGuimaraes-Norte.jpg"/>
             <legenda>Ponte de Guimarães - Norte</legenda>
         </figura>
         <figura id="MRB39-Poente">
-            <imagem path="../imagem/MRB-39-PonteDeGuimaraes-Poente.jpg"/>
+            <imagem path="/images/MRB-39-PonteDeGuimaraes-Poente.jpg"/>
             <legenda>Ponte de Guimarães - Poente</legenda>
         </figura>
     </corpo>

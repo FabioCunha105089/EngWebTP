@@ -22,11 +22,11 @@
         <para>Estas ruas mantêm hoje as designações e seu aspecto geral. A rua <lugar>Nova do Bico</lugar> foi, contudo, cortada em duas, pela via de cintura da cidade, 
             ficando as duas partes isolados uma da outra.</para>
         <figura id="MRB-54-norte">
-            <imagem path="../imagem/MRB-54-RuaDasPalhotas-nascente.jpg"/>
+            <imagem path="/images/MRB-54-RuaDasPalhotas-nascente.jpg"/>
             <legenda>Rua das Palhotas - vista nascente.</legenda>
         </figura>
         <figura id="MRB-54-sul">
-            <imagem path="../imagem/MRB-54-RuaDasPalhotas-poente.jpg"/>
+            <imagem path="/images/MRB-54-RuaDasPalhotas-poente.jpg"/>
             <legenda>Rua das Palhotas - vista poente.</legenda>
         </figura>
         <lista-casas>

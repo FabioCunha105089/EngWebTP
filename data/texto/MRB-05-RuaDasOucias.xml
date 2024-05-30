@@ -7,7 +7,7 @@
     </meta>
     <corpo>
         <figura id="MRB-05">
-            <imagem path="../imagem/MRB-05-RuaDasOucias.png"/>
+            <imagem path="/images/MRB-05-RuaDasOucias.png"/>
             <legenda>Rua das Oucias.</legenda>
         </figura>
         

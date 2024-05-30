@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-25-poente-a">
-            <imagem path="../imagem/MRB-25-CampoDeSSebastiaoEEmFrenteDoAcougue-Poente-A.png"/>
+            <imagem path="/images/MRB-25-CampoDeSSebastiaoEEmFrenteDoAcougue-Poente-A.png"/>
             <legenda>Campo de S. Sebastião - Poente.</legenda>
         </figura>
         <figura id="MRB-25-poente-b">
-            <imagem path="../imagem/MRB-25-CampoDeSSebastiaoEEmFrenteDoAcougue-Poente-B.png"/>
+            <imagem path="/images/MRB-25-CampoDeSSebastiaoEEmFrenteDoAcougue-Poente-B.png"/>
             <legenda>Em Frente do Assougue - Poente.</legenda>
         </figura>
         <para>

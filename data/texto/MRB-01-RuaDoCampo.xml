@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-01-nascente">
-            <imagem path="../imagem/MRB-01-RuaDoCampo-nascente.PNG"/>
+            <imagem path="/images/MRB-01-RuaDoCampo-nascente.PNG"/>
             <legenda>Rua do Campo - vista nascente. </legenda>
         </figura>
         <figura id="MRB-01-poente">
-            <imagem path="../imagem/MRB-01-RuaDoCampo-poente.PNG"/>
+            <imagem path="/images/MRB-01-RuaDoCampo-poente.PNG"/>
             <legenda>Rua do Campo - vista poente.</legenda>
         </figura>
         <para>Pequena rua, entre a <lugar>rua Nova</lugar> e a <lugar>Porta de S. Francisco</lugar>, existente ja na Idade Media, entao com o nome de <lugar>rua Nova</lugar>.</para>

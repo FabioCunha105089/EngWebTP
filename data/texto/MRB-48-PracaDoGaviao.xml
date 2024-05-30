@@ -16,19 +16,19 @@
             A <lugar>praça do Gavião</lugar>, que no <data>século XVIII</data> também foi conhecida por, Quinteiro, Reduto ou campo Novo do Reduto, tem actualmente a designação oficial de <lugar>praça Mouzinho de Albuquerque</lugar>, que lhe foi dada pela Câmara Municipal em 4 de Janeiro de 1898. É mais conhecida, porém, por Campo Novo.
         </para>
         <figura id="MRB-48-nascente">
-            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(nascente).jpg"/>
+            <imagem path="/images/MRB-48-PracaDoGaviao-a(nascente).jpg"/>
             <legenda>Praça do Gavião - Nascente.</legenda>
         </figura>
         <figura id="MRB-48-norte">
-            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(norte).jpg"/>
+            <imagem path="/images/MRB-48-PracaDoGaviao-a(norte).jpg"/>
             <legenda>Praça do Gavião - Norte.</legenda>
         </figura>
         <figura id="MRB-48-poente">
-            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(poente).jpg"/>
+            <imagem path="/images/MRB-48-PracaDoGaviao-a(poente).jpg"/>
             <legenda>Praça do Gavião - Poente.</legenda>
         </figura>
         <figura id="MRB-48-sul">
-            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(sul).jpg"/>
+            <imagem path="/images/MRB-48-PracaDoGaviao-a(sul).jpg"/>
             <legenda>Praça do Gavião - Sul.</legenda>
         </figura>
       

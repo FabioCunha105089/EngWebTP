@@ -8,11 +8,11 @@
     </meta>
     <corpo>
         <figura id="MRB-06-norte">
-            <imagem path="../imagem/MRB-06-RuaDoSouto.PortaDoSouto-norte.png"/>
+            <imagem path="/images/MRB-06-RuaDoSouto.PortaDoSouto-norte.png"/>
             <legenda>Rua do Souto, Porta do Souto - vista norte.</legenda>
         </figura>
         <figura id="MRB-06-sul">
-            <imagem path="../imagem/MRB-06-RuaDoSouto.PortaDoSouto-sul.png"/>
+            <imagem path="/images/MRB-06-RuaDoSouto.PortaDoSouto-sul.png"/>
             <legenda>Rua do Souto, Porta do Souto - vista sul.</legenda>
         </figura>
         <para>Rua chave de todo o urbanismo e vida económica bracarense, a <lugar>rua do Souto</lugar>, terá sido, pelo menos desde o séc. XVII, a mais importante da cidade.</para>

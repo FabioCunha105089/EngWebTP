@@ -30,12 +30,12 @@
         
         
         <figura id="MRB-17-norte">
-            <imagem path="../imagem/MRB-17-TravessaDaRuaDeDGualdimAteAoCoutoDoArvoredo-norte.jpg"/>
+            <imagem path="/images/MRB-17-TravessaDaRuaDeDGualdimAteAoCoutoDoArvoredo-norte.jpg"/>
             <legenda>Travessa da Rua de Gualdim até ao Couto do Arvoredo - norte</legenda>
         </figura>
         
         <figura id="MRB-17-sul">
-            <imagem path="../imagem/MRB-17-TravessaDaRuaDeDGualdimAteAoCoutoDoArvoredo-sul.jpg"/>
+            <imagem path="/images/MRB-17-TravessaDaRuaDeDGualdimAteAoCoutoDoArvoredo-sul.jpg"/>
             <legenda>Travessa da Rua de Gualdim até ao Couto do Arvoredo - sul</legenda>
         </figura>
         

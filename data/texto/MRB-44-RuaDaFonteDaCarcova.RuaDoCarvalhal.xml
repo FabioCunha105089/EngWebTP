@@ -40,7 +40,7 @@
         <para>Mantém o nome de <lugar>rua do Carvalhal</lugar>.</para>
         
         <figura id="MRB-44-norte">
-            <imagem path="../imagem/MRB-44-RuaDaFonteDaCarcova.RuaDoCarvalhal-Norte.jpg"/>
+            <imagem path="/images/MRB-44-RuaDaFonteDaCarcova.RuaDoCarvalhal-Norte.jpg"/>
             <legenda>Rua da Fonte da Carcova- Norte.</legenda>
         </figura>
         
@@ -129,7 +129,7 @@
         </lista-casas>
         
         <figura id="MRB-44-sul">
-            <imagem path="../imagem/MRB-44-RuaDaFonteDaCarcova.RuaDoCarvalhal-Sul.jpg"/>
+            <imagem path="/images/MRB-44-RuaDaFonteDaCarcova.RuaDoCarvalhal-Sul.jpg"/>
             <legenda>Rua da Fonte da Carcova- Sul</legenda>
         </figura>
         

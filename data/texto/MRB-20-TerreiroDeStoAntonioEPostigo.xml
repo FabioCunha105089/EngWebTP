@@ -46,12 +46,12 @@
         </para>
         
         <figura id="MRB-20-norte">
-            <imagem path="../imagem/MRB-20-TerreiroDeStoAntonioEPostigo-norte.jpg"/>
+            <imagem path="/images/MRB-20-TerreiroDeStoAntonioEPostigo-norte.jpg"/>
             <legenda>RUa das Chagas - norte</legenda>
         </figura>
         
         <figura id="MRB-20-sul">
-            <imagem path="../imagem/MRB-20-TerreiroDeStoAntonioEPostigo-sul.jpg"/>
+            <imagem path="/images/MRB-20-TerreiroDeStoAntonioEPostigo-sul.jpg"/>
             <legenda>RUa das Chagas - poente</legenda>
         </figura>
         

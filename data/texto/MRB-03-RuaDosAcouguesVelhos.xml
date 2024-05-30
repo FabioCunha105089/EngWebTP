@@ -7,11 +7,11 @@
     </meta>
     <corpo>
         <figura id="MRB-03-nascente">
-            <imagem path="../imagem/MRB-03-RuaDosAcouguesVelhos-nascente.PNG"/>
+            <imagem path="/images/MRB-03-RuaDosAcouguesVelhos-nascente.PNG"/>
             <legenda>Rua dos Açougues Velhos - vista nascente. </legenda>
         </figura>
         <figura id="MRB-03-poente">
-            <imagem path="../imagem/MRB-03-RuaDosAcouguesVelhos-poente.PNG"/>
+            <imagem path="/images/MRB-03-RuaDosAcouguesVelhos-poente.PNG"/>
             <legenda>Rua dos Açougues Velhos - vista poente. </legenda>
         </figura>
         <para>Pequenina rua que liga a fachada da <lugar>Sé</lugar> com a <lugar>rua Nova</lugar>.</para>

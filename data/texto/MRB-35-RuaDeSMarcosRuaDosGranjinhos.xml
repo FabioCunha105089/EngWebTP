@@ -44,7 +44,7 @@
         </lista-casas>
         
         <figura id="MRB3-5-a">
-            <imagem path="../imagem/MRB-35-RuaDeSMarcosRuaDosGranjinhos-primeira.jpg"/>
+            <imagem path="/images/MRB-35-RuaDeSMarcosRuaDosGranjinhos-primeira.jpg"/>
             <legenda>Rua de São Marcos - Nascente</legenda>
         </figura>
         
@@ -148,7 +148,7 @@
        </lista-casas>
         
         <figura id="MRB-35-b">
-            <imagem path="../imagem/MRB-35-RuaDeSMarcosRuaDosGranjinhos-segunda.jpg"/>
+            <imagem path="/images/MRB-35-RuaDeSMarcosRuaDosGranjinhos-segunda.jpg"/>
             <legenda>Rua dos Granjinhos - Nascente</legenda>
         </figura>
         

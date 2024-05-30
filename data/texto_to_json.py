@@ -80,14 +80,15 @@ for dirpath, _, files in os.walk('./texto'):
                         })
                         ###
             ruas.append({
-                '_id': meta.find('número').text,
+                '_id': int(meta.find('número').text),
                 'nome': meta.find('nome').text,
                 'desc': para_list,
                 'figuras': figuras_list,
-                'casas': casas_list
+                'casas': casas_list,
+                'comentarios': []
             })
 
-with open('./ruas.json', 'w') as file:
+with open('./infoRuas.json', 'w') as file:
     file.write(json.dumps(ruas, indent=2, ensure_ascii=False))
             
 

@@ -45,12 +45,12 @@
             designada de <lugar>rua D. Gonçalo Pereira</lugar>, que mantém.</para>
         
         <figura id="MRB-14-nascente">
-            <imagem path="../imagem/MRB-14-RuaDeSMariaOuDoPoco-Nascente.jpg"/>
+            <imagem path="/images/MRB-14-RuaDeSMariaOuDoPoco-Nascente.jpg"/>
             <legenda>Rua de Sta. Maria ou do Poço - vista Nascente.</legenda>
         </figura>
         
         <figura id="MRB-14-poente">
-            <imagem path="../imagem/MRB-14-RuaDeSMariaOuDoPoco-Poente.jpg"/>
+            <imagem path="/images/MRB-14-RuaDeSMariaOuDoPoco-Poente.jpg"/>
             <legenda>Rua de Sta. Maria ou do Poço - vista Poente.</legenda>
         </figura>
         

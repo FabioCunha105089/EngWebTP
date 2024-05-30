@@ -16,10 +16,10 @@ db.once('open', () => {
 })
 
 var ruaRouter = require('./routes/rua.js');
+var infoRuaRouter = require('./routes/inforua.js');
 var entidadeRouter = require('./routes/entidade.js');
 var lugarRouter = require('./routes/lugar.js');
 var userRouter = require('./routes/user.js');
-var comentarioRouter = require('./routes/comentario.js')
 
 var app = express();
 
@@ -47,9 +47,9 @@ passport.serializeUser(userModel.serializeUser());
 passport.deserializeUser(userModel.deserializeUser());
 
 app.use('/rua', ruaRouter);
+app.use('/inforua', infoRuaRouter);
 app.use('/entidade', entidadeRouter);
 app.use('/lugar', lugarRouter);
 app.use('/user', userRouter);
-app.use('/comentario', comentarioRouter)
 
 module.exports = app;

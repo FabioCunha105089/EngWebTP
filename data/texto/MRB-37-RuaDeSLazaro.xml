@@ -278,11 +278,11 @@
         </lista-casas>
         
         <figura id="MRB-37-nascente">
-            <imagem path="../imagem/MRB-37-RuaDeSLazaro-Nascente.jpg"/>
+            <imagem path="/images/MRB-37-RuaDeSLazaro-Nascente.jpg"/>
             <legenda>Rua de S.Lázaro - Nascente.</legenda>
         </figura>
         <figura id="MRB-37-poente">
-            <imagem path="../imagem/MRB-37-RuaDeSLazaro-Poente.jpg"/>
+            <imagem path="/images/MRB-37-RuaDeSLazaro-Poente.jpg"/>
             <legenda>Rua de S.Lázaro - Poente.</legenda>
         </figura>
     </corpo>

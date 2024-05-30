@@ -10,7 +10,6 @@ var ruasRouter = require('./routes/ruas')
 var entidadesRouter = require('./routes/entidades')
 var lugaresRouter = require('./routes/lugares')
 var contaRouter = require('./routes/conta')
-var comentarioRouter = require('./routes/comentario')
 
 var app = express();
 
@@ -41,7 +40,6 @@ app.use('/ruas', ruasRouter)
 app.use('/entidades', entidadesRouter)
 app.use('/lugares', lugaresRouter)
 app.use('/conta', contaRouter)
-app.use('/comentario', comentarioRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
