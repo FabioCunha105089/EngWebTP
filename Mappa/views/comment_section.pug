@@ -1,0 +1,21 @@
+
+
+mixin comment_section(logedin, comments, tipo, id)
+  .rectangle-container
+    if logedin
+      form(action='/comentario' method='post')
+        input(type='text' name='comentario' placeholder='Insere um comentário')
+        input(type='hidden' name='tipo' value=tipo)
+        input(type='hidden' name='post' value=id)
+        button(type='submit') Comentar
+    else
+      p Faz login para poderes adicionar um comentário a este post.
+    comment_section
+      each comment in comments
+        .comment
+          .username= comment.user
+          .timestamp= comment.timestamp
+          .text= comment.comment
+
+
+

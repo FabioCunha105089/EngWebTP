@@ -80,7 +80,7 @@ for dirpath, _, files in os.walk('./texto'):
                         })
                         ###
             ruas.append({
-                '_id': int(meta.find('número').text),
+                '_id': meta.find('número').text,
                 'nome': meta.find('nome').text,
                 'desc': para_list,
                 'figuras': figuras_list,

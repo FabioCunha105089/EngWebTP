@@ -29,9 +29,11 @@ module.exports.checkAuthentication = function (req, res, next) {
         req.user = payload;
       }
       next();
+      return paylod
     });
   } else {
     req.isAuthenticated = false;
     next();
+    return null
   }
 };

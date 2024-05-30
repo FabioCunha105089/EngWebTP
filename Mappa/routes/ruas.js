@@ -13,7 +13,12 @@ router.get('/', async function(req, res, next) {
 
 router.get('/:numero', function(req, res) {
   axios.get('http://localhost:3000/rua/' + req.params.numero)
-  .then(resp => res.render('rua', {rua : resp.data}))
+  .then(resp => {
+    var rua = resp.data
+    axios.get('http://localhost:3000/comentario/rua/' + rua._id)
+    .then(respC => res.render('rua', {rua : rua, comments : respC.data, isLoggedIn: res.locals.isLoggedIn}))
+    .catch(erro => console.log(erro))
+  })
   .catch(erro => console.log(erro))
 })
 

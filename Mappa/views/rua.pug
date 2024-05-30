@@ -1,4 +1,5 @@
 extends layout
+include comment_section.pug
 
 block content
     h1= rua._id + " - " + rua.nome
@@ -25,4 +26,5 @@ block content
                     each para in casa.desc
                         p
                             != para
+    +comment_section(isLoggedIn, comments, 'rua', rua._id)
         
