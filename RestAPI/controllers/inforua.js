@@ -20,9 +20,9 @@ module.exports.findByName = nome => {
     .exec()
 }
 
-module.exports.insert = infoRua => {
-    if (infoRua.find({_id : infoRua._id}).exec().lentgth != 1) {
-        var newInfoRua = new infoRua(infoRua)
+module.exports.insert = info => {
+    if (infoRua.find({_id : info._id}).exec().lentgth != 1) {
+        var newInfoRua = new infoRua(info)
         return newInfoRua.save()
     }
 }

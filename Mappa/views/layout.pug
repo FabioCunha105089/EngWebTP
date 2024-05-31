@@ -4,6 +4,7 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/style2.css')    
+    link(rel='icon', href='/images/favicon.ico', type='image/x-icon')
 
   body
     .centered-container
@@ -17,6 +18,8 @@ html
           a.w3-bar-item.w3-button(href='/lugares') Lugares
         .navbar-right.w3-bar
           if isLoggedIn
+            if user.level < 3
+              a.w3-bar-item.w3-button(href='/conta/add') Adicionar
             a.w3-bar-item.w3-button(href='/conta/perfil') Perfil
             a.w3-bar-item.w3-button(href='/conta/sair') Terminar Sessão
           else

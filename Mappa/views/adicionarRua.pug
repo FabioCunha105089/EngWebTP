@@ -1,0 +1,31 @@
+extends layout
+
+block content
+    style.
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      .form-container {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+    h1 Adicionar uma nova entrada
+    if failed != null
+      if failed
+        h5.w3-text-red O ficheiro está incorretamente formatado
+      else
+        h5.w3-text-green O ficheiro foi submitido com sucesso
+    .form-container.w3-card
+        form(action='add/upload' method='post' enctype='multipart/form-data' class='w3-container')
+            .w3-section
+                label(for='file' class='w3-label w3-text-red') Seleciona o ficheiro de dados:
+                input(type='file' name='file' id='file' class='w3-input w3-border')
+            .w3-section
+                button(type='submit' class='w3-button w3-red w3-round-large') Upload
