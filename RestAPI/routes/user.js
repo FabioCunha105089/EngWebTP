@@ -20,14 +20,16 @@ router.get('/:id', function (req, res) {
 router.post('/register', function (req, res) {
   var d = new Date().toISOString().substring(0, 19);
   userModel.register(new userModel({
+    _id: req.body.username,
     username: req.body.username,
     name: req.body.name,
     email: req.body.email,
-    level: 3,
+    level: "Consumidor",
     registrationDate: d
   }), req.body.password, function (err, user) {
     if (err) {
-      res.jsonp({ error: err, message: "Register error: " + err });
+      console.log(err);
+      res.status(500).jsonp({ error: err, message: "Register error: " + err });
     } else {
       res.status(201).jsonp({ message: "User registered successfully" });
     }
@@ -81,8 +83,9 @@ router.put('/:id', function (req, res) {
     })
 })
 
-router.put('/:id/:level', function (req, res) {
-  User.updateUserLevel(req.params.id, req.params.level)
+router.put('/:id/change-level', function (req, res) {
+  console.log(req.body.level);
+  User.updateUserLevel(req.params.id, req.body.level)
     .then(dados => {
       res.jsonp(dados)
     })

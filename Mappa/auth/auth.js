@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 
 module.exports.requireAuthentication = function (req, res, next) {
-  const myToken = req.query.token || req.body.token || req.headers['authorization'];
+  const myToken = req.session.token;
   
   if (myToken) {
     jwt.verify(myToken, "EngWebTP2024", function (err, payload) {
@@ -18,7 +18,7 @@ module.exports.requireAuthentication = function (req, res, next) {
 };
 
 module.exports.checkAuthentication = function (req, res, next) {
-  const myToken = req.query.token || req.body.token || req.headers['authorization'];
+  const myToken = req.session.token;
   
   if (myToken) {
     jwt.verify(myToken, "EngWebTP2024", function (err, payload) {

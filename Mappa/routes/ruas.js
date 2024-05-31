@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const axios = require('axios');
+var Auth = require('../auth/auth.js')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -20,7 +21,7 @@ router.get('/:numero', function(req, res) {
     .catch(erro => console.log(erro))
 })
 
-router.post('/:numero/comentario', async function(req, res) {
+router.post('/:numero/comentario', Auth.requireAuthentication, async function(req, res) {
   try {
     const id = req.body.id
 

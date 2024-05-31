@@ -6,9 +6,10 @@ var userSchema = new mongoose.Schema({
   password: String,
   name: String,
   email: String,
-  level: Number,
+  level: String,
   lastAccess: String,
-  registrationDate: String
+  registrationDate: String,
+  _id: String,
 });
 
 userSchema.plugin(passportLocalMongoose);

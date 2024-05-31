@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  .profile-container
+    .profile-header
+      if utilizador.photo
+        img(src=utilizador.photo alt="User Photo" class="profile-photo")
+      h1 User Profile
+    .profile-details
+      p
+        strong Username:
+        span.profile-info  #{utilizador.username}
+      p
+        strong Name:
+        span.profile-info  #{utilizador.name}
+      p
+        strong Level:
+        span.profile-info  #{utilizador.level}
+      p
+        strong Last Access:
+        span.profile-info  #{utilizador.lastAccess}
+      p
+        strong Registration Date:
+        span.profile-info  #{utilizador.registrationDate}
+
+      if user.level == 'Administrador'
+        form(action=`/conta/${utilizador._id}/change-level` method='post' class='change-level-form')
+          label(for='level') Alterar nível de acesso:
+          select(name='level' id='level' class='level-select')
+            option(value='Consumidor') Consumidor
+            option(value='Produtor') Produtor
+            option(value='Administrador') Administrador
+          button(type='submit' class='change-level-button') Confirmar
+        .delete-form    
+          form(action=`/conta/${utilizador._id}/delete` method='post' class='delete-user-form')
+            button(type='submit' class='delete-user-button') Eliminar Utilizador

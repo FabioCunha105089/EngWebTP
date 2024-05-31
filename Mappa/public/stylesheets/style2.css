@@ -97,7 +97,7 @@ footer p {
   margin-bottom: 5px;
 }
 
-.comment-header a {
+.username {
   font-weight: bold;
   font-size: 14px;
 }
@@ -155,4 +155,46 @@ footer p {
 
 .profile-details .profile-info {
   margin-left: 10px;
+}
+
+.change-level-form {
+  margin-top: 20px;
+}
+
+.level-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.change-level-button,
+.delete-user-button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-user-button {
+  background-color: #f44336; /* Red color */
+}
+
+.change-level-button {
+  background-color: #007bff;
+}
+
+.change-level-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-user-button:hover {
+  background-color: #ff0000; /* Darker red color on hover */
+}
+
+.delete-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
