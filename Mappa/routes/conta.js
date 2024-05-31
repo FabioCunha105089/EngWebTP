@@ -112,7 +112,7 @@ router.post('/:id/delete', async (req, res) => {
 router.get('/add', function (req, res) {
   if (!res.locals.isLoggedIn)
     res.redirect('/conta/login')
-  else if (res.locals.user.level == 3)
+  else if (res.locals.user.level == "Consumidor")
     res.render('error', { error: {}, message: 'Não tem permissões para aceder a esta página' })
   else
     res.render('adicionarRua', {failed: null}) 
@@ -121,7 +121,7 @@ router.get('/add', function (req, res) {
 router.post('/add/upload', upload.single('file'), async function (req, res) {
   if (!res.locals.isLoggedIn)
     res.redirect('/conta/login')
-  else if (res.locals.user.level == 3)
+  else if (res.locals.user.level == "Consumidor")
     res.render('error', { error: {}, message: 'Não tem permissões para aceder a esta página' })
   else
     try {
