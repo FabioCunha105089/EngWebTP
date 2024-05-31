@@ -30,7 +30,7 @@ router.post('/comentario/:id', async function (req, res) {
     rua.comentarios.push(novoComentario);
     await rua.save();
 
-  res.status(200).send('Comentário adicionado com sucesso.');
+    res.status(200).send('Comentário adicionado com sucesso.');
 
   } catch (error) {
     console.error('Error adding comment:', error);
@@ -44,5 +44,11 @@ router.delete('/:id', function (req, res) {
     .then(rua => res.jsonp(rua))
     .catch(erro => res.jsonp(erro))
 });
+
+router.post('/', function (req, res) {
+  infoRua.insert(req.body)
+    .then(rua => res.jsonp(rua))
+    .catch(erro => res.jsonp(erro))
+})
 
 module.exports = router;

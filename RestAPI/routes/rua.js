@@ -23,4 +23,11 @@ router.delete('/:id', function (req, res) {
     .catch(erro => res.jsonp(erro))
 });
 
+router.post('/', (req, res) => {
+  const newRua = req.body
+  Rua.insert(newRua)
+    .then(resp => res.jsonp(resp))
+    .catch(erro => res.jsonp(erro))
+})
+
 module.exports = router;
