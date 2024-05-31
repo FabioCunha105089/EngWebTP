@@ -14,10 +14,9 @@ const casaSchema = new mongoose.Schema({
 }, {_id: false})
 
 const comentarioSchema = new mongoose.Schema({
-    responding_to: Number,
     user: String,
     comment: String,
-    timestamp: Date
+    timestamp: String
 })
 
 var infoRuaSchema = new mongoose.Schema({

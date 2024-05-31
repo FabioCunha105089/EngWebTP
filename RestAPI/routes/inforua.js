@@ -1,24 +1,46 @@
 var express = require('express');
 var router = express.Router();
-var Rua = require('../controllers/inforua')
+var infoRua = require('../controllers/inforua')
 
 // Listar ruas
 router.get('/', function (req, res) {
-  Rua.list()
+  infoRua.list()
     .then(data => res.jsonp(data))
     .catch(erro => res.jsonp(erro))
 });
 
 // Consultar uma rua
 router.get('/:id', function (req, res) {
-  Rua.findById(req.params.id)
+  infoRua.findById(req.params.id)
     .then(data => res.jsonp(data))
     .catch(erro => res.jsonp(erro))
 });
 
+// Adicionar comentário
+router.post('/comentario/:id', async function (req, res) {
+  try {
+    const id = req.params.id
+    const rua = await infoRua.findById(id);
+    if (!rua) {
+      return res.status(404).send('InfoRua not found');
+    }
+
+    const novoComentario = req.body;
+
+    rua.comentarios.push(novoComentario);
+    await rua.save();
+
+  res.status(200).send('Comentário adicionado com sucesso.');
+
+  } catch (error) {
+    console.error('Error adding comment:', error);
+    res.status(500).send('Internal Server Error');
+  }
+});
+
 // Remover uma rua
 router.delete('/:id', function (req, res) {
-  Rua.delete(req.params.id)
+  infoRua.delete(req.params.id)
     .then(rua => res.jsonp(rua))
     .catch(erro => res.jsonp(erro))
 });

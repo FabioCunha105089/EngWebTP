@@ -2,7 +2,11 @@ var express = require('express');
 var router = express.Router();
 const axios = require('axios');
 
-router.get('/', function(req, res) {
+router.get('/perfil', function(req, res) {
+  res.render('perfil')
+})
+
+router.get('/perfil/:nome', function(req, res) {
   res.render('perfil')
 })
 

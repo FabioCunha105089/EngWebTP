@@ -3,10 +3,9 @@ var router = express.Router();
 const axios = require('axios');
 
 /* GET home page. */
-router.get('/', async function(req, res, next) {
+router.get('/', function(req, res, next) {
   axios.get('http://localhost:3000/rua/')
   .then(resp => {
-    console.log(resp.data);
     res.render('list_ruas', {ruas : resp.data})
   })
   .catch(erro => console.log(erro))
@@ -20,5 +19,24 @@ router.get('/:numero', function(req, res) {
     })
     .catch(erro => console.log(erro))
 })
+
+router.post('/:numero/comentario', async function(req, res) {
+  try {
+    const id = req.body.id
+
+    const newComentario = {
+      user: res.locals.user.name,
+      comment: req.body.comentario,
+      timestamp: new Date().toISOString().substring(0, 19)
+    }
+
+    const response = await axios.post('http://localhost:3000/inforua/comentario/' + id, newComentario)
+    res.redirect('back')
+
+  } catch (error) {
+    console.error('Error forwarding comment:', error);
+    res.status(500).send('Internal Server Error');
+  }
+});
 
 module.exports = router;

@@ -3,9 +3,7 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='/stylesheets/style2.css')
-    link(rel='stylesheet', href='/stylesheets/comentarios.css')
-    
+    link(rel='stylesheet', href='/stylesheets/style2.css')    
 
   body
     .centered-container
@@ -19,7 +17,7 @@ html
           a.w3-bar-item.w3-button(href='/lugares') Lugares
         .navbar-right.w3-bar
           if isLoggedIn
-            a.w3-bar-item.w3-button(href='/conta') Conta
+            a.w3-bar-item.w3-button(href='/conta/perfil') Perfil
             a.w3-bar-item.w3-button(href='/conta/sair') Terminar Sessão
           else
             a.w3-bar-item.w3-button(href='/conta/login') Iniciar sessão

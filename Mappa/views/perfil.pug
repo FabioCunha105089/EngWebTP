@@ -1,24 +1,27 @@
 extends layout
 
 block content
-    .profile
-        .profile-container
-            h1 User Profile
-            p
-                strong Username: 
-                | #{user.username}
-            p
-                strong Name: 
-                | #{user.name}
-            p
-                strong Email: 
-                | #{user.email}
-            p
-                strong Level: 
-                | #{user.level}
-            p
-                strong Last Access: 
-                | #{user.lastAccess}
-            p
-                strong Registration Date: 
-                | #{user.registrationDate}
+  .profile-container
+    .profile-header
+      if user.photo
+        img(src=user.photo alt="User Photo" class="profile-photo")
+      h1 User Profile
+    .profile-details
+      p
+        strong Username: 
+        span.profile-info #{user.username}
+      p
+        strong Name: 
+        span.profile-info #{user.name}
+      p
+        strong Email: 
+        span.profile-info #{user.email}
+      p
+        strong Level: 
+        span.profile-info #{user.level}
+      p
+        strong Last Access: 
+        span.profile-info #{user.lastAccess}
+      p
+        strong Registration Date: 
+        span.profile-info #{user.registrationDate}

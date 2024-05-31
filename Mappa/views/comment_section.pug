@@ -1,16 +1,17 @@
-mixin comment_section(comments)
+mixin comment_section(comments, id)
   .rectangle-container
     if isLoggedIn
-      form(action='/comentario' method='post' class='comment-form')
+      form(action=`/ruas/${id}/comentario` method='post' class='comment-form')
+        input(type='hidden' name='id' value=id)
         textarea(name='comentario' placeholder='Insere um comentário' class='comment-textarea' required)
         button(type='submit' class='comment-button') Comentar
 
-      if comments != null
+      if comments.length > 0
         .comments-section
           each comment in comments
             .comment
               .comment-header
-                .username= comment.user
+                a(href=`conta/perfil/${comment.user}`) #{comment.user}:
                 .timestamp= comment.timestamp
               .comment-body
                 .text= comment.comment
