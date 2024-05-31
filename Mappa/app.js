@@ -32,6 +32,9 @@ app.use(session({
 
 app.use((req, res, next) => {
   res.locals.isLoggedIn = !!req.session.token;
+  if (req.session.user) {
+    res.locals.user = req.session.user;
+  }
   next();
 });
 

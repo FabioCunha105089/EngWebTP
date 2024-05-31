@@ -3,7 +3,7 @@ var router = express.Router();
 const axios = require('axios');
 
 router.get('/', function(req, res) {
-  res.render('perfil', {user : req.session.user})
+  res.render('perfil')
 })
 
 // Render the registration page
