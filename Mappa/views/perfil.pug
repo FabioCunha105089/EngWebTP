@@ -3,25 +3,28 @@ extends layout
 block content
   .profile-container
     .profile-header
-      if user.photo
-        img(src=user.photo alt="User Photo" class="profile-photo")
-      h1 User Profile
+      if utilizador.photo
+        img(src=utilizador.photo alt="User Photo" class="profile-photo")
+      h1 Perfil de utilizador
     .profile-details
       p
-        strong Username: 
-        span.profile-info #{user._id}
+        strong Nome de utilizador: 
+        span.profile-info #{utilizador._id}
       p
-        strong Name: 
-        span.profile-info #{user.name}
+        strong Nome: 
+        span.profile-info #{utilizador.name}
       p
         strong Email: 
-        span.profile-info #{user.email}
+        span.profile-info #{utilizador.email}
       p
-        strong Level: 
-        span.profile-info #{user.level}
+        strong Nível de acesso: 
+        span.profile-info #{utilizador.level}
       p
-        strong Last Access: 
-        span.profile-info #{user.lastAccess}
+        strong Sugestões aceites: 
+        span.profile-info #{utilizador.sugestoesAceites}
       p
-        strong Registration Date: 
-        span.profile-info #{user.registrationDate}
+        strong Último acesso: 
+        span.profile-info #{utilizador.lastAccess}
+      p
+        strong Data de registo: 
+        span.profile-info #{utilizador.registrationDate}

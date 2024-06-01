@@ -20,6 +20,7 @@ var infoRuaRouter = require('./routes/inforua.js');
 var entidadeRouter = require('./routes/entidade.js');
 var lugarRouter = require('./routes/lugar.js');
 var userRouter = require('./routes/user.js');
+var gestaoRouter = require('./routes/gestao.js');
 
 var app = express();
 
@@ -51,5 +52,6 @@ app.use('/inforua', infoRuaRouter);
 app.use('/entidade', entidadeRouter);
 app.use('/lugar', lugarRouter);
 app.use('/user', userRouter);
+app.use('/gestao', gestaoRouter);
 
 module.exports = app;

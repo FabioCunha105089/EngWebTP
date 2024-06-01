@@ -32,6 +32,15 @@ module.exports.updateUserLevel = (id, level) => {
         .exec()
 }
 
+module.exports.updateUserSuggestions = id => {
+    return User
+        .findByIdAndUpdate(
+            id,
+            { $inc: {sugestoesAceites: 1 } },
+            { new: true, useFindAndModify: false }
+        ).exec()
+}
+
 module.exports.updateUserPassword = (id, pwd) => {
     return User
         .updateOne({ _id : id }, pwd)

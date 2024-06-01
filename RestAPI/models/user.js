@@ -9,6 +9,7 @@ var userSchema = new mongoose.Schema({
   level: String,
   lastAccess: String,
   registrationDate: String,
+  sugestoesAceites: Number,
   _id: String,
 });
 

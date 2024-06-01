@@ -33,8 +33,8 @@ module.exports.delete = id => {
     .exec()
 }
 
-module.exports.update = (id, infoRua) => {
+module.exports.update = (id, rua) => {
     return infoRua
-    .findOneAndUpdate({_id : id}, infoRua, {new : true})
+    .findByIdAndUpdate(id, rua, {new : true})
     .exec()
 }

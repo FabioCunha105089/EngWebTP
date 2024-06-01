@@ -24,8 +24,9 @@ router.post('/register', function (req, res) {
     username: req.body.username,
     name: req.body.name,
     email: req.body.email,
-    level: "Administrador",
-    registrationDate: d
+    level: "Consumidor",
+    registrationDate: d,
+    sugestoesAceites: 0
   }), req.body.password, function (err, user) {
     if (err) {
       console.log(err);
@@ -114,4 +115,11 @@ router.delete('/:id', function (req, res) {
     })
 })
 
+router.put('/:id/sugestao', function(req, res) {
+  User.updateUserSuggestions(req.params.id)
+    .then(dados => {res.jsonp(dados)})
+    .catch(error => {
+      res.render('error', { error: error, message: "Erro a atualiza sugestões aceites" })
+    })
+})
 module.exports = router;

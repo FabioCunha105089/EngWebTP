@@ -67,4 +67,22 @@ router.post('/', function (req, res) {
     .catch(erro => res.jsonp(erro))
 })
 
+router.put('/:id', async function (req, res) {
+  try {
+    const id = req.params.id;
+    const updateData = req.body.updatedTexto;
+    const updatedDocument = await infoRua.update(id, updateData);
+
+    if (!updatedDocument) {
+      return res.status(404).send('InfoRua not found');
+    }
+
+    res.status(200).json(updatedDocument);
+
+  } catch (error) {
+    console.error('Error updating InfoRua:', error);
+    res.status(500).send('Internal Server Error');
+  }
+});
+
 module.exports = router;

@@ -21,7 +21,7 @@ router.get('/:numero', function(req, res) {
     .catch(erro => console.log(erro))
 })
 
-router.post('/:numero/comentario', Auth.requireAuthentication, async function(req, res) {
+router.post('/:numero/comentario', Auth.requireAuthentication(1), async function(req, res) {
   try {
     const id = req.body.id
 
@@ -40,7 +40,7 @@ router.post('/:numero/comentario', Auth.requireAuthentication, async function(re
   }
 });
 
-router.post('/:id/sugestao', Auth.requireAuthentication, async function(req, res) {
+router.post('/:id/sugestao', Auth.requireAuthentication(1), async function(req, res) {
   try {
     const id = req.params.id;
     const { nome, sugestao } = req.body;

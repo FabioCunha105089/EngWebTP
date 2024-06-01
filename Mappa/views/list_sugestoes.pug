@@ -1,9 +1,19 @@
 extends layout
 
 block content
-  .w3-container.lista
-    h1.w3-center Welcome to Mappa
-    ul.w3-card-4.w3-round-large.w3-padding.w3-margin-top.ol-custom
-      each entidade in entidades
-        li.w3-hover-light-grey.w3-padding-small.w3-border-bottom
-          a(href='/entidades/' + entidade.nome) #{entidade.nome}
+  .sugestoes-container
+    h1.welcome-header Lista de sugestões por rua
+    if sugestoes.length > 0
+      each rua in sugestoes
+        .rua-box
+          div.rua-header
+            a.rua-name(href=`/ruas/${rua.rua}`) #{rua.nome}
+            a.edit-button.w3-amber(href=`/gestao/rua/${rua.rua}`) Editar rua
+          each sugestao in rua.sugestoes
+            .sugestao-item
+              a.username(href=`/conta/perfil/${sugestao.username}`) #{sugestao.username}
+              span.creation-date= sugestao.creationDate
+              p.sugestao-text= sugestao.sugestao
+              hr(style="margin-top: 10px; margin-bottom: 10px;")
+    else
+      h3 Não existem sugestões, de momento.
