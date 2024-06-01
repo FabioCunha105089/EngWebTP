@@ -26,4 +26,15 @@ block content
                     each para in casa.desc
                         p
                             != para
+    if isLoggedIn
+        button#showSuggestionForm Adicionar sugestão
+        form#suggestionForm(action=`/ruas/${rua._id}/sugestao`, method="POST", style="display: none;")
+            input(type="hidden", name="nome", value=rua.nome)
+            textarea(name="sugestao", placeholder="Enter your suggestion here...")
+            button(type="submit") Submit
     +comment_section(rua.comentarios, rua._id)
+
+    script.
+        document.getElementById('showSuggestionForm').addEventListener('click', function() {
+            document.getElementById('suggestionForm').style.display = 'block';
+        });

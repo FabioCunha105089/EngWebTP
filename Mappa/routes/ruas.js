@@ -31,7 +31,26 @@ router.post('/:numero/comentario', Auth.requireAuthentication, async function(re
       timestamp: new Date().toISOString().substring(0, 19)
     }
 
-    const response = await axios.post('http://localhost:3000/inforua/comentario/' + id, newComentario)
+    await axios.post('http://localhost:3000/inforua/comentario/' + id, newComentario)
+    res.redirect('back')
+
+  } catch (error) {
+    console.error('Error forwarding comment:', error);
+    res.status(500).send('Internal Server Error');
+  }
+});
+
+router.post('/:id/sugestao', Auth.requireAuthentication, async function(req, res) {
+  try {
+    const id = req.params.id;
+    const { nome, sugestao } = req.body;
+    const novaSugestao = {
+      username: res.locals.user.username,
+      sugestao: sugestao,
+      creationDate: new Date().toISOString().substring(0, 19)
+    }
+    
+    await axios.post('http://localhost:3000/inforua/sugestao/' + id, {nome, novaSugestao})
     res.redirect('back')
 
   } catch (error) {

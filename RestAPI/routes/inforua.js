@@ -43,9 +43,9 @@ router.post('/comentario/:id', async function (req, res) {
 router.post('/sugestao/:id', async function (req, res) {
   try {
     const id = req.params.id
-    const novaSugestao = req.body;
+    const { nome, novaSugestao } = req.body;
 
-    Sugestoes.addSugestao(id, novaSugestao)
+    await Sugestoes.addSugestao(id, nome, novaSugestao)
     res.status(200).send('Sugestão adicionada com sucesso.');
 
   } catch (error) {

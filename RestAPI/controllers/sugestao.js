@@ -12,14 +12,15 @@ module.exports.getSugestao = (ruaId, sugestaoId) => {
         .exec();
 }
 
-module.exports.addSugestao = (ruaId, sugestao) => {
-    return Sugestao
-        .findOneAndUpdate(
-            { rua: ruaId },
-            { $push: { sugestoes: sugestao } },
-            { new: true, useFindAndModify: false }
-        )
-        .exec();
+module.exports.addSugestao = async (ruaId, nome, sugestao) => {
+    return Sugestao.findOneAndUpdate(
+        { rua: ruaId },
+        { 
+            $setOnInsert: { rua: ruaId, nome: nome },
+            $push: { sugestoes: sugestao } 
+        },
+        { new: true, upsert: true, useFindAndModify: false }
+    ).exec();
 }
 
 module.exports.deleteSugestao = (ruaId, sugestaoId) => {
