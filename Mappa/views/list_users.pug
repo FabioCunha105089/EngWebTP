@@ -11,6 +11,9 @@ block content
 
   .w3-container.lista
     h1.w3-center Lista de utilizadores
+    form(action='' method='get' class='search-form')
+      input(type='text' name='username' placeholder='Procurar...' class='search-input')
+      button(type='submit' class='search-button') &gt;
     ul.w3-card-4.w3-round-large.w3-padding.w3-margin-top.ol-custom
       each u in users
         li.w3-hover-light-grey.w3-padding-small.w3-border-bottom

@@ -103,29 +103,39 @@ router.get('/add', Auth.requireAuthentication(2), function (req, res) {
   res.render('adicionarRua', { failed: null })
 })
 
-router.post('/add/upload', Auth.requireAuthentication(2), upload.single('file'), async function (req, res) {
+router.post('/add/upload', Auth.requireAuthentication(2), upload.fields([{ name: 'file', maxCount: 1 }, { name: 'images', maxCount: 12 }]), async function (req, res) {
   try {
-    const xmlContent = req.file.buffer.toString('utf-8')
+    const xmlContent = req.files['file'][0].buffer.toString('utf-8')
     const xmlDoc = libxmljs.parseXml(xmlContent);
     const xsdPath = path.join(__dirname, '../xml/MRB-rua.xsd')
     const xsdDoc = libxmljs.parseXml(fs.readFileSync(xsdPath, 'utf8'));
 
     if (xmlDoc.validate(xsdDoc)) {
-      const rua = processFile(xmlContent)
-      axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } })
-        .then(resp => {
-          axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } })
-            .then(ruaresp => res.render('adicionarRua', { failed: false }))
-            .catch(erro => { console.log(erro) })
-        })
-        .catch(erro => { console.log(erro) })
+      const rua = processFile(xmlContent);
+
+      if (rua.figuras != null && req.files['images'] && rua.figuras.length <= req.files['images'].length) {
+        var i = 0
+        console.log(req.files['images'])
+        for (const image of req.files['images']) {
+          const savePath = __dirname.slice(0, -6) + 'public/images/' + image.originalname
+          fs.writeFileSync(savePath, image.buffer);
+          rua.figuras[i++].path = '/images/' + image.originalname
+        }
+      }
+
+      await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
+      await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
+
+      res.render('adicionarRua', { failed: false });
     }
     else {
-      xmlDoc.validationErrors.forEach(error => console.log(`Line ${error.line}: ${error.message}`))
-      res.render('adicionarRua', { failed: true })
+      var erros = ''
+      xmlDoc.validationErrors.forEach(error => erros += error.message)
+      res.render('adicionarRua', { failed: true, mensagem_erro: erros })
     }
   } catch (error) {
     console.error('Erro:', error.message)
+    res.render('adicionarRua', { failed: true, mensagem_erro: error.message })
   }
 })
 
