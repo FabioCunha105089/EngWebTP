@@ -19,7 +19,7 @@ html
         .navbar-right.w3-bar
           if isLoggedIn
             if user.level != "Consumidor"
-              a.w3-bar-item.w3-button(href='/conta/add') Adicionar
+              a.w3-bar-item.w3-button(href='/gestao') Gestão
             a.w3-bar-item.w3-button(href='/conta/perfil') Perfil
             a.w3-bar-item.w3-button(href='/conta/sair') Terminar Sessão
           else

@@ -1,22 +1,9 @@
 extends layout
 
 block content
-  style.
-    .centered-list {
-      text-align: center;
-    }
-
-    .centered-list ol {
-      list-style-position: inside;
-      padding-left: 0; 
-      display: inline-block;
-      text-align: left;
-      padding-left: 400px
-    }
-
-  div.centered-list
-    h1 Welcome to Mappa
-    ol
+  .w3-container.lista
+    h1.w3-center Welcome to Mappa
+    ul.w3-card-4.w3-round-large.w3-padding.w3-margin-top.ol-custom
       each entidade in entidades
-        li
+        li.w3-hover-light-grey.w3-padding-small.w3-border-bottom
           a(href='/entidades/' + entidade.nome) #{entidade.nome}

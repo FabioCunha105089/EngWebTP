@@ -7,7 +7,7 @@ var User = require('../controllers/user')
 
 router.get('/', function (req, res) {
   User.list()
-    .then(list => res.status(200).jsonp({ list }))
+    .then(list => res.status(200).jsonp(list))
     .catch(e => res.status(500).jsonp({ error: e }))
 })
 

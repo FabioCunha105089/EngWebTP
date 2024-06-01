@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var infoRua = require('../controllers/inforua')
+var Sugestoes = require('../controllers/sugestao')
 
 // Listar ruas
 router.get('/', function (req, res) {
@@ -34,6 +35,21 @@ router.post('/comentario/:id', async function (req, res) {
 
   } catch (error) {
     console.error('Error adding comment:', error);
+    res.status(500).send('Internal Server Error');
+  }
+});
+
+// Adicionar sugestao
+router.post('/sugestao/:id', async function (req, res) {
+  try {
+    const id = req.params.id
+    const novaSugestao = req.body;
+
+    Sugestoes.addSugestao(id, novaSugestao)
+    res.status(200).send('Sugestão adicionada com sucesso.');
+
+  } catch (error) {
+    console.error('Erro ao adicionar sugestão:', error);
     res.status(500).send('Internal Server Error');
   }
 });

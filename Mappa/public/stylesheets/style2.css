@@ -198,3 +198,30 @@ footer p {
   display: flex;
   justify-content: center;
 }
+
+.w3-container.lista{
+  margin-bottom: 50px;
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  a:hover {
+    color: #555;
+  }
+
+  .ol-custom {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 20px;
+}

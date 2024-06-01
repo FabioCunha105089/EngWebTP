@@ -13,7 +13,7 @@ module.exports.requireAuthentication = function (req, res, next) {
       }
     });
   } else {
-    return res.status(401).jsonp({ error: 'Token is missing' });
+    return res.redirect('/conta/login')
   }
 };
 
