@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 
 var entidadeSchema = new mongoose.Schema({
-    _id: String,
+    _id: Number,
     nome: String,
     numero: String,
     quantidade: String
