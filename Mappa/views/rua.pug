@@ -27,14 +27,18 @@ block content
                         p
                             != para
     if isLoggedIn
-        button#showSuggestionForm Adicionar sugestão
-        form#suggestionForm(action=`/ruas/${rua._id}/sugestao`, method="POST", style="display: none;")
-            input(type="hidden", name="nome", value=rua.nome)
-            textarea(name="sugestao", placeholder="Enter your suggestion here...")
-            button(type="submit") Submit
+        button#showSuggestionForm.w3-button.w3-amber.w3-round-large(style="display: block") Adicionar sugestão
+        .rectangle-container#box(style="display: none;")
+            form#suggestionForm(action=`/ruas/${rua._id}/sugestao`, method="POST", class='comment-form')
+                input(type="hidden", name="nome", value=rua.nome)
+                textarea(name="sugestao", placeholder="Inserir sugestão...", class='comment-textarea' required)
+                button(type="submit", class="comment-button") Submeter
+
     +comment_section(rua.comentarios, rua._id)
 
     script.
         document.getElementById('showSuggestionForm').addEventListener('click', function() {
-            document.getElementById('suggestionForm').style.display = 'block';
+            document.getElementById('suggestionForm').style.display = 'flex';
+            document.getElementById('box').style.display = 'block';
+            document.getElementById('showSuggestionForm').style.display = 'none';
         });

@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .w3-container.lista
+    h1.w3-center Welcome to Mappa
+    ul.w3-card-4.w3-round-large.w3-padding.w3-margin-top.ol-custom
+      each entidade in entidades
+        li.w3-hover-light-grey.w3-padding-small.w3-border-bottom
+          a(href='/entidades/' + entidade.nome) #{entidade.nome}
