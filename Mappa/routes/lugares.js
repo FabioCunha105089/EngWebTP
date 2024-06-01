@@ -23,14 +23,14 @@ router.get('/:nome', function(req, res) {
             .then(resp_rua => resp_rua.data)
             .catch(erro => {
               console.log(erro);
-              return null; // Handle error, possibly pushing a null to maintain list length
+              return null;
             })
         );
       }
 
       Promise.all(ruaPromises)
         .then(ruas => {
-          // Filter out any null responses if error handling was done above
+          console.log(ruas)
           ruas = ruas.filter(rua => rua !== null);
           res.render('lugar', { lugar: lugar, ruas: ruas });
         })

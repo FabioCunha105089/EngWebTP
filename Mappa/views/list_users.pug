@@ -1,9 +1,20 @@
 extends layout
 
 block content
+  style.
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
   .w3-container.lista
     h1.w3-center Lista de utilizadores
     ul.w3-card-4.w3-round-large.w3-padding.w3-margin-top.ol-custom
       each u in users
         li.w3-hover-light-grey.w3-padding-small.w3-border-bottom
-          a(href='/conta/perfil/' + u.username) #{u.name}
+          .flex-container
+            a(href='/conta/perfil/' + u.username) #{u.name}
+            form(action=`/conta/${u._id}/delete` method='post')
+              button(type='submit' class='delete-user-button') Eliminar

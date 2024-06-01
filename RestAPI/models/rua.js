@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 
 var ruaSchema = new mongoose.Schema({
-  _id: String,
+  _id: Number,
   nome: String
 })
 
