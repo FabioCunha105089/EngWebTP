@@ -4,24 +4,28 @@ const axios = require('axios');
 var Auth = require('../auth/auth.js')
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   axios.get('http://localhost:3000/rua/')
-  .then(resp => {
-    res.render('list_ruas', {ruas : resp.data})
-  })
-  .catch(erro => console.log(erro))
+    .then(resp => {
+      if (req.query.nome) {
+        const rua_list = resp.data.filter(rua => rua.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
+        res.render('list_ruas', { ruas: rua_list });
+      }
+      res.render('list_ruas', { ruas: resp.data })
+    })
+    .catch(erro => console.log(erro))
 });
 
-router.get('/:numero', function(req, res) {
+router.get('/:numero', function (req, res) {
   axios.get('http://localhost:3000/inforua/' + req.params.numero)
     .then(resp => {
       var rua = resp.data
-      res.render('rua', {rua : rua})
+      res.render('rua', { rua: rua })
     })
     .catch(erro => console.log(erro))
 })
 
-router.post('/:numero/comentario', Auth.requireAuthentication, async function(req, res) {
+router.post('/:numero/comentario', Auth.requireAuthentication, async function (req, res) {
   try {
     const id = req.body.id
 
@@ -40,7 +44,7 @@ router.post('/:numero/comentario', Auth.requireAuthentication, async function(re
   }
 });
 
-router.post('/:id/sugestao', Auth.requireAuthentication, async function(req, res) {
+router.post('/:id/sugestao', Auth.requireAuthentication, async function (req, res) {
   try {
     const id = req.params.id;
     const { nome, sugestao } = req.body;
@@ -49,8 +53,8 @@ router.post('/:id/sugestao', Auth.requireAuthentication, async function(req, res
       sugestao: sugestao,
       creationDate: new Date().toISOString().substring(0, 19)
     }
-    
-    await axios.post('http://localhost:3000/inforua/sugestao/' + id, {nome, novaSugestao})
+
+    await axios.post('http://localhost:3000/inforua/sugestao/' + id, { nome, novaSugestao })
     res.redirect('back')
 
   } catch (error) {

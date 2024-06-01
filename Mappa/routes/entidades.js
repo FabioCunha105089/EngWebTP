@@ -6,6 +6,10 @@ const axios = require('axios');
 router.get('/', async function(req, res, next) {
   axios.get('http://localhost:3000/entidade/')
   .then(resp => {
+    if (req.query.nome) {
+      const entidade_list = resp.data.filter(entidade => entidade.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
+      res.render('list_entidades', { entidades: entidade_list });
+    }
     res.render('list_entidades', {entidades : resp.data})
   })
   .catch(erro => console.log(erro))

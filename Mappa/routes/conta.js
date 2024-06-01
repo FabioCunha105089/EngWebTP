@@ -138,11 +138,13 @@ router.post('/add/upload', upload.fields([{ name: 'file', maxCount: 1 }, { name:
         res.render('adicionarRua', { failed: false });
       }
       else {
-        xmlDoc.validationErrors.forEach(error => console.log(`Line ${error.line}: ${error.message}`))
-        res.render('adicionarRua', {failed: true})
+        var erros = ''
+        xmlDoc.validationErrors.forEach(error => erros += error.message)
+        res.render('adicionarRua', {failed: true, mensagem_erro : erros})
       }
     } catch(error) {
       console.error('Erro:', error.message)
+      res.render('adicionarRua', {failed : true, mensagem_erro : error.message})
     }
 })
 
