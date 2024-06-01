@@ -2,10 +2,17 @@ extends layout
 include comment_section.pug
 
 block content
+    style.
+        .image-container img {
+            width: 500px; 
+            height: 300px; 
+            object-fit: cover; 
+        }
     h1= rua._id + " - " + rua.nome
     each figura in rua.figuras
         div
-            img(src=figura.path, alt=figura.foto_id)
+            .image-container
+                img(src=figura.path, alt=figura.foto_id)
             p= figura.desc
     each para in rua.desc
         p

@@ -45,7 +45,7 @@ function formatParagraph(paragraphs) {
           }
       }
   });
-    para_list.push(clean_strings(fullParagraph));
+    paraList.push(cleanStrings(fullParagraph));
   }
   return paraList;
 }
