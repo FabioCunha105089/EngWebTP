@@ -56,7 +56,6 @@ footer p {
 .comment-form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .comment-textarea {
@@ -224,4 +223,11 @@ footer p {
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 20px;
+}
+
+.button-box {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
 }

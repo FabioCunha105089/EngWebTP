@@ -6,7 +6,9 @@ module.exports.requireAuthentication = function (req, res, next) {
   if (myToken) {
     jwt.verify(myToken, "EngWebTP2024", function (err, payload) {
       if (err) {
-        return res.status(401).jsonp({ error: 'Unauthorized access' });
+        req.session.token = null;
+        req.session.user = null
+        return res.redirect('/conta/login')
       } else {
         req.user = payload;
         next();

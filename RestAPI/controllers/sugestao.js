@@ -6,13 +6,7 @@ module.exports.list = () => {
         .exec()
 }
 
-module.exports.getSugestao = (ruaId, sugestaoId) => {
-    return Sugestao
-        .findOne({ "rua": ruaId, "sugestoes._id": sugestaoId }, { "sugestoes.$": 1 })
-        .exec();
-}
-
-module.exports.addSugestao = async (ruaId, nome, sugestao) => {
+module.exports.addSugestao = (ruaId, nome, sugestao) => {
     return Sugestao.findOneAndUpdate(
         { rua: ruaId },
         { 
