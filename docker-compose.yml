@@ -6,17 +6,28 @@ services:
       - ./data/jsons:/data
       - mongodb_data:/data/db
 
-  web:
+  rest-api:
     build:
-      context: .
+      context: ./RestAPI
       dockerfile: Dockerfile
     container_name: rest-api
-    ports:
-      - "3000:1502"
     depends_on:
       - mongodb
     links:
       - mongodb
+
+  web-server:
+    build:
+      context: ./Mappa
+      dockerfile: Dockerfile
+    container_name: web-server
+    ports:
+      - "3067:3067"
+    depends_on:
+      - rest-api
+      - mongodb
+    links:
+      - rest-api
 
 volumes:
   mongodb_data:

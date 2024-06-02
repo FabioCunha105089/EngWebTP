@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /usr/src/app
-COPY ./RestAPI .
+COPY . .
 RUN npm i
-EXPOSE 1502
+EXPOSE 3000
 CMD [ "npm", "start" ]

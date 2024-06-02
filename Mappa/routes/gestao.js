@@ -9,7 +9,7 @@ router.get('/', Auth.requireAuthentication(2), function (req, res, next) {
 });
 
 router.get('/utilizadores', Auth.requireAuthentication(3), function (req, res, next) {
-  axios.get('http://localhost:3000/user')
+  axios.get('http://rest-api:3000/user')
     .then(resp => {
       if (req.query.username) {
         const user_list = resp.data.filter(user => user.username.toLowerCase().includes(req.query.username.toLowerCase()));
@@ -27,7 +27,7 @@ router.get('/utilizadores', Auth.requireAuthentication(3), function (req, res, n
 });
 
 router.get('/sugestoes', Auth.requireAuthentication(2), function(req, res, next) {
-  axios.get('http://localhost:3000/gestao/sugestoes')
+  axios.get('http://rest-api:3000/gestao/sugestoes')
     .then( resp => {
       res.render('list_sugestoes', { sugestoes : resp.data});
     })
@@ -38,8 +38,8 @@ router.get('/sugestoes', Auth.requireAuthentication(2), function(req, res, next)
 
 router.get('/rua/:id', Auth.requireAuthentication(2), async function(req, res, next) {
   try{
-    const respRua = await axios.get('http://localhost:3000/inforua/' + req.params.id)
-    const respSugestoes = await axios.get('http://localhost:3000/gestao/sugestoes/' + req.params.id)
+    const respRua = await axios.get('http://rest-api:3000/inforua/' + req.params.id)
+    const respSugestoes = await axios.get('http://rest-api:3000/gestao/sugestoes/' + req.params.id)
     const ruaTexto = JSON.stringify(respRua.data, null, 2)
 
     res.render('edit_rua', { sugestoes: respSugestoes.data.sugestoes, texto: ruaTexto, nome: respRua.data.nome, id : req.params.id})
@@ -61,17 +61,17 @@ router.post('/rua/:id', Auth.requireAuthentication(2), async function(req, res) 
     if (req.body.sugestoesRecusadas)
       sugestoesRecusadas = JSON.parse(req.body.sugestoesRecusadas);
 
-    await axios.put('http://localhost:3000/inforua/' + id, { updatedTexto });
+    await axios.put('http://rest-api:3000/inforua/' + id, { updatedTexto });
 
     if (sugestoesAceites.length > 0) {
       await Promise.all(sugestoesAceites.map(async (s) => {
-        await axios.delete(`http://localhost:3000/gestao/sugestao/${s.sId}/rua/${id}`);
-        await axios.put(`http://localhost:3000/user/${s.username}/sugestao`);
+        await axios.delete(`http://rest-api:3000/gestao/sugestao/${s.sId}/rua/${id}`);
+        await axios.put(`http://rest-api:3000/user/${s.username}/sugestao`);
       }));
     }
     if (sugestoesRecusadas.length > 0) {
       await Promise.all(sugestoesRecusadas.map(async (s) => {
-        await axios.delete(`http://localhost:3000/gestao/sugestao/${s.sId}/rua/${id}`);
+        await axios.delete(`http://rest-api:3000/gestao/sugestao/${s.sId}/rua/${id}`);
       }));
     }
 

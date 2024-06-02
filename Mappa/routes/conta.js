@@ -11,14 +11,14 @@ const path = require('path')
 const upload = multer({ storage: multer.memoryStorage() });
 
 router.get('/perfil', Auth.requireAuthentication(1), async function (req, res) {
-  const response = await axios.get('http://localhost:3000/user/' + res.locals.user.username)
+  const response = await axios.get('http://rest-api:3000/user/' + res.locals.user.username)
   const utilizador = response.data.user
   res.render('perfil', { utilizador: utilizador })
 })
 
 router.get('/perfil/:id', Auth.requireAuthentication(1), async function (req, res) {
   try {
-    const response = await axios.get('http://localhost:3000/user/' + req.params.id)
+    const response = await axios.get('http://rest-api:3000/user/' + req.params.id)
     const utilizador = response.data.user
     res.render('perfilOutro', { utilizador: utilizador })
   } catch (error) {
@@ -33,7 +33,7 @@ router.get('/registo', function (req, res) {
 
 router.post('/registo', async (req, res) => {
   try {
-    const response = await axios.post('http://localhost:3000/user/register', {
+    const response = await axios.post('http://rest-api:3000/user/register', {
       username: req.body.username,
       name: req.body.name,
       email: req.body.email,
@@ -51,7 +51,7 @@ router.get('/login', function (req, res) {
 
 router.post('/login', async (req, res) => {
   try {
-    const response = await axios.post('http://localhost:3000/user/login', {
+    const response = await axios.post('http://rest-api:3000/user/login', {
       username: req.body.username,
       password: req.body.password
     });
@@ -77,7 +77,7 @@ router.post('/:id/change-level', Auth.requireAuthentication(3), async (req, res)
   const level = req.body.level;
 
   try {
-    await axios.put(`http://localhost:3000/user/${id}/change-level`, { level });
+    await axios.put(`http://rest-api:3000/user/${id}/change-level`, { level });
 
     res.redirect('back');
   } catch (error) {
@@ -91,7 +91,7 @@ router.post('/:id/delete', Auth.requireAuthentication(3), async (req, res) => {
   const userId = req.params.id;
 
   try {
-    await axios.delete(`http://localhost:3000/user/${userId}`);
+    await axios.delete(`http://rest-api:3000/user/${userId}`);
     res.redirect('/');
   } catch (error) {
     console.error('Error deleting user:', error);
@@ -123,8 +123,8 @@ router.post('/add/upload', Auth.requireAuthentication(2), upload.fields([{ name:
         }
       }
 
-      await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
-      await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
+      await axios.post('http://rest-api:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
+      await axios.post('http://rest-api:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
 
       res.render('adicionarRua', { failed: false });
     }

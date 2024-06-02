@@ -5,19 +5,21 @@ var Auth = require('../auth/auth.js')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  axios.get('http://localhost:3000/rua/')
+  axios.get('http://rest-api:3000/rua/')
     .then(resp => {
       if (req.query.nome) {
         const rua_list = resp.data.filter(rua => rua.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
         res.render('list_ruas', { ruas: rua_list });
+      } else {
+        console.log(resp.data)
+        res.render('list_ruas', { ruas: resp.data })
       }
-      res.render('list_ruas', { ruas: resp.data })
     })
     .catch(erro => console.log(erro))
 });
 
 router.get('/:numero', function (req, res) {
-  axios.get('http://localhost:3000/inforua/' + req.params.numero)
+  axios.get('http://rest-api:3000/inforua/' + req.params.numero)
     .then(resp => {
       var rua = resp.data
       res.render('rua', { rua: rua })
@@ -35,7 +37,7 @@ router.post('/:numero/comentario', Auth.requireAuthentication(1), async function
       timestamp: new Date().toISOString().substring(0, 19)
     }
 
-    await axios.post('http://localhost:3000/inforua/comentario/' + id, newComentario)
+    await axios.post('http://rest-api:3000/inforua/comentario/' + id, newComentario)
     res.redirect('back')
 
   } catch (error) {
@@ -54,7 +56,7 @@ router.post('/:id/sugestao', Auth.requireAuthentication(1), async function(req, 
       creationDate: new Date().toISOString().substring(0, 19)
     }
 
-    await axios.post('http://localhost:3000/inforua/sugestao/' + id, { nome, novaSugestao })
+    await axios.post('http://rest-api:3000/inforua/sugestao/' + id, { nome, novaSugestao })
     res.redirect('back')
 
   } catch (error) {

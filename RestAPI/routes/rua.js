@@ -5,7 +5,9 @@ var Rua = require('../controllers/rua')
 // Listar ruas
 router.get('/', function (req, res) {
   Rua.list()
-    .then(data => res.jsonp(data))
+    .then(data => {
+      console.log(data);
+      res.jsonp(data)})
     .catch(erro => res.jsonp(erro))
 });
 

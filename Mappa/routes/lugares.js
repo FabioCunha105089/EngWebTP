@@ -4,7 +4,7 @@ const axios = require('axios');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  axios.get('http://localhost:3000/lugar/')
+  axios.get('http://rest-api:3000/lugar/')
   .then(resp => {
     if (req.query.nome) {
       const lugar_list = resp.data.filter(lugar => lugar.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
@@ -16,14 +16,14 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/:nome', function(req, res) {
-  axios.get('http://localhost:3000/lugar/' + req.params.nome)
+  axios.get('http://rest-api:3000/lugar/' + req.params.nome)
     .then(resp => {
       var lugar = resp.data;
       var ruaPromises = [];
 
       for (const rua_id of lugar.ruas) {
         ruaPromises.push(
-          axios.get('http://localhost:3000/rua/' + rua_id)
+          axios.get('http://rest-api:3000/rua/' + rua_id)
             .then(resp_rua => resp_rua.data)
             .catch(erro => {
               console.log(erro);
