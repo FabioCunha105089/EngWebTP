@@ -391,3 +391,11 @@ footer p {
     word-wrap: break-word;
   }
 }
+
+.infoRua {
+  text-align: left;
+  padding: 10px;
+  max-width: 1280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

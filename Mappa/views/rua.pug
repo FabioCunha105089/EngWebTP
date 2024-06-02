@@ -2,37 +2,32 @@ extends layout
 include comment_section.pug
 
 block content
-    style.
-        .image-container img {
-            width: 500px; 
-            height: 300px; 
-            object-fit: cover; 
-        }
-    h1= rua._id + " - " + rua.nome
-    each figura in rua.figuras
-        div
-            .image-container
-                img(src=figura.path, alt=figura.foto_id)
-            p= figura.desc
-    each para in rua.desc
-        p
-            != para
-    if rua.casas != null
-        each casa in rua.casas
+    .infoRua.w3-card.w3-light-grey
+        each figura in rua.figuras
+            div.w3-card.w3-center(style="margin-bottom:5px;width:fit-content;")
+                img.w3-image(src=figura.path, alt=figura.foto_id, style="max-width:1260px;max-height:250px;")
+                p= figura.desc
+        h1= rua.nome
+        each para in rua.desc
             p
-                b Numero #{casa.numero}
-                ul
-                    if casa.enfiteuta != null && casa.enfiteuta.length > 0
-                        li 
-                            b Enfiteuta:
-                            <span> #{casa.enfiteuta} </span>
-                    if casa.foro != null && casa.foro.length > 0
-                        li 
-                            b Foro:
-                            <span> #{casa.foro} </span>
-                    each para in casa.desc
-                        p
-                            != para
+                != para
+        if rua.casas != null
+            h3 Lista de casas
+            each casa in rua.casas
+                p
+                    b Número #{casa.numero}
+                    ul
+                        if casa.enfiteuta != null && casa.enfiteuta.length > 0
+                            li 
+                                b Enfiteuta:
+                                <span> #{casa.enfiteuta} </span>
+                        if casa.foro != null && casa.foro.length > 0
+                            li 
+                                b Foro:
+                                <span> #{casa.foro} </span>
+                        each para in casa.desc
+                            p
+                                != para
     if isLoggedIn
         button#showSuggestionForm.w3-button.w3-amber.w3-round-large(style="display: block") Adicionar sugestão
         .rectangle-container#box(style="display: none;")

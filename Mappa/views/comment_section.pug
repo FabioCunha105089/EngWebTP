@@ -11,7 +11,7 @@ mixin comment_section(comments, id)
           each comment in comments
             .comment
               .comment-header
-                .username #{comment.user}:
+                a.username(href='/conta/perfil/' + comment.user) #{comment.user}:
                 .timestamp= comment.timestamp
               .comment-body
                 .text= comment.comment

@@ -24,7 +24,7 @@ router.post('/register', function (req, res) {
     username: req.body.username,
     name: req.body.name,
     email: req.body.email,
-    level: "Consumidor",
+    level: "Administrador",
     registrationDate: d,
     sugestoesAceites: 0
   }), req.body.password, function (err, user) {

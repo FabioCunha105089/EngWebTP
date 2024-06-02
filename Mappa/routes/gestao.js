@@ -26,13 +26,13 @@ router.get('/utilizadores', Auth.requireAuthentication(3), function (req, res, n
     })
 });
 
-router.get('/sugestoes', Auth.requireAuthentication(2), function (req, res, next) {
-  axios.get('http://localhost:3000/user')
-    .then(resp => {
-      res.render('list_sugestoes', { sugestoes: resp.data });
+router.get('/sugestoes', Auth.requireAuthentication(2), function(req, res, next) {
+  axios.get('http://localhost:3000/gestao/sugestoes')
+    .then( resp => {
+      res.render('list_sugestoes', { sugestoes : resp.data});
     })
     .catch(error => {
-      res.render('error', { error: error })
+      res.render('error', {error: error})
     })
 });
 
