@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../MRB-rua.xsd">
+    <meta>
+        <número>420</número>
+        <nome>Rua de D. Teste II</nome>
+    </meta>
+    <corpo>
+        <figura id="minhafoto">
+            <imagem path="/images/imagem_teste"/>
+            <legenda>Teste da rua Teste </legenda>
+        </figura>
+        <figura id="minhafoto2">
+            <imagem path="/images/imagem_teste"/>
+            <legenda>Teste da rua Teste 2</legenda>
+        </figura>
+        <para>A rua de D. Teste II é uma rua muito fixe.</para>
+        <para>Foi uma rua criada para testar.</para>
+        
+        <lista-casas>
+            <casa>
+                <número>102023</número>
+                <enfiteuta>Gabriel Araújo</enfiteuta>
+                <foro>Um combinado no bar do CP1</foro>
+                <desc><para>Uma casa com um cheiro estranho.</para></desc>
+            </casa>
+            <casa>
+                <número>105089</número>
+                <enfiteuta>Fábio Cunha</enfiteuta>
+                <foro>Um kinder bueno</foro>
+                <desc><para>Antiga corte dos bois</para></desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

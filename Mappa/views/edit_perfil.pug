@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .profile-container
+  .profile-header
+    if user.photo
+      img(src=utilizador.photo alt="User Photo" class="profile-photo")
+    h1 Editar Perfil
+  form(action=`/conta/edit`, method="POST").profile-details
+    p
+      strong Username: 
+      input(type='text' name='username' value=user._id)
+    p
+      strong(style='padding-right: 38px;') Nome: 
+      input(type='text' name='nome' value=user.name)
+    p
+      strong(style='padding-right: 40px;') Email: 
+      input(type='text' name='email' value=user.email)
+    p
+      strong(style='padding-right: 4px;') Password: 
+      input(type='password' name='password')
+    p
+      strong(style='padding-right: 60px') PFP:
+      input(type='file' name='pfp' value=pfpPath accept='.jpg')
+    div
+      button.w3-button.w3-amber.w3-round(type="submit", style="margin-top:10px;") Guardar alterações

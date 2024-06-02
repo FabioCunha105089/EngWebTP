@@ -2,6 +2,13 @@ var express = require('express');
 var router = express.Router();
 var axios = require('axios')
 const Auth = require('../auth/auth')
+const fs = require('fs')
+const libxmljs = require('libxmljs')
+const { processFile } = require('../public/javascripts/xmlFuncs')
+const multer = require('multer')
+const path = require('path')
+
+const upload = multer({ storage: multer.memoryStorage() });
 
 /* GET home page. */
 router.get('/', Auth.requireAuthentication(2), function (req, res, next) {
@@ -82,5 +89,49 @@ router.post('/rua/:id', Auth.requireAuthentication(2), async function(req, res) 
     res.render('error', { error: error });
   }
 });
+
+router.get('/add', Auth.requireAuthentication(2), function (req, res) {
+  res.render('adicionarRua', { failed: null })
+})
+
+router.post('/add/upload', Auth.requireAuthentication(2), upload.fields([{ name: 'file', maxCount: 1 }, { name: 'images', maxCount: 12 }]), async function (req, res) {
+  try {
+    const xmlFile = req.files['file'][0]
+    const xmlContent = xmlFile.buffer.toString('utf-8')
+    const xmlDoc = libxmljs.parseXml(xmlContent);
+    const xsdPath = path.join(__dirname, '../xml/MRB-rua.xsd')
+    const xsdDoc = libxmljs.parseXml(fs.readFileSync(xsdPath, 'utf8'));
+
+    if (xmlDoc.validate(xsdDoc)) {
+      const rua = processFile(xmlContent);
+
+      if (rua.figuras != null && req.files['images'] && rua.figuras.length <= req.files['images'].length) {
+        var i = 0
+        console.log(req.files['images'])
+        for (const image of req.files['images']) {
+          const savePath = __dirname.slice(0, -6) + 'public/images/' + image.originalname
+          fs.writeFileSync(savePath, image.buffer);
+          rua.figuras[i++].path = '/images/' + image.originalname
+        }
+      }
+
+      const xmlSavePath = path.join(__dirname, '../public/uploads/', xmlFile.originalname);
+      fs.writeFileSync(xmlSavePath, xmlFile.buffer);
+
+      await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
+      await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
+
+      res.render('adicionarRua', { failed: false });
+    }
+    else {
+      var erros = ''
+      xmlDoc.validationErrors.forEach(error => erros += error.message)
+      res.render('adicionarRua', { failed: true, mensagem_erro: erros })
+    }
+  } catch (error) {
+    console.error('Erro:', error.message)
+    res.render('adicionarRua', { failed: true, mensagem_erro: error.message })
+  }
+})
 
 module.exports = router;
