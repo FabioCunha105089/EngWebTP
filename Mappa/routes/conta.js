@@ -18,7 +18,7 @@ router.get('/perfil', Auth.requireAuthentication(1), async function (req, res) {
     if (!hasProfilePic)
       profilePicPath = path.join('/pfpics/', '__NOPIC__.jpg')
 
-    res.render('perfil', { utilizador: utilizador, pfpPath : profilePicPath})
+    res.render('perfil', { utilizador: utilizador, pfpPath : `/pfpics/${res.locals.user.username}.jpg`})
   }
   catch (error) {
     console.error('Erro a obter informação do user:', error);
@@ -38,11 +38,7 @@ router.get('/perfil/:id', Auth.requireAuthentication(1), async function (req, re
 })
 
 router.get('/edit', Auth.requireAuthentication(1), function (req, res) {
-  var profilePicPath = path.join('/pfpics/', `${res.locals.user.username}.jpg`);
-  const hasProfilePic = fs.existsSync(profilePicPath);
-  if (!hasProfilePic)
-    profilePicPath = ''
-  res.render('edit_perfil', {user : res.locals.user, pfpPath : profilePicPath})
+  res.render('edit_perfil', {user : res.locals.user, pfpPath : `/pfpics/${res.locals.user.username}.jpg`})
 })
 
 
@@ -64,8 +60,10 @@ router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp'
     })
   .catch(error => res.render('error', {error : error, message : error.message}))
   */
-  if (req.body.pfp) {
-    const savePath = __dirname.slice(0, -6) + 'public/pfpics/' + res.locals.user.username
+  console.log(req.files)
+  if (req.files['pfp'] != null) {
+    const savePath = __dirname.slice(0, -6) + 'public/pfpics/' + res.locals.user.username + '.jpg'
+    console.log(savePath)
     fs.writeFileSync(savePath, req.files['pfp'][0].buffer);
   }
   res.render('perfil', {utilizador : res.locals.user})

@@ -6,7 +6,7 @@ block content
     if user.photo
       img(src=utilizador.photo alt="User Photo" class="profile-photo")
     h1 Editar Perfil
-  form(action=`/conta/edit`, method="POST").profile-details
+  form(action='/conta/edit', method="POST" enctype='multipart/form-data').profile-details
     p
       strong Username: 
       input(type='text' name='username' value=user._id)
@@ -21,6 +21,6 @@ block content
       input(type='password' name='password')
     p
       strong(style='padding-right: 60px') PFP:
-      input(type='file' name='pfp' value=pfpPath accept='.jpg')
+      input(type='file' name='pfp' id='pfp')
     div
       button.w3-button.w3-amber.w3-round(type="submit", style="margin-top:10px;") Guardar alterações
