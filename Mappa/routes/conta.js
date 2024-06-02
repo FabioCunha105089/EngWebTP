@@ -2,18 +2,28 @@ var express = require('express');
 var router = express.Router();
 const axios = require('axios');
 var Auth = require('../auth/auth.js')
-const fs = require('fs')
-const libxmljs = require('libxmljs')
-const { processFile } = require('../public/javascripts/xmlFuncs')
-const multer = require('multer')
-const path = require('path')
+var path = require('path')
+var fs = require('fs')
+var multer = require('multer')
 
 const upload = multer({ storage: multer.memoryStorage() });
 
 router.get('/perfil', Auth.requireAuthentication(1), async function (req, res) {
-  const response = await axios.get('http://localhost:3000/user/' + res.locals.user.username)
-  const utilizador = response.data.user
-  res.render('perfil', { utilizador: utilizador })
+  try {
+    const response = await axios.get('http://localhost:3000/user/' + res.locals.user.username)
+    const utilizador = response.data.user
+
+    var profilePicPath = path.join('/pfpics/', `${utilizador.username}.jpg`);
+    const hasProfilePic = fs.existsSync(profilePicPath);
+    if (!hasProfilePic)
+      profilePicPath = path.join('/pfpics/', '__NOPIC__.jpg')
+
+    res.render('perfil', { utilizador: utilizador, pfpPath : profilePicPath})
+  }
+  catch (error) {
+    console.error('Erro a obter informação do user:', error);
+    res.render('error', { error: error });
+  }
 })
 
 router.get('/perfil/:id', Auth.requireAuthentication(1), async function (req, res) {
@@ -25,6 +35,40 @@ router.get('/perfil/:id', Auth.requireAuthentication(1), async function (req, re
     console.log(error);
     res.render('error', { error: error.response.data.error });
   }
+})
+
+router.get('/edit', Auth.requireAuthentication(1), function (req, res) {
+  var profilePicPath = path.join('/pfpics/', `${res.locals.user.username}.jpg`);
+  const hasProfilePic = fs.existsSync(profilePicPath);
+  if (!hasProfilePic)
+    profilePicPath = ''
+  res.render('edit_perfil', {user : res.locals.user, pfpPath : profilePicPath})
+})
+
+
+router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp', maxCount: 1}]), function (req, res) {
+  /*
+  const newUser = req.body
+  newUser['_id'] = req.body.username
+  if (req.body.password === '')
+    delete newUser.password
+  console.log(newUser)
+  axios.put('http://localhost:3000/user/' + res.locals.user._id, newUser, { 
+    headers: { 
+      'Content-Type': 'application/json'
+    }})
+    
+  .then(resp => {
+      console.log(resp)
+      res.render('index')
+    })
+  .catch(error => res.render('error', {error : error, message : error.message}))
+  */
+  if (req.body.pfp) {
+    const savePath = __dirname.slice(0, -6) + 'public/pfpics/' + res.locals.user.username
+    fs.writeFileSync(savePath, req.files['pfp'][0].buffer);
+  }
+  res.render('perfil', {utilizador : res.locals.user})
 })
 
 router.get('/registo', function (req, res) {
@@ -98,45 +142,5 @@ router.post('/:id/delete', Auth.requireAuthentication(3), async (req, res) => {
     res.status(500).json({ error: 'Error deleting user' });
   }
 });
-
-router.get('/add', Auth.requireAuthentication(2), function (req, res) {
-  res.render('adicionarRua', { failed: null })
-})
-
-router.post('/add/upload', Auth.requireAuthentication(2), upload.fields([{ name: 'file', maxCount: 1 }, { name: 'images', maxCount: 12 }]), async function (req, res) {
-  try {
-    const xmlContent = req.files['file'][0].buffer.toString('utf-8')
-    const xmlDoc = libxmljs.parseXml(xmlContent);
-    const xsdPath = path.join(__dirname, '../xml/MRB-rua.xsd')
-    const xsdDoc = libxmljs.parseXml(fs.readFileSync(xsdPath, 'utf8'));
-
-    if (xmlDoc.validate(xsdDoc)) {
-      const rua = processFile(xmlContent);
-
-      if (rua.figuras != null && req.files['images'] && rua.figuras.length <= req.files['images'].length) {
-        var i = 0
-        console.log(req.files['images'])
-        for (const image of req.files['images']) {
-          const savePath = __dirname.slice(0, -6) + 'public/images/' + image.originalname
-          fs.writeFileSync(savePath, image.buffer);
-          rua.figuras[i++].path = '/images/' + image.originalname
-        }
-      }
-
-      await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
-      await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
-
-      res.render('adicionarRua', { failed: false });
-    }
-    else {
-      var erros = ''
-      xmlDoc.validationErrors.forEach(error => erros += error.message)
-      res.render('adicionarRua', { failed: true, mensagem_erro: erros })
-    }
-  } catch (error) {
-    console.error('Erro:', error.message)
-    res.render('adicionarRua', { failed: true, mensagem_erro: error.message })
-  }
-})
 
 module.exports = router;

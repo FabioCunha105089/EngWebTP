@@ -2,7 +2,7 @@ extends layout
 
 block content
   .button-container
-    a.w3-button.w3-amber.w3-round-large(href='/conta/add') Adicionar novo registo
+    a.w3-button.w3-amber.w3-round-large(href='/gestao/add') Adicionar novo registo
     a.w3-button.w3-amber.w3-round-large(href='/gestao/sugestoes') Sugestões de utilizadores
     if user.level == "Administrador"
       a.w3-button.w3-amber.w3-round-large(href='/gestao/utilizadores') Gestão de utilizadores

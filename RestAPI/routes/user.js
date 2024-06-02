@@ -80,6 +80,7 @@ router.put('/:id', function (req, res) {
       res.jsonp(dados)
     })
     .catch(erro => {
+      console.error('Error updating user:', erro);
       res.render('error', { error: erro, message: "Erro na alteração do utilizador" })
     })
 })

@@ -22,7 +22,7 @@ module.exports.addUser = u => {
 
 module.exports.updateUser = (id, info) => {
     return User
-        .updateOne({ _id : id }, info)
+        .updateOne({ _id : id }, {$set : info})
         .exec()
 }
 

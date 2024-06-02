@@ -3,12 +3,11 @@ extends layout
 block content
   .profile-container
     .profile-header
-      if utilizador.photo
-        img(src=utilizador.photo alt="User Photo" class="profile-photo")
       h1 Perfil de utilizador
+      img(src=pfpPath alt="User Photo" class="profile-photo")
     .profile-details
       p
-        strong Nome de utilizador: 
+        strong Username: 
         span.profile-info #{utilizador._id}
       p
         strong Nome: 
@@ -17,7 +16,7 @@ block content
         strong Email: 
         span.profile-info #{utilizador.email}
       p
-        strong Nível de acesso: 
+        strong Nível: 
         span.profile-info #{utilizador.level}
       p
         strong Sugestões aceites: 
@@ -28,3 +27,4 @@ block content
       p
         strong Data de registo: 
         span.profile-info #{utilizador.registrationDate}
+    a(href='/conta/edit').w3-button.w3-teal Editar perfil
