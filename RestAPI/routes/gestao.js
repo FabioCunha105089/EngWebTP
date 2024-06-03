@@ -24,11 +24,4 @@ router.delete('/sugestao/:sId/rua/:id', function (req, res) {
     .catch(erro => res.jsonp(erro))
 });
 
-router.post('/dsadsa', (req, res) => {
-  const newRua = req.body
-  Sugestoes.insert(newRua)
-    .then(resp => res.jsonp(resp))
-    .catch(erro => res.jsonp(erro))
-})
-
 module.exports = router;
