@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 const axios = require('axios');
 var Auth = require('../auth/auth.js')
-var path = require('path')
 var fs = require('fs')
 var multer = require('multer')
 
@@ -13,12 +12,7 @@ router.get('/perfil', Auth.requireAuthentication(1), async function (req, res) {
     const response = await axios.get('http://rest-api:3000/user/' + res.locals.user.username)
     const utilizador = response.data.user
 
-    var profilePicPath = path.join('/pfpics/', `${utilizador.username}.jpg`);
-    const hasProfilePic = fs.existsSync(profilePicPath);
-    if (!hasProfilePic)
-      profilePicPath = path.join('/pfpics/', '__NOPIC__.jpg')
-
-    res.render('perfil', { utilizador: utilizador, pfpPath : `/pfpics/${res.locals.user.username}.jpg`})
+    res.render('perfil', { utilizador: utilizador })
   }
   catch (error) {
     console.error('Erro a obter informação do user:', error);
@@ -37,37 +31,36 @@ router.get('/perfil/:id', Auth.requireAuthentication(1), async function (req, re
   }
 })
 
-router.get('/edit', Auth.requireAuthentication(1), function (req, res) {
-  res.render('edit_perfil', {user : res.locals.user, pfpPath : `/pfpics/${res.locals.user.username}.jpg`})
+router.get('/edit', Auth.requireAuthentication(1), async function (req, res) {
+  const response = await axios.get('http://rest-api:3000/user/' + req.session.user._id)
+  const utilizador = response.data.user
+  res.render('edit_perfil', {utilizador : utilizador })
 })
 
 
-router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp', maxCount: 1}]), function (req, res) {
-  /*
-  const newUser = req.body
-  newUser['_id'] = req.body.username
-  if (req.body.password === '')
-    delete newUser.password
-  console.log(newUser)
-  axios.put('http://localhost:3000/user/' + res.locals.user._id, newUser, { 
-    headers: { 
-      'Content-Type': 'application/json'
-    }})
-    
-  .then(resp => {
-      console.log(resp)
-      res.render('index')
-    })
-  .catch(error => res.render('error', {error : error, message : error.message}))
-  */
-  console.log(req.files)
-  if (req.files['pfp'] != null) {
-    const savePath = __dirname.slice(0, -6) + 'public/pfpics/' + res.locals.user.username + '.jpg'
-    console.log(savePath)
-    fs.writeFileSync(savePath, req.files['pfp'][0].buffer);
+router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp', maxCount: 1}]), async function (req, res) {
+  try {
+    let path;
+    if (req.files['pfp'] != null) {
+      const savePath = __dirname.slice(0, -6) + 'public/pfpics/' + res.locals.user.username + '.jpg';
+      fs.writeFileSync(savePath, req.files['pfp'][0].buffer);
+      path = `/pfpics/${req.session.user.username}.jpg`;
+    }
+
+    const userId = req.session.user._id;
+    await axios.put('http://rest-api:3000/user/edit', {
+      userId,
+      path,
+      ...req.body
+    });
+
+    res.redirect('/conta/perfil');
+
+  } catch (error) {
+    console.error(error);
+    res.render('editFalhou', {error: error.response.data.error })
   }
-  res.render('perfil', {utilizador : res.locals.user})
-})
+  })
 
 router.get('/registo', function (req, res) {
   res.render('registo');
@@ -78,10 +71,12 @@ router.post('/registo', async (req, res) => {
     const response = await axios.post('http://rest-api:3000/user/register', {
       username: req.body.username,
       name: req.body.name,
+      foto: "/pfpics/__NOPIC__.jpg",
       email: req.body.email,
       password: req.body.password
     });
     res.render('registoSucesso', { message: response.data.message });
+
   } catch (error) {
     res.render('registoFalhou', { error: error.response.data.error });
   }

@@ -3,6 +3,7 @@
 docker compose down
 docker volume remove engwebtp_mongodb_data
 docker compose up --build -d
+docker cp ./data/backup/ mongodb:/data/backup/.
 
 for JSON_FILE in ./data/backup/*.json; do
     if [[ -s "$JSON_FILE" && "$(cat "$JSON_FILE" | tr -d '[:space:]')" != "[]" ]]; then

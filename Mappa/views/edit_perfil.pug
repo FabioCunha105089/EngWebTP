@@ -2,25 +2,52 @@ extends layout
 
 block content
   .profile-container
-  .profile-header
-    if user.photo
-      img(src=utilizador.photo alt="User Photo" class="profile-photo")
-    h1 Editar Perfil
-  form(action='/conta/edit', method="POST" enctype='multipart/form-data').profile-details
-    p
-      strong Username: 
-      input(type='text' name='username' value=user._id)
-    p
-      strong(style='padding-right: 38px;') Nome: 
-      input(type='text' name='nome' value=user.name)
-    p
-      strong(style='padding-right: 40px;') Email: 
-      input(type='text' name='email' value=user.email)
-    p
-      strong(style='padding-right: 4px;') Password: 
-      input(type='password' name='password')
-    p
-      strong(style='padding-right: 60px') PFP:
-      input(type='file' name='pfp' id='pfp')
-    div
-      button.w3-button.w3-amber.w3-round(type="submit", style="margin-top:10px;") Guardar alterações
+    .profile-header
+      h1 Editar Perfil
+      img(src=utilizador.foto alt="User Photo" class="profile-photo")
+    .profile-details
+      form(action='/conta/edit', method="POST", id="profile-form", enctype='multipart/form-data').profile-details
+        p
+          strong Nome: 
+          input.w3-input(type='text' name='name' value=utilizador.name)
+        p
+          strong Email: 
+          input.w3-input(type='text' name='email' value=utilizador.email)
+        p
+          button#change-password-button.w3-button.w3-amber.w3-round(type="button") Mudar Password
+        .password-fields(style='display: none;')
+          p
+            strong Password Antiga:
+            input.w3-input(type='password' name='oldPassword')
+          p
+            strong Nova Password:
+            input.w3-input(type='password' name='newPassword')
+          p
+            strong Confirmar Nova Password:
+            input.w3-input(type='password' name='confirmPassword')
+        p
+          strong Foto:
+          input.w3-input(type='file' name='pfp' id='pfp')
+        div
+          button.w3-button.w3-amber.w3-round(type="submit", style="margin-top:10px;") Guardar alterações
+
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      const profileForm = document.getElementById('profile-form');
+      const changePasswordButton = document.getElementById('change-password-button');
+      const passwordFields = document.querySelector('.password-fields');
+      const newPasswordField = document.querySelector('input[name="newPassword"]');
+      const confirmPasswordField = document.querySelector('input[name="confirmPassword"]');
+
+      changePasswordButton.addEventListener('click', function() {
+        changePasswordButton.style.display = 'none';
+        passwordFields.style.display = 'block';
+      });
+
+      profileForm.addEventListener('submit', function(event) {
+        if (newPasswordField.value !== confirmPasswordField.value) {
+          event.preventDefault(); // Prevent form submission
+          alert('New passwords do not match');
+        }
+      });
+    });

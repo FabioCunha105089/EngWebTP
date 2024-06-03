@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
 })
 
 router.get('/:id', function (req, res) {
-  User.getUser(req.params.id)
+  User.findById(req.params.id)
     .then(user => res.status(200).jsonp({ user }))
     .catch(e => res.status(500).jsonp({ error: e }))
 })
@@ -23,6 +23,7 @@ router.post('/register', function (req, res) {
     _id: req.body.username,
     username: req.body.username,
     name: req.body.name,
+    foto: req.body.foto,
     email: req.body.email,
     level: "Administrador",
     registrationDate: d,
@@ -74,30 +75,36 @@ router.post('/login', function (req, res, next) {
   })(req, res, next);
 });
 
-router.put('/:id', function (req, res) {
-  User.updateUser(req.params.id, req.body)
-    .then(dados => {
-      res.jsonp(dados)
-    })
-    .catch(erro => {
-      console.error('Error updating user:', erro);
-      res.render('error', { error: erro, message: "Erro na alteração do utilizador" })
-    })
-})
+router.put('/edit', async function (req, res) {
+  try {
+    const { userId, path, name, email, oldPassword, newPassword, confirmPassword } = req.body;
+    console.log(req.body);
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    if (name) user.name = name;
+    if (email) user.email = email;
+
+    if (path) user.foto = path;
+
+    if (oldPassword && newPassword && confirmPassword) {
+      await user.changePassword(oldPassword, newPassword);
+    }
+
+    await user.save();
+    res.json({ message: 'Profile updated successfully' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal server error: ' + error });
+  }
+});
+
 
 router.put('/:id/change-level', function (req, res) {
   console.log(req.body.level);
   User.updateUserLevel(req.params.id, req.body.level)
-    .then(dados => {
-      res.jsonp(dados)
-    })
-    .catch(erro => {
-      res.render('error', { error: erro, message: "Erro na alteração do utilizador" })
-    })
-})
-
-router.put('/:id/password', function (req, res) {
-  User.updateUserPassword(req.params.id, req.body)
     .then(dados => {
       res.jsonp(dados)
     })

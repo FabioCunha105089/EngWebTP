@@ -8,9 +8,9 @@ module.exports.list = () => {
         .exec()
 }
 
-module.exports.getUser = id => {
+module.exports.findById = id => {
     return User
-        .findOne({ _id : id })
+        .findById(id)
         .exec()
 }
 
