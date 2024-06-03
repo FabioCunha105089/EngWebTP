@@ -51,11 +51,9 @@ router.post('/login', function (req, res, next) {
         return res.status(500).jsonp({ error: "Login error: " + err });
       }
       
-      // Update lastAccess attribute
       user.lastAccess = new Date().toISOString().substring(0, 19);
       user.save()
         .then(() => {
-          // Generate JWT token
           jwt.sign({
             username: user.username,
             level: user.level,
