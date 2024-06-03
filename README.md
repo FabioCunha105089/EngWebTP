@@ -22,6 +22,8 @@ Para o desenvolvimento da plataforma, resolvemos utilizar 3 serviços:
 ## Design e Implementação
 
 ### Docker
+blablabla
+
 -----
 ### Web Server
 Todas as rotas reencaminham os pedidos **HTTP** para a **Rest API** e, depois de receberem os dados pedidos, devolvem uma página HTML ao browser.\
@@ -92,12 +94,13 @@ As rotas existentes são as seguintes:
   - **GET /:nome :** 
 
 ### MongoDB
+blablabla
 
 ### Autenticação
 As rotas que, pelo sua natureza assim o obrigam, encontram-se protegidas. Para aceder a essas rotas, é necessário ter login efetuado e ter o nível de acesso correto.
 
-
 ## Interações Possíveis
-
+blablabla
 
 ## Instruções de uso
+blablabla
