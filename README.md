@@ -94,10 +94,101 @@ As rotas existentes são as seguintes:
   - **GET /:nome :** 
 
 ### MongoDB
-blablabla
+Em seguida, enumeramos as coleções usadas na base de dados e os respetivos modelos:
+  - **users**
+  ```javascript
+  var userSchema = new mongoose.Schema({
+  username: String, // Nome de utilizador - utilizado para o login
+  password: String, // Palavra-passe - utilizada para o login
+  name: String, // Nome do utilizador
+  foto: String, // Caminho onde fica guardada o foto de perfil
+  email: String, // E-mail do utilizador
+  level: String, // Nível de acesso do utilizador (Administrador, Produtor ou Consumidor)
+  lastAccess: String, // Data do último acesso ao website
+  registrationDate: String, // Data de registo no website
+  sugestoesAceites: Number, // Número de sugestões aceites pelos Administradores/Produtores
+  _id: String, // Como decidimos que o username é único, o _id guarda o username. Também temos que ter um campo denominado username porque o uso do módulo passport assim o obriga
+  });
+  userSchema.plugin(passportLocalMongoose);
+  ```
+  - **inforuas**
+  ```javascript
+  const figuraSchema = new mongoose.Schema({
+      foto_id: String,
+      path: String,
+      legenda: String
+  }, {_id: false})
 
-### Autenticação
-As rotas que, pelo sua natureza assim o obrigam, encontram-se protegidas. Para aceder a essas rotas, é necessário ter login efetuado e ter o nível de acesso correto.
+  const casaSchema = new mongoose.Schema({
+      numero: String,
+      enfiteuta: String,
+      desc: [String],
+      foro: String
+  }, {_id: false})
+
+  const comentarioSchema = new mongoose.Schema({
+      user: String, // Username do utilizador por quem foi feito o comentário
+      comment: String, // Comentário
+      timestamp: String // Data em que o comentário foi feito
+  })
+
+  var infoRuaSchema = new mongoose.Schema({
+      _id: Number, // Número da rua, visto que é único
+      nome: String, // Nome da rua
+      desc: [String],
+      figuras: [figuraSchema],
+      casas: [casaSchema],
+      comentarios: [comentarioSchema] // Lista de comentários respetivos à rua
+  })
+  ```
+  - **ruas**
+  ```javascript
+  var ruaSchema = new mongoose.Schema({
+    _id: Number, // Número da rua
+    nome: String // Nome da rua
+  })
+  // Optámos por usar esta coleção para não termos que pedir o registo inteiro das ruas sempre que quisermos o nome ou número das mesmas
+  ```
+  - **sugestoes**
+  ```javascript
+  var sugestaoSchema = new mongoose.Schema({
+    username: String, // Username do utilizador por quem foi feita a sugestão
+    sugestao: String, // Sugestão
+    creationDate: String, // Data em que a sugestão foi feita
+  });
+
+  var sugestoesRuaSchema = new mongoose.Schema({
+    rua: Number, // Número da rua a que a sugestão pertence
+    nome: String, // Nome da rua a que a sugestão pertence
+    sugestoes: [sugestaoSchema] // Lista de sugestões respetivas à rua
+  }, {_id: false});
+  ```
+  - **entidades**
+    ```javascript
+    var entidadeSchema = new mongoose.Schema({
+        _id: Number, // ID da entidade
+        nome: String, // Nome da entidade
+        rua: String, // Nome da rua em que é referida
+    })
+    ```
+  - **lugares**
+    ```javascript
+    var lugarSchema = new mongoose.Schema({
+        _id: String, // ID do lugar
+        nome: String, // Nome do lugar
+        rua: String // Nome da rua em que é referido
+    })
+    ```
+
+### Autenticação e Autorização
+As rotas que, pela sua natureza, exigem proteção, estão devidamente protegidas. Para aceder a essas rotas, é necessário que o utilizador tenha efetuado login e possua o nível de acesso adequado. O login é realizado com o auxílio do módulo ***Passport.js***.
+
+Durante o processo de login, é atribuído um ***JSON Web Token (JWT)*** ao utilizador. Para a autorização, verificamos a validade desse token e comparamos o nível de acesso do utilizador com o nível de acesso necessário para a rota específica. Os níveis de acesso estão definidos da seguinte forma:
+
+  - **Sem login efetuado:** tem acesso apenas à informação disponibilizada sobre as ruas;
+  - **Consumidor:** pode fazer comentários, sugerir alterações a páginas de ruas, editar o próprio perfil e visualizar perfis de outros utilizadores;
+  - **Produtor:** pode adicionar novos registos de ruas, editar ruas e aceitar/recusar sugestões de alteração de outros utilizadores;
+  - **Administrador:** pode alterar o nível de acesso de outros utilizadores, assim como eliminá-los.
 
 ## Interações Possíveis
 blablabla
