@@ -7,6 +7,6 @@ block content
       form(action='' method='get' class='search-form')
           input(type='text' name='nome' placeholder='Procurar...' class='search-input')
           button(type='submit' class='search-button') &gt;
-      each lugar in lugares
+      - for (var i = 0; i < lugares.length; i++)
         li.w3-hover-light-grey.w3-padding-small.w3-border-bottom
-          a(href='/lugares/' + lugar.nome) #{lugar.nome}
+          a(href='/lugares/' + lugares[i].nome) #{nomes[i]}

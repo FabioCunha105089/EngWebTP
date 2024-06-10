@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import json
 
 def clean_strings(s):
-    s = s.replace('\n', '').replace('\"', '').replace('D.', 'D. ').replace('S.', 'S. ').rstrip().lstrip()
+    s = s.replace('\n', '').replace('\"', '').replace('D.', 'D. ').replace('S.', 'S. ').replace('(', '').replace(')','').rstrip().lstrip()
     spl = s.split()
     res = []
     for w in spl:

@@ -5,8 +5,8 @@ block content
     h1.w3-center Lista de entidades
     ul.w3-card-4.w3-round-large.w3-padding.w3-margin-top.ol-custom
       form(action='' method='get' class='search-form')
-          input(type='text' name='nome' placeholder='Procurar...' class='search-input')
-          button(type='submit' class='search-button') &gt;
-      each entidade in entidades
+        input(type='text' name='nome' placeholder='Procurar...' class='search-input')
+        button(type='submit' class='search-button') &gt;
+      - for (var i = 0; i < entidades.length; i++)
         li.w3-hover-light-grey.w3-padding-small.w3-border-bottom
-          a(href='/entidades/' + entidade.nome) #{entidade.nome}
+          a(href='/entidades/' + entidades[i].nome) #{nomes[i]}
