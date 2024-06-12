@@ -134,8 +134,8 @@ router.post('/add/upload', Auth.requireAuthentication(2), upload.single('file'),
           fs.writeFileSync(xmlSavePath, content);
 
           // Posts
-          await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
-          await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
+          await axios.post('http://rest-api:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
+          await axios.post('http://rest-api:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
         } else {
           const erros = xmlDoc.validationErrors.map(error => error.message).join('\n');
           throw new Error(erros);
