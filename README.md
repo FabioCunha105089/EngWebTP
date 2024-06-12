@@ -189,6 +189,30 @@ Durante o processo de login, é atribuído um ***JSON Web Token (JWT)*** ao util
 blablala
 
 ### Docker
-Para fazer o setup do projeto com o Docker, temos um Dockerfile para o Web Server e outro para a Rest API e um docker-compose que inicia todos os serviços e os liga entre si.
+Para configurar o projeto para funcionar com Docker, temos um Dockerfile para o Web Server e outro para a Rest API e um docker-compose que, além de criar os containers do Web Server e da Rest API, cria também um container MongoDB e liga-os todos entre si.
 
 ## Instruções de uso
+A primeira vez que se corre a aplicação, temos que usar o seguinte comando:
+```bash
+docker compose up --build -d
+```
+A opção `--build` é necessária para construir os containers.\
+Em seguida, é necessário fazer o import dos dados para a MongoDB com o script ***import.sh***. Para isso, usamos o seguinte comando:
+```bash
+./import.sh
+```
+Com isto, temos a aplicação a correr.\
+Para reiniciar a aplicação, corremos o script ***restart.sh*** com o seguinte comando:
+```bash
+./restart.sh
+```
+É necessário usar este script pois assegura que fotos de perfil de utilizador sejam mantidas.
+#### Backup
+Para fazer o backup de dados da MongoDB, corremos o script ***backup.sh*** com o seguinte comando:
+```bash
+./backup.sh
+```
+Para importar os dados de backup para MongoDB, corremos o script ***import_backup.sh*** com o seguinte comando:
+```bash
+./import_backup.sh
+```
