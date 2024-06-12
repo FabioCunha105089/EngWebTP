@@ -3,13 +3,6 @@ var router = express.Router();
 var infoRua = require('../controllers/inforua')
 var Sugestoes = require('../controllers/sugestao')
 
-// Listar ruas
-router.get('/', function (req, res) {
-  infoRua.list()
-    .then(data => res.jsonp(data))
-    .catch(erro => res.jsonp(erro))
-});
-
 // Consultar uma rua
 router.get('/:id', function (req, res) {
   infoRua.findById(req.params.id)

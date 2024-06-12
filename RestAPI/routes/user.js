@@ -101,7 +101,6 @@ router.put('/edit', async function (req, res) {
 
 
 router.put('/:id/change-level', function (req, res) {
-  console.log(req.body.level);
   User.updateUserLevel(req.params.id, req.body.level)
     .then(dados => {
       res.jsonp(dados)
