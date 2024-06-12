@@ -3,19 +3,67 @@ var router = express.Router();
 const axios = require('axios');
 var Auth = require('../auth/auth.js')
 
+function isInRuaList(rua_list, new_rua) {
+  return rua_list.some(rua => rua._id === new_rua);
+}
+
 /* GET home page. */
-router.get('/', function (req, res, next) {
-  axios.get('http://rest-api:3000/rua/')
-    .then(resp => {
-      if (req.query.nome) {
-        const rua_list = resp.data.filter(rua => rua.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
-        res.render('list_ruas', { ruas: rua_list });
-      } else {
-        console.log(resp.data)
-        res.render('list_ruas', { ruas: resp.data })
+router.get('/', async function (req, res, next) {
+  try {
+    const resp = await axios.get('http://rest-api:3000/rua/');
+    let rua_list = resp.data;
+
+    // Verifica se foi feita uma pesquisa
+    if (req.query.nome) {
+      //Remove todas as ruas que não contem o que foi procurado
+      rua_list = rua_list.filter(rua => rua.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
+      const query_formatted = req.query.nome.toUpperCase().split(' ').join('_');
+      const outras_ruas = new Set();
+
+      //Verifica se foi procurado uma entidade
+      try {
+        const entidadeResp = await axios.get('http://rest-api:3000/entidade/' + query_formatted);
+        const entidade = entidadeResp.data;
+
+        if (entidade) {
+          for (let ent_info of entidade.info) {
+            outras_ruas.add(parseInt(ent_info.numero, 10));
+          }
+        }
+      } catch (erro) {
+        console.log(erro);
       }
-    })
-    .catch(erro => console.log(erro))
+
+      // Verifica se foi procurado um lugar
+      try {
+        const lugarResp = await axios.get('http://rest-api:3000/lugar/' + query_formatted);
+        const lugar = lugarResp.data;
+
+        if (lugar) {
+          lugar.ruas.map(str => outras_ruas.add(parseInt(str, 10)));
+        }
+      } catch (erro) {
+        console.log(erro);
+      }
+
+      // Adiciona ruas se foi procurado uma entidade/lugar
+      for (let r of outras_ruas) {
+        if (!isInRuaList(rua_list, r)) {
+          try {
+            const ruaResp = await axios.get('http://rest-api:3000/rua/' + r);
+            rua_list.push(ruaResp.data);
+          } catch (erro) {
+            console.log(erro);
+          }
+        }
+      }
+    }
+
+    res.render('list_ruas', { ruas: rua_list });
+  } catch (erro) {
+    console.log(erro);
+    next(erro);
+  }
 });
 
 router.get('/:numero', function (req, res) {

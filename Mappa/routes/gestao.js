@@ -7,6 +7,7 @@ const libxmljs = require('libxmljs')
 const { processFile } = require('../public/javascripts/xmlFuncs')
 const multer = require('multer')
 const path = require('path')
+const JSZip = require('jszip')
 
 const upload = multer({ storage: multer.memoryStorage() });
 
@@ -33,30 +34,30 @@ router.get('/utilizadores', Auth.requireAuthentication(3), function (req, res, n
     })
 });
 
-router.get('/sugestoes', Auth.requireAuthentication(2), function(req, res, next) {
+router.get('/sugestoes', Auth.requireAuthentication(2), function (req, res, next) {
   axios.get('http://rest-api:3000/gestao/sugestoes')
-    .then( resp => {
-      res.render('list_sugestoes', { sugestoes : resp.data});
+    .then(resp => {
+      res.render('list_sugestoes', { sugestoes: resp.data });
     })
     .catch(error => {
-      res.render('error', {error: error})
+      res.render('error', { error: error })
     })
 });
 
-router.get('/rua/:id', Auth.requireAuthentication(2), async function(req, res, next) {
-  try{
+router.get('/rua/:id', Auth.requireAuthentication(2), async function (req, res, next) {
+  try {
     const respRua = await axios.get('http://rest-api:3000/inforua/' + req.params.id)
     const respSugestoes = await axios.get('http://rest-api:3000/gestao/sugestoes/' + req.params.id)
     const ruaTexto = JSON.stringify(respRua.data, null, 2)
 
-    res.render('edit_rua', { sugestoes: respSugestoes.data.sugestoes, texto: ruaTexto, nome: respRua.data.nome, id : req.params.id})
+    res.render('edit_rua', { sugestoes: respSugestoes.data.sugestoes, texto: ruaTexto, nome: respRua.data.nome, id: req.params.id })
 
-  }catch(error) {
-      res.render('error', {error: error})
+  } catch (error) {
+    res.render('error', { error: error })
   }
 });
 
-router.post('/rua/:id', Auth.requireAuthentication(2), async function(req, res) {
+router.post('/rua/:id', Auth.requireAuthentication(2), async function (req, res) {
   try {
     const id = req.params.id;
     const updatedTexto = JSON.parse(req.body.ruaTexto);
@@ -94,44 +95,80 @@ router.get('/add', Auth.requireAuthentication(2), function (req, res) {
   res.render('adicionarRua', { failed: null })
 })
 
-router.post('/add/upload', Auth.requireAuthentication(2), upload.fields([{ name: 'file', maxCount: 1 }, { name: 'images', maxCount: 12 }]), async function (req, res) {
+router.post('/add/upload', Auth.requireAuthentication(2), upload.single('file'), async (req, res) => {
   try {
-    const xmlFile = req.files['file'][0]
-    const xmlContent = xmlFile.buffer.toString('utf-8')
-    const xmlDoc = libxmljs.parseXml(xmlContent);
-    const xsdPath = path.join(__dirname, '../xml/MRB-rua.xsd')
-    const xsdDoc = libxmljs.parseXml(fs.readFileSync(xsdPath, 'utf8'));
+    const zip = await JSZip.loadAsync(req.file.buffer);
+    let hasXmlFile = false;
+    let hasImages = false
+    let rua = null;
 
-    if (xmlDoc.validate(xsdDoc)) {
-      const rua = processFile(xmlContent);
-
-      if (rua.figuras != null && req.files['images'] && rua.figuras.length <= req.files['images'].length) {
-        var i = 0
-        console.log(req.files['images'])
-        for (const image of req.files['images']) {
-          const savePath = __dirname.slice(0, -6) + 'public/images/' + image.originalname
-          fs.writeFileSync(savePath, image.buffer);
-          rua.figuras[i++].path = '/images/' + image.originalname
-        }
+    // Verifica se existe um ficheiro XML e imagens
+    zip.forEach((relativePath, zipEntry) => {
+      if (zipEntry.name.endsWith('.xml')) {
+        hasXmlFile = true;
       }
+      if (zipEntry.name.match(/\.(jpg|jpeg|png)$/i)) {
+        hasImages = true
+      }
+    });
 
-      const xmlSavePath = path.join(__dirname, '../public/uploads/', xmlFile.originalname);
-      fs.writeFileSync(xmlSavePath, xmlFile.buffer);
-
-      await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
-      await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
-
-      res.render('adicionarRua', { failed: false });
+    // Erro se não existir XML
+    if (!hasXmlFile) {
+      return res.render('adicionarRua', { failed: true, mensagem_erro: "Não existe ficheiro XML no zip" });
     }
-    else {
-      var erros = ''
-      xmlDoc.validationErrors.forEach(error => erros += error.message)
-      res.render('adicionarRua', { failed: true, mensagem_erro: erros })
+
+    // Processa o ficheiro XML para poder guardar as imagens
+    for (const relativePath in zip.files) {
+      const zipEntry = zip.files[relativePath];
+      if (zipEntry.name.endsWith('.xml')) {
+        const content = await zipEntry.async('nodebuffer');
+        const xmlContent = content.toString('utf-8');
+        const xmlDoc = libxmljs.parseXml(xmlContent);
+        const xsdPath = path.join(__dirname, '../xml/MRB-rua.xsd');
+        const xsdDoc = libxmljs.parseXml(fs.readFileSync(xsdPath, 'utf8'));
+
+        // Validação com o XSD
+        if (xmlDoc.validate(xsdDoc)) {
+          rua = processFile(xmlContent);
+          const xmlSavePath = path.join(__dirname, '../public/uploads/', zipEntry.name);
+          fs.writeFileSync(xmlSavePath, content);
+
+          // Posts
+          await axios.post('http://localhost:3000/inforua/', rua, { headers: { 'Content-Type': 'application/json' } });
+          await axios.post('http://localhost:3000/rua/', { _id: rua._id, nome: rua.nome }, { headers: { 'Content-Type': 'application/json' } });
+        } else {
+          const erros = xmlDoc.validationErrors.map(error => error.message).join('\n');
+          throw new Error(erros);
+        }
+        break;
+      }
     }
+
+    // Processa imagens
+    const filePromises = [];
+    if (hasImages) {
+      zip.forEach((relativePath, zipEntry) => {
+        if (!zipEntry.name.endsWith('.xml')) {
+          const filePromise = zipEntry.async('nodebuffer').then(content => {
+            if (zipEntry.name.match(/\.(jpg|jpeg|png)$/i)) {
+              const savePath = path.join(__dirname, '../public/images/', zipEntry.name);
+              fs.writeFileSync(savePath, content);
+              if (rua) {
+                rua.figuras.push({ path: '/images/' + zipEntry.name });
+              }
+            }
+          });
+          filePromises.push(filePromise);
+        }
+      });
+    }
+
+    await Promise.all(filePromises);
+    res.render('adicionarRua', { failed: false });
   } catch (error) {
-    console.error('Erro:', error.message)
-    res.render('adicionarRua', { failed: true, mensagem_erro: error.message })
+    console.error('Erro:', error.message);
+    res.render('adicionarRua', { failed: true, mensagem_erro: error.message });
   }
-})
+});
 
 module.exports = router;

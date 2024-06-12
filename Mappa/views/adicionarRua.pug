@@ -32,11 +32,7 @@ block content
     .form-container.w3-card
         form(action='add/upload' method='post' enctype='multipart/form-data' class='w3-container')
             .w3-section
-                label(for='file' class='w3-label w3-text-red') Seleciona o ficheiro de dados:
-                input(type='file' name='file' id='file' class='w3-input w3-border' accept='.xml')
-                label(for='images' class='w3-label w3-text-red') Seleciona as imagens:
-                #inputContainer
-                  input(type='file' name='images' id='images' class='w3-input w3-border')
-                button#addInputBtn(type='button') +
+                label(for='file' class='w3-label w3-text-red') Seleciona o ficheiro zip::
+                input(type='file' name='file' id='file' class='w3-input w3-border' accept='.zip' required)
             .w3-section
                 button(type='submit' class='w3-button w3-red w3-round-large') Upload
