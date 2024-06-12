@@ -186,7 +186,11 @@ Durante o processo de login, é atribuído um ***JSON Web Token (JWT)*** ao util
   - **Administrador:** pode alterar o nível de acesso de outros utilizadores, assim como eliminá-los.
 
 ### Adição de novos registos
-blablala
+Para adicionar um novo registo de uma rua, é enviado um ficheiro .zip que tem de conter um ficheiro .xml dentro e, opcionalmente, as fotos associadas a essa rua. O ficheiro .xml é validado com o ficheiro .xsd fornecido, e caso seja validado, este é guardado na pasta `uploads` e as imagens na pasta `images` da pasta `public`. Caso aconteça algum erro, esse é apresentado ao utilizador.
+
+Antes de implementar os novos registos desta maneira, implementamos um sistema que enviava cada ficheiro separada, com um campo de input para cada um, sendo possível adicionar novos inputs de imagens com um botão. Trocamos a implementação pois é mais fácil e ao mesmo tempo mostra mais competências desta nova maneira.
+
+
 
 ### Docker
 Para configurar o projeto para funcionar com Docker, temos um Dockerfile para o Web Server e outro para a Rest API e um docker-compose que, além de criar os containers do Web Server e da Rest API, cria também um container MongoDB e liga-os todos entre si.
