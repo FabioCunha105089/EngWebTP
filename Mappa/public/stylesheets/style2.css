@@ -81,9 +81,6 @@ footer p {
   background-color: #0056b3;
 }
 
-.comments-section {
-  margin-top: 20px;
-}
 
 .comment {
   border-bottom: 1px solid #eee;
@@ -398,4 +395,27 @@ footer p {
   max-width: 1280px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.sorting {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+
+  #toggle-sort {
+  background: none;
+  border: none;
+  padding: 0;
+  }
+
+  #toggle-sort:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  #toggle-sort:active {
+    background-color: #ccc;
+  }
 }

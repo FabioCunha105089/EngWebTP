@@ -1,4 +1,6 @@
 mixin comment_section(comments, id)
+  - let sortedComments = comments.slice().sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+
   .rectangle-container
     if isLoggedIn
       form(action=`/ruas/${id}/comentario` method='post' class='comment-form')
@@ -7,15 +9,51 @@ mixin comment_section(comments, id)
         button(type='submit' class='comment-button') Comentar
 
       if comments.length > 0
-        .comments-section
-          each comment in comments
-            .comment
-              .comment-header
-                a.username(href='/conta/perfil/' + comment.user) #{comment.user}:
-                .timestamp= comment.timestamp
-              .comment-body
-                .text= comment.comment
+        .sorting
+          img(src='/images/sorting.png' alt='sort' width='16' height='16')
+          button#toggle-sort(type='button' onclick='toggleSort()') Ordenar
+        each comment in sortedComments
+          .comment
+            .comment-header
+              a.username(href='/conta/perfil/' + comment.user) #{comment.user}:
+              .timestamp= comment.timestamp
+            .comment-body
+              .text= comment.comment
       else
         p Não existem comentários. Sê o primeiro a comentar!
     else
       p Faz login para poderes adicionar um comentário a este post.
+
+  script.
+    let sortAsc = true;
+    let comments = !{JSON.stringify(comments)};
+    const toggleSort = () => {
+      sortAsc = !sortAsc;
+      renderComments();
+    };
+    const renderComments = () => {
+      sortedComments = comments.slice().sort((a, b) => {
+        if (sortAsc) {
+          return new Date(a.timestamp) - new Date(b.timestamp);
+        } else {
+          return new Date(b.timestamp) - new Date(a.timestamp);
+        }
+      });
+
+      document.querySelector('.comments-section').innerHTML = '';
+      sortedComments.forEach(comment => {
+        const commentHtml = `
+          <div class="comment">
+            <div class="comment-header">
+              <a class="username" href="/conta/perfil/${comment.user}">${comment.user}:</a>
+              <div class="timestamp">${comment.timestamp}</div>
+            </div>
+            <div class="comment-body">
+              <div class="text">${comment.comment}</div>
+            </div>
+          </div>
+        `;
+        document.querySelector('.comments-section').insertAdjacentHTML('beforeend', commentHtml);
+      });
+    };
+    renderComments();

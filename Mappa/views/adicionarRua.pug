@@ -1,38 +1,23 @@
 extends layout
 
 block content
-    style.
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        padding: 20px;
-      }
-      .form-container {
-        max-width: 400px;
-        margin: auto;
-        padding: 20px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
-    script.
-      $(document).ready(function() {
-        $('#addInputBtn').click(function() {
-          $('#inputContainer').append('<input type="file" name="images" id="images" class="w3-input w3-border">');
-        });
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
+  script.
+    $(document).ready(function() {
+      $('#addInputBtn').click(function() {
+        $('#inputContainer').append('<input type="file" name="images" id="images" class="w3-input w3-border">');
       });
+    });
 
-    h1 Adicionar uma nova entrada
-    if failed != null
-      if failed
-        h5.w3-text-red= mensagem_erro
-      else
-        h5.w3-text-green O ficheiro foi submitido com sucesso
-    .form-container.w3-card
-        form(action='add/upload' method='post' enctype='multipart/form-data' class='w3-container')
-            .w3-section
-                label(for='file' class='w3-label w3-text-red') Seleciona o ficheiro zip::
-                input(type='file' name='file' id='file' class='w3-input w3-border' accept='.zip' required)
-            .w3-section
-                button(type='submit' class='w3-button w3-red w3-round-large') Upload
+  h1 Adicionar uma nova entrada
+  if failed != null
+    if failed
+      h5.w3-text-red= mensagem_erro
+    else
+      h5.w3-text-green Registo submetido com sucesso!
+  form.w3-container.w3-card-4.w3-round-large.w3-padding(action='add/upload' method='post' enctype='multipart/form-data' style='margin-bottom: 50px;')
+    .w3-section
+      label.w3-label(for='file') Carregue o ficheiro zip:
+      input.w3-input.w3-border(type='file' name='file' id='file' accept='.zip' required)
+    .w3-section
+      button.w3-button.w3-amber.w3-round-large(type='submit') Upload
