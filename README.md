@@ -4,6 +4,18 @@
 #### Gabriel José Araújo, a102023
 #### 9 de junho de 2024
 
+## Tabela de Conteúdos
+- [Descrição](#descrição)
+- [Arquitetura](#arquitetura)
+- [Design e Implementação](#design-e-implementação)
+  - [Web Server](#web-server)
+  - [Rest API](#rest-api)
+  - [MongoDB](#mongodb)
+  - [Autenticação e Autorização](#autenticação-e-autorização)
+  - [Adição de novos registos](#adição-de-novos-registos)
+  - [Docker](#docker)
+- [Instruções de uso](#instruções-de-uso)
+
 ## Descrição
 Este projeto consiste no desenvolvimento de uma plataforma web para consulta de informações sobre as ruas de Braga.
 
