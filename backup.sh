@@ -7,5 +7,9 @@ docker exec mongodb bash -c 'mongoexport --uri="mongodb://localhost:27017/engWeb
                              mongoexport --uri="mongodb://localhost:27017/engWebTP2024" --collection=users --jsonArray --out="./data/backup/users.json" &&
                              mongoexport --uri="mongodb://localhost:27017/engWebTP2024" --collection=lugares --jsonArray --out="./data/backup/lugares.json"'
 
-mkdir -p ./data/backup
-docker cp mongodb:/data/backup/. ./data/backup/
+mkdir -p ./data/backup/jsons
+docker cp mongodb:/data/backup/. ./data/backup/jsons
+mkdir -p ./data/backup/pfpics
+docker cp web-server:/usr/src/app/pfpics/. ./data/backup/pfpics/
+mkdir -p ./data/backup/uploads
+docker cp web-server:/usr/src/app/uploads/. ./data/backup/uploads/

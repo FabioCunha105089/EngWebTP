@@ -347,3 +347,9 @@ footer p {
     background-color: #ccc;
   }
 }
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

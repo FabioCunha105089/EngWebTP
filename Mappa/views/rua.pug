@@ -2,45 +2,47 @@ extends layout
 include comment_section.pug
 
 block content
-    .infoRua.w3-card.w3-light-grey
-        each figura in rua.figuras
-            div.w3-card.w3-center(style="margin-bottom:5px;width:fit-content;")
-                img.w3-image(src=figura.path, alt=figura.foto_id, style="max-width:1260px;max-height:250px;")
-                p= figura.desc
-        h1= rua.nome
-        each para in rua.desc
-            p
+  .infoRua.w3-card.w3-light-grey
+    each figura in rua.figuras
+      div.w3-card.w3-center(style="margin-bottom:5px;width:fit-content;")
+        img.w3-image(src=figura.path, alt=figura.foto_id, style="max-width:1260px;max-height:250px;")
+        p= figura.desc
+    .titulo
+      h1= rua.nome
+      a.w3-button.w3-amber.w3-round-large(href=`/gestao/rua/${rua._id}` style='margin-left: 20px;') Editar rua
+    each para in rua.desc
+      p
+        != para
+    if rua.casas != null
+      h3 Lista de casas
+      each casa in rua.casas
+        p
+          b Número #{casa.numero}
+          ul
+            if casa.enfiteuta != null && casa.enfiteuta.length > 0
+              li 
+                b Enfiteuta:
+                <span> #{casa.enfiteuta} </span>
+            if casa.foro != null && casa.foro.length > 0
+              li 
+                b Foro:
+                <span> #{casa.foro} </span>
+            each para in casa.desc
+              p
                 != para
-        if rua.casas != null
-            h3 Lista de casas
-            each casa in rua.casas
-                p
-                    b Número #{casa.numero}
-                    ul
-                        if casa.enfiteuta != null && casa.enfiteuta.length > 0
-                            li 
-                                b Enfiteuta:
-                                <span> #{casa.enfiteuta} </span>
-                        if casa.foro != null && casa.foro.length > 0
-                            li 
-                                b Foro:
-                                <span> #{casa.foro} </span>
-                        each para in casa.desc
-                            p
-                                != para
-    if isLoggedIn
-        button#showSuggestionForm.w3-button.w3-amber.w3-round-large(style="display: block") Adicionar sugestão
-        .rectangle-container#box(style="display: none;")
-            form#suggestionForm(action=`/ruas/${rua._id}/sugestao`, method="POST", class='comment-form')
-                input(type="hidden", name="nome", value=rua.nome)
-                textarea(name="sugestao", placeholder="Inserir sugestão...", class='comment-textarea' required)
-                button(type="submit", class="comment-button") Submeter
+  if isLoggedIn
+    button#showSuggestionForm.w3-button.w3-amber.w3-round-large(style="display: block") Adicionar sugestão
+    .rectangle-container#box(style="display: none;")
+      form#suggestionForm(action=`/ruas/${rua._id}/sugestao`, method="POST", class='comment-form')
+        input(type="hidden", name="nome", value=rua.nome)
+        textarea(name="sugestao", placeholder="Inserir sugestão...", class='comment-textarea' required)
+        button(type="submit", class="comment-button") Submeter
 
-    +comment_section(rua.comentarios, rua._id)
+  +comment_section(rua.comentarios, rua._id)
 
-    script.
-        document.getElementById('showSuggestionForm').addEventListener('click', function() {
-            document.getElementById('suggestionForm').style.display = 'flex';
-            document.getElementById('box').style.display = 'block';
-            document.getElementById('showSuggestionForm').style.display = 'none';
-        });
+  script.
+    document.getElementById('showSuggestionForm').addEventListener('click', function() {
+      document.getElementById('suggestionForm').style.display = 'flex';
+      document.getElementById('box').style.display = 'block';
+      document.getElementById('showSuggestionForm').style.display = 'none';
+    });

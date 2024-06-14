@@ -6,7 +6,7 @@ block content
     if sugestoes.length > 0
       each rua in sugestoes
         .rua-box
-          div.rua-header
+          .rua-header
             a.rua-name(href=`/ruas/${rua.rua}`) #{rua.nome}
             a.edit-button.w3-amber(href=`/gestao/rua/${rua.rua}`) Editar rua
           each sugestao in rua.sugestoes
