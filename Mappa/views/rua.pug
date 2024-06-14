@@ -9,7 +9,9 @@ block content
         p= figura.legenda
     .titulo
       h1= rua.nome
-      a.w3-button.w3-amber.w3-round-large(href=`/gestao/rua/${rua._id}` style='margin-left: 20px;') Editar rua
+      if user != null
+        if user.level != "Consumidor"
+          a.w3-button.w3-amber.w3-round-large(href=`/gestao/rua/${rua._id}` style='margin-left: 20px;') Editar rua
     each para in rua.desc
       p
         != para
