@@ -42,9 +42,9 @@ router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp'
   try {
     let path;
     if (req.files['pfp'] != null) {
-      const savePath = __dirname.slice(0, -6) + 'public/pfpics/' + res.locals.user.username + '.jpg';
+      const savePath = __dirname.slice(0, -6) + 'pfpics/' + res.locals.user.username + '.jpg';
       fs.writeFileSync(savePath, req.files['pfp'][0].buffer);
-      path = `/pfpics/${req.session.user.username}.jpg`;
+      path = `/../pfpics/${req.session.user.username}.jpg`;
     }
 
     const userId = req.session.user._id;
@@ -71,7 +71,7 @@ router.post('/registo', async (req, res) => {
     const response = await axios.post('http://rest-api:3000/user/register', {
       username: req.body.username,
       name: req.body.name,
-      foto: "/pfpics/__NOPIC__.jpg",
+      foto: "/../pfpics/__NOPIC__.jpg",
       email: req.body.email,
       password: req.body.password
     });

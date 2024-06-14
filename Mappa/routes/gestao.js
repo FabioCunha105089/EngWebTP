@@ -130,7 +130,7 @@ router.post('/add/upload', Auth.requireAuthentication(2), upload.single('file'),
         // Validação com o XSD
         if (xmlDoc.validate(xsdDoc)) {
           rua = processFile(xmlContent);
-          const xmlSavePath = path.join(__dirname, '../public/uploads/', zipEntry.name);
+          const xmlSavePath = path.join(__dirname, '../uploads/', zipEntry.name);
           fs.writeFileSync(xmlSavePath, content);
 
           // Posts

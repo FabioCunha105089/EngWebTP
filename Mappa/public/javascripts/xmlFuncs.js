@@ -1,15 +1,11 @@
-const fs = require('fs')
 const xml2js = require('xml2js')
-const axios = require('axios');
 
-// Utility function to clean strings
 function cleanStrings(s) {
   s = s.replace(/\n/g, '').replace(/\"/g, '').replace(/D\./g, 'D. ').replace(/S\./g, 'S. ').trim();
   s = s.replace(/\s+/g, ' ');
   return s;
 }
 
-// Utility function to format paragraphs
 function formatParagraph(paragraphs) {
   const paraList = [];
   for (const p of paragraphs) {
@@ -49,7 +45,7 @@ function formatParagraph(paragraphs) {
   }
   return paraList;
 }
-// Function to process a single XML file and return the result as JSON
+
 function processFile(xmlContent) {
   let resultJson = null;
 

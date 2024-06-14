@@ -40,7 +40,7 @@ footer p {
   display: flex;
   flex-grow: 1;
   text-align: left;
-  margin-bottom: 5px; /* Add margin bottom for spacing */
+  margin-bottom: 5px;
 }
 
 .rectangle-container {
@@ -174,7 +174,7 @@ footer p {
 }
 
 .delete-user-button {
-  background-color: #f44336; /* Red color */
+  background-color: #f44336;
 }
 
 .change-level-button {
@@ -186,7 +186,7 @@ footer p {
 }
 
 .delete-user-button:hover {
-  background-color: #ff0000; /* Darker red color on hover */
+  background-color: #ff0000;
 }
 
 .delete-form {
@@ -229,71 +229,6 @@ footer p {
   justify-content: center;
 }
 
-.sugestoes-container {
-  width: 800px;
-  padding: 20px;
-
-  .welcome-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  /* Box styles for rua */
-  .rua-box {
-    background-color: #f3f3f3;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-
-  /* Rua header styles */
-  .rua-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-
-  /* Rua name styles */
-  .rua-name {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-  }
-
-  .rua-name:hover {
-    text-decoration: underline;
-  }
-
-  /* Edit button styles */
-  .edit-button {
-    padding: 5px 10px;
-    color: white;
-    text-decoration: none;
-    border-radius: 3px;
-  }
-
-  /* Suggestion item styles */
-  .sugestao-item {
-    margin-bottom: 10px;
-  }
-
-  /* Creation date styles */
-  .creation-date {
-    margin-left: 10px;
-    font-size: 14px;
-    color: #999;
-  }
-
-  /* Suggestion text styles */
-  .sugestao-text {
-    font-size: 16px;
-    line-height: 1.5;
-    word-wrap: break-word;
-  }
-}
 .search-form {
   display: flex;
   align-items: center;
@@ -332,7 +267,6 @@ footer p {
     margin-bottom: 20px;
   }
 
-  /* Box styles for rua */
   .rua-box {
     background-color: #f3f3f3;
     padding: 20px;
@@ -340,7 +274,6 @@ footer p {
     margin-bottom: 20px;
   }
 
-  /* Rua header styles */
   .rua-header {
     display: flex;
     align-items: center;
@@ -348,7 +281,6 @@ footer p {
     margin-bottom: 10px;
   }
 
-  /* Rua name styles */
   .rua-name {
     margin: 0;
     font-size: 24px;
@@ -361,7 +293,6 @@ footer p {
     text-decoration: underline;
   }
 
-  /* Edit button styles */
   .edit-button {
     padding: 5px 10px;
     color: white;
@@ -369,19 +300,16 @@ footer p {
     border-radius: 3px;
   }
 
-  /* Suggestion item styles */
   .sugestao-item {
     margin-bottom: 10px;
   }
 
-  /* Creation date styles */
   .creation-date {
     margin-left: 10px;
     font-size: 14px;
     color: #999;
   }
 
-  /* Suggestion text styles */
   .sugestao-text {
     font-size: 16px;
     line-height: 1.5;
