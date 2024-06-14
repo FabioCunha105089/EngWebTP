@@ -7,7 +7,8 @@ router.get('/sugestoes', function (req, res) {
     .then(data => res.jsonp(data))
     .catch(erro => {
       console.log(erro);
-      res.jsonp(erro)})
+      res.jsonp(erro)
+    })
 });
 
 router.get('/sugestoes/:id', function (req, res) {
@@ -15,7 +16,8 @@ router.get('/sugestoes/:id', function (req, res) {
     .then(data => res.jsonp(data))
     .catch(erro => {
       console.log(erro);
-      res.jsonp(erro)})
+      res.jsonp(erro)
+    })
 });
 
 router.delete('/sugestao/:sId/rua/:id', function (req, res) {

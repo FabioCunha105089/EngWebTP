@@ -3,25 +3,25 @@ var infoRua = require('../models/inforua')
 
 module.exports.list = () => {
     return infoRua
-    .find()
-    .sort({ _id : 1 })
-    .exec()
+        .find()
+        .sort({ _id: 1 })
+        .exec()
 }
 
 module.exports.findById = id => {
     return infoRua
-    .findOne({_id : id})
-    .exec()
+        .findOne({ _id: id })
+        .exec()
 }
 
 module.exports.findByName = nome => {
     return infoRua
-    .findOne({nome : nome})
-    .exec()
+        .findOne({ nome: nome })
+        .exec()
 }
 
 module.exports.insert = info => {
-    if (infoRua.find({_id : info._id}).exec().lentgth != 1) {
+    if (infoRua.find({ _id: info._id }).exec().lentgth != 1) {
         var newInfoRua = new infoRua(info)
         return newInfoRua.save()
     }
@@ -29,12 +29,12 @@ module.exports.insert = info => {
 
 module.exports.delete = id => {
     return infoRua
-    .findByIdAndDelete(id)
-    .exec()
+        .findByIdAndDelete(id)
+        .exec()
 }
 
 module.exports.update = (id, rua) => {
     return infoRua
-    .findByIdAndUpdate(id, rua, {new : true})
-    .exec()
+        .findByIdAndUpdate(id, rua, { new: true })
+        .exec()
 }

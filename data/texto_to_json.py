@@ -84,11 +84,21 @@ for dirpath, _, files in os.walk('./texto'):
                 'nome': meta.find('nome').text,
                 'desc': para_list,
                 'figuras': figuras_list,
+                'atuais': [
+                    {
+                        'path': "/atual/" + meta.find('número').text + "-1.JPG",
+                        'foto_id': "Vista 1"
+                    },
+                    {
+                        'path': "/atual/" + meta.find('número').text + "-2.JPG",
+                        'foto_id': "Vista 2"
+                    }
+                ],
                 'casas': casas_list,
                 'comentarios': []
             })
 
-with open('./infoRuas.json', 'w') as file:
+with open('./inforuas.json', 'w') as file:
     file.write(json.dumps(ruas, indent=2, ensure_ascii=False))
             
 

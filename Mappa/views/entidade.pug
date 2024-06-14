@@ -1,11 +1,11 @@
 extends layout
 
 block content
-    h1= entidade.nome
-    h3= entidade.numero
-    h3= entidade.quantidade
-    h3 Ruas Mencionadas:
-    ul
-        each rua in ruas
-            li
-                a(href="/ruas/" + rua.data._id) #{rua.data.nome}
+  h1= entidade.nome
+  h3= entidade.numero
+  h3= entidade.quantidade
+  h3 Ruas Mencionadas:
+  ul
+    each rua in ruas
+      li
+        a(href="/ruas/" + rua.data._id) #{rua.data.nome}

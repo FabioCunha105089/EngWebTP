@@ -3,31 +3,31 @@ var Lugar = require('../models/lugar')
 
 module.exports.list = () => {
     return Lugar
-    .find()
-    .sort({nome : 1})
-    .exec()
+        .find()
+        .sort({ nome: 1 })
+        .exec()
 }
 
 module.exports.findById = id => {
     return Lugar
-    .findOne({_id : id})
-    .exec()
+        .findOne({ _id: id })
+        .exec()
 }
 
 module.exports.findByRua = numero => {
     return Lugar
-    .find({numero : numero})
-    .exec()
+        .find({ numero: numero })
+        .exec()
 }
 
 module.exports.findByNome = nome => {
     return Lugar
-    .findOne({nome : nome})
-    .exec()
+        .findOne({ nome: nome })
+        .exec()
 }
 
 module.exports.insert = async lugar => {
-    if (!(await Lugar.findOne({_id : lugar._id}).exec())) {
+    if (!(await Lugar.findOne({ _id: lugar._id }).exec())) {
         var newLugar = Lugar(lugar)
         return newLugar.save()
     }
@@ -35,12 +35,12 @@ module.exports.insert = async lugar => {
 
 module.exports.delete = id => {
     return Lugar
-    .findOneAndDelete({_id : id})
-    .exec()
+        .findOneAndDelete({ _id: id })
+        .exec()
 }
 
 module.exports.update = (id, lugar) => {
     return Lugar
-    .findOneAndUpdate({_id : id}, lugar, {new : true})
-    .exec()
+        .findOneAndUpdate({ _id: id }, lugar, { new: true })
+        .exec()
 }

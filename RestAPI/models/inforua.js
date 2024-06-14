@@ -4,14 +4,14 @@ const figuraSchema = new mongoose.Schema({
     foto_id: String,
     path: String,
     legenda: String
-}, {_id: false})
+}, { _id: false })
 
 const casaSchema = new mongoose.Schema({
     numero: String,
     enfiteuta: String,
     desc: [String],
     foro: String
-}, {_id: false})
+}, { _id: false })
 
 const comentarioSchema = new mongoose.Schema({
     user: String,

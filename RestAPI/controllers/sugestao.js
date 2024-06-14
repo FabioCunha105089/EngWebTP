@@ -8,16 +8,16 @@ module.exports.list = () => {
 
 module.exports.sugestoesRua = id => {
     return Sugestao
-        .findOne({ rua : id })
+        .findOne({ rua: id })
         .exec()
 }
 
 module.exports.addSugestao = (ruaId, nome, sugestao) => {
     return Sugestao.findOneAndUpdate(
         { rua: ruaId },
-        { 
+        {
             $setOnInsert: { rua: ruaId, nome: nome },
-            $push: { sugestoes: sugestao } 
+            $push: { sugestoes: sugestao }
         },
         { new: true, upsert: true, useFindAndModify: false }
     ).exec();
@@ -36,4 +36,3 @@ module.exports.deleteSugestao = async (ruaId, sugestaoId) => {
 
     return result;
 };
- 

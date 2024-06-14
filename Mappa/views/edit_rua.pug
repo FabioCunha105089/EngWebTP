@@ -9,7 +9,7 @@ block content
     button.w3-button.w3-amber.w3-round(type="submit", style="margin-top:10px;") Guardar alterações
 
   h2 Sugestões
-  
+
   .sugestoes-container
     each sugestao in sugestoes
       .rua-box
@@ -19,7 +19,7 @@ block content
           p.sugestao-text= sugestao.sugestao
           button.w3-button.w3-red.w3-round(type="button" class="decline-btn", data-sugestao-id=sugestao._id, data-sugestao-username=sugestao.username) Recusar
           button.w3-button.w3-green.w3-round(type="button" class="accept-btn", style="margin-left:5px;", data-sugestao-id=sugestao._id, data-sugestao-username=sugestao.username) Aceitar
-        
+
   script.
     document.addEventListener('DOMContentLoaded', function() {
       var editor = CodeMirror.fromTextArea(document.getElementById('ruaTexto'), {
@@ -34,16 +34,16 @@ block content
       var recusadas = []
       document.querySelectorAll('.accept-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-         aceites.push({sId: this.dataset.sugestaoId, username: this.dataset.sugestaoUsername});
-          document.getElementById('aceites').value = JSON.stringify(aceites);
-          this.closest('.rua-box').style.display = 'none';
+          aceites.push({sId: this.dataset.sugestaoId, username: this.dataset.sugestaoUsername});
+            document.getElementById('aceites').value = JSON.stringify(aceites);
+            this.closest('.rua-box').style.display = 'none';
         });
       });
       document.querySelectorAll('.decline-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-         recusadas.push({sId: this.dataset.sugestaoId, username: this.dataset.sugestaoUsername});
-          document.getElementById('recusadas').value = JSON.stringify(recusadas);
-          this.closest('.rua-box').style.display = 'none';
+          recusadas.push({sId: this.dataset.sugestaoId, username: this.dataset.sugestaoUsername});
+            document.getElementById('recusadas').value = JSON.stringify(recusadas);
+            this.closest('.rua-box').style.display = 'none';
         });
       });
     });

@@ -33,7 +33,7 @@ router.get('/:nome', function (req, res) {
         rua_list.push(await axios.get('http://rest-api:3000/rua/' + parseInt(ent_info.numero, 10)))
       }
       console.log(rua_list)
-      res.render('entidade', { entidade: resp.data , ruas: rua_list})
+      res.render('entidade', { entidade: resp.data, ruas: rua_list })
     })
     .catch(erro => console.log(erro))
 })

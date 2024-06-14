@@ -21,7 +21,8 @@
   justify-content: flex-end;
 }
 
-.navbar-left .w3-button, .navbar-right .w3-button {
+.navbar-left .w3-button,
+.navbar-right .w3-button {
   margin: 0 10px;
 }
 
@@ -195,8 +196,9 @@ footer p {
   justify-content: center;
 }
 
-.w3-container.lista{
+.w3-container.lista {
   margin-bottom: 50px;
+
   a {
     text-decoration: none;
     color: #333;
@@ -333,9 +335,9 @@ footer p {
   margin-top: 10px;
 
   #toggle-sort {
-  background: none;
-  border: none;
-  padding: 0;
+    background: none;
+    border: none;
+    padding: 0;
   }
 
   #toggle-sort:hover {
@@ -352,4 +354,11 @@ footer p {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }

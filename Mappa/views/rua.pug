@@ -4,9 +4,9 @@ include comment_section.pug
 block content
   .infoRua.w3-card.w3-light-grey
     each figura in rua.figuras
-      div.w3-card.w3-center(style="margin-bottom:5px;width:fit-content;")
+      .w3-card.w3-center(style="margin-bottom:5px;width:fit-content;")
         img.w3-image(src=figura.path, alt=figura.foto_id, style="max-width:1260px;max-height:250px;")
-        p= figura.desc
+        p= figura.legenda
     .titulo
       h1= rua.nome
       a.w3-button.w3-amber.w3-round-large(href=`/gestao/rua/${rua._id}` style='margin-left: 20px;') Editar rua
@@ -30,6 +30,14 @@ block content
             each para in casa.desc
               p
                 != para
+
+    if rua.atuais != null
+      h3 Vista atual
+      .image-gallery
+        each atual in rua.atuais
+          .w3-card.w3-center
+            img.w3-image(src=atual.path, alt=atual.foto_id, style="max-width:620px;max-height:620px;")
+
   if isLoggedIn
     button#showSuggestionForm.w3-button.w3-amber.w3-round-large(style="display: block") Adicionar sugestão
     .rectangle-container#box(style="display: none;")

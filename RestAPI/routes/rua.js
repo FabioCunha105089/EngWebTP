@@ -6,7 +6,8 @@ var Rua = require('../controllers/rua')
 router.get('/', function (req, res) {
   Rua.list()
     .then(data => {
-      res.jsonp(data)})
+      res.jsonp(data)
+    })
     .catch(erro => res.jsonp(erro))
 });
 

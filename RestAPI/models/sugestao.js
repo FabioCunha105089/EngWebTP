@@ -10,6 +10,6 @@ var sugestoesRuaSchema = new mongoose.Schema({
   rua: Number,
   nome: String,
   sugestoes: [sugestaoSchema]
-}, {_id: false});
+}, { _id: false });
 
 module.exports = mongoose.model('sugestao', sugestoesRuaSchema, 'sugestoes')

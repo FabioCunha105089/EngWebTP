@@ -24,6 +24,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/pfpics', express.static(path.join(__dirname, 'pfpics')));
+app.use('/atual', express.static(path.join(__dirname, 'atual')));
 
 // Session setup
 app.use(session({
@@ -48,12 +49,12 @@ app.use('/conta', contaRouter)
 app.use('/gestao', gestaoRouter)
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

@@ -13,34 +13,33 @@ function formatParagraph(paragraphs) {
     if (typeof p !== 'string') {
       paragraph = p['para'][0]
     }
-    else
-    {
+    else {
       paragraph = p
     }
     let fullParagraph = '';
     const segments = paragraph.split(/(<lugar>|<\/lugar>|<entidade>|<\/entidade>|<data>|<\/data>)/);
     var insideTag = false
     segments.forEach(segment => {
-      if (segment === '<data>' || segment === '</data>') {} 
+      if (segment === '<data>' || segment === '</data>') { }
       else if (segment === '<lugar>') {
-          fullParagraph += '<a href="/lugar/';
-          insideTag = true
+        fullParagraph += '<a href="/lugar/';
+        insideTag = true
       } else if (segment === '<entidade>') {
-          fullParagraph += '<a href="/entidade/';
-          insideTag = true
+        fullParagraph += '<a href="/entidade/';
+        insideTag = true
       } else if (segment === '</lugar>' || segment === '</entidade>') {
         fullParagraph += '</a>'
       } else {
-          if (!insideTag) {
-            fullParagraph += segment;
-          }
-          else {
-            const tag_value = segment.toUpperCase().split(' ').join('_')
-            fullParagraph += tag_value + '">' + segment
-            insideTag = false
-          }
+        if (!insideTag) {
+          fullParagraph += segment;
+        }
+        else {
+          const tag_value = segment.toUpperCase().split(' ').join('_')
+          fullParagraph += tag_value + '">' + segment
+          insideTag = false
+        }
       }
-  });
+    });
     paraList.push(cleanStrings(fullParagraph));
   }
   return paraList;

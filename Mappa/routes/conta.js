@@ -34,11 +34,11 @@ router.get('/perfil/:id', Auth.requireAuthentication(1), async function (req, re
 router.get('/edit', Auth.requireAuthentication(1), async function (req, res) {
   const response = await axios.get('http://rest-api:3000/user/' + req.session.user._id)
   const utilizador = response.data.user
-  res.render('edit_perfil', {utilizador : utilizador })
+  res.render('edit_perfil', { utilizador: utilizador })
 })
 
 
-router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp', maxCount: 1}]), async function (req, res) {
+router.post('/edit', Auth.requireAuthentication(1), upload.fields([{ name: 'pfp', maxCount: 1 }]), async function (req, res) {
   try {
     let path;
     if (req.files['pfp'] != null) {
@@ -58,9 +58,9 @@ router.post('/edit', Auth.requireAuthentication(1), upload.fields([{name : 'pfp'
 
   } catch (error) {
     console.error(error);
-    res.render('editFalhou', {error: error.response.data.error })
+    res.render('editFalhou', { error: error.response.data.error })
   }
-  })
+})
 
 router.get('/registo', function (req, res) {
   res.render('registo');

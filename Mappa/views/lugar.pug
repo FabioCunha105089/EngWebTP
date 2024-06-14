@@ -1,9 +1,9 @@
 extends layout
 
 block content
-    h1= lugar.nome
-    h3 Ruas mencionadas:
-    ul
-        each rua in ruas
-            li
-                a(href="/ruas/" + rua._id) #{rua.nome}
+  h1= lugar.nome
+  h3 Ruas mencionadas:
+  ul
+    each rua in ruas
+      li
+        a(href="/ruas/" + rua._id) #{rua.nome}

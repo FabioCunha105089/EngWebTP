@@ -25,7 +25,7 @@ router.post('/register', function (req, res) {
     name: req.body.name,
     foto: req.body.foto,
     email: req.body.email,
-    level: "Administrador",
+    level: "Consumidor",
     registrationDate: d,
     sugestoesAceites: 0
   }), req.body.password, function (err, user) {
@@ -50,7 +50,7 @@ router.post('/login', function (req, res, next) {
       if (err) {
         return res.status(500).jsonp({ error: "Login error: " + err });
       }
-      
+
       user.lastAccess = new Date().toISOString().substring(0, 19);
       user.save()
         .then(() => {
@@ -62,7 +62,7 @@ router.post('/login', function (req, res, next) {
             if (e) {
               res.status(500).jsonp({ error: "Error generating token: " + e });
             } else {
-              res.status(200).jsonp({ token: token, user : user });
+              res.status(200).jsonp({ token: token, user: user });
             }
           });
         })
@@ -120,9 +120,9 @@ router.delete('/:id', function (req, res) {
     })
 })
 
-router.put('/:id/sugestao', function(req, res) {
+router.put('/:id/sugestao', function (req, res) {
   User.updateUserSuggestions(req.params.id)
-    .then(dados => {res.jsonp(dados)})
+    .then(dados => { res.jsonp(dados) })
     .catch(error => {
       res.render('error', { error: error, message: "Erro a atualiza sugestões aceites" })
     })

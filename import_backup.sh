@@ -5,6 +5,7 @@ docker volume remove engwebtp_mongodb_data
 docker compose up --build -d
 docker cp ./data/backup/pfpics/. web-server:/usr/src/app/pfpics/
 docker cp ./data/backup/uploads/. web-server:/usr/src/app/uploads/
+docker cp ./data/backup/imagens/. web-server:/usr/src/app/public/images/
 docker cp ./data/backup/jsons mongodb:/data/backup/.
 
 for JSON_FILE in ./data/backup/jsons/*.json; do

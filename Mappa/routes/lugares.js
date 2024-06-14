@@ -11,19 +11,19 @@ function fixLugaresName(lugares) {
 }
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   axios.get('http://rest-api:3000/lugar/')
-  .then(resp => {
-    if (req.query.nome) {
-      const lugar_list = resp.data.filter(lugar => lugar.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
-      res.render('list_lugares', { lugares: lugar_list , nomes : fixLugaresName(lugar_list)});
-    }
-    res.render('list_lugares', {lugares : resp.data, nomes : fixLugaresName(resp.data)})
-  })
-  .catch(erro => console.log(erro))
+    .then(resp => {
+      if (req.query.nome) {
+        const lugar_list = resp.data.filter(lugar => lugar.nome.toLowerCase().includes(req.query.nome.toLowerCase()));
+        res.render('list_lugares', { lugares: lugar_list, nomes: fixLugaresName(lugar_list) });
+      }
+      res.render('list_lugares', { lugares: resp.data, nomes: fixLugaresName(resp.data) })
+    })
+    .catch(erro => console.log(erro))
 });
 
-router.get('/:nome', function(req, res) {
+router.get('/:nome', function (req, res) {
   axios.get('http://rest-api:3000/lugar/' + req.params.nome)
     .then(resp => {
       var lugar = resp.data;
